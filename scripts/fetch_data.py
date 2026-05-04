@@ -55,14 +55,14 @@ def main():
     curated_data = {
         "lastUpdated": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S (UTC)"),
         "models": [
-            { "title": 'OpenAI GPT-4o', "badge": '领先', "description": 'OpenAI 最新多模态旗舰模型，支持原生音频、视觉和文本交互，性能全面提升。', "meta": ['多模态', '响应快', '闭源'], "link": 'https://openai.com' },
-            { "title": 'Claude 3.5 Sonnet', "badge": '热门', "description": 'Anthropic 发布的当前最强中杯模型，代码能力与逻辑推理能力大幅超越前代。', "meta": ['代码强', '长文本', '闭源'], "link": 'https://anthropic.com' },
-            { "title": 'Google Gemini 1.5 Pro', "badge": '原生多模态', "description": '支持高达 2M Token 上下文窗口，在长文档分析与视频理解方面一骑绝尘。', "meta": ['超长上下文', 'Google 生态', '闭源'], "link": 'https://deepmind.google' },
-            { "title": 'DeepSeek V2', "badge": '国产高性价比', "description": '采用创新架构的国产开源模型，API 价格极具竞争力，综合性能比肩顶级模型。', "meta": ['开源', 'API 极简', '高性价比'], "link": 'https://deepseek.com' },
-            { "title": 'Kimi (Moonshot)', "badge": '国产长文本', "description": '月之暗面出品，主打超长文本处理与精准的信息提取能力，国内口碑极佳。', "meta": ['长文本', '国内免翻'], "link": 'https://kimi.moonshot.cn' },
-            { "title": 'GLM-4', "badge": '智谱AI', "description": '智谱AI新一代基座大模型，综合能力全面升级，支持智能体定制。', "meta": ['多模态', '国产头部'], "link": 'https://zhipuai.cn' },
-            { "title": 'MiniMax', "badge": '语音/多模态', "description": '在语音合成与拟人化交互方面有独到优势的国产大模型。', "meta": ['语音', '拟人化'], "link": 'https://api.minimax.chat' },
-            { "title": 'Mimo', "badge": '前沿探索', "description": '备受关注的新锐 AI 模型，在特定任务上展现出强大潜力。', "meta": ['新星', '高效推理'], "link": '#' }
+            { "title": 'OpenAI GPT-5.5', "badge": '2026 新旗舰', "description": '2026年4月最新发布，大幅减少幻觉，在代码工程 (SWE-bench) 与复杂 Agentic 任务上具备颠覆性提升。', "meta": ['多模态', '自主 Agent', '闭源'], "link": 'https://openai.com' },
+            { "title": 'Claude Opus 4.7', "badge": '逻辑之王', "description": 'Anthropic 于 2026年4月 发布的最新超大杯，原生引入“任务预算”控制，极强的高阶规划和代码能力。', "meta": ['精准控制', '长文本', '闭源'], "link": 'https://anthropic.com' },
+            { "title": 'Google Gemini 3.1 Pro', "badge": '原生多模态', "description": '霸榜多项推理 Benchmark，在多模态理解与超长上下文（处理书籍与视频）方面维持统治级表现。', "meta": ['超长上下文', 'Google 生态', '闭源'], "link": 'https://deepmind.google' },
+            { "title": 'DeepSeek V4', "badge": '国产之光', "description": '2026年4月最新发布的开源巨兽，采用极致高效架构，在各项测评中追平闭源顶尖模型，API 成本依然极具竞争力。', "meta": ['开源/开放权重', 'API 极简', '高性价比'], "link": 'https://deepseek.com' },
+            { "title": 'Kimi K2.6', "badge": '长文本领军', "description": '2026年4月重磅升级，支持恐怖的超长上下文，并引入全新 "Agent Swarm" 技术进行复杂任务拆解与并行执行。', "meta": ['Agent Swarm', '国内免翻'], "link": 'https://kimi.moonshot.cn' },
+            { "title": 'GLM-5.1', "badge": '智谱AI', "description": '744B 级 MoE 架构，纯国产算力训练，在代码和逻辑推理上获得巨大后训练提升。', "meta": ['国产算力', '开源'], "link": 'https://zhipuai.cn' },
+            { "title": 'MiniMax M2.7', "badge": '高吞吐', "description": '2026年3月发布，自进化模型架构，在自动化工具调用和办公流（Productivity）场景下表现绝佳。', "meta": ['工具调用', '办公流'], "link": 'https://api.minimax.chat' },
+            { "title": 'MiMo V2.5-Pro', "badge": '全能新星', "description": '小米 AI 实验室 2026 年最新大作，万亿参数 MoE 架构，拥有超大百万上下文，强力支撑多步 Agentic 规划。', "meta": ['百万上下文', '全模态'], "link": '#' }
         ],
         "openrouter": fetch_openrouter_data(),
         "tools": [
