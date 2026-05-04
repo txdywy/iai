@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-04 11:44:50 (UTC)",
+  "lastUpdated": "2026-05-04 13:47:12 (UTC)",
   "version": "2.0",
   "models": [
     {
@@ -25,7 +25,7 @@
       "release_url": "https://github.com/openai/openai-python/releases/tag/v2.33.0",
       "release_notes": "## 2.33.0 (2026-04-28)\n\nFull Changelog: [v2.32.0...v2.33.0](https://github.com/openai/openai-python/compare/v2.32.0...v2.33.0)\n\n### Features\n\n* **api:** api update ([18f834a](https://github.com/openai/openai-python/commit/18f834a54f92ea827452471a46a4f442f251e2c8))\n\n\n### Bug Fixes\n\n* **api:** correct",
       "github": {
-        "stars": 30676,
+        "stars": 30677,
         "forks": 4766,
         "language": "Python",
         "updated": "2026-05-04",
@@ -67,7 +67,7 @@
       "release_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.97.0",
       "release_notes": "## 0.97.0 (2026-04-23)\n\nFull Changelog: [v0.96.0...v0.97.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.96.0...v0.97.0)\n\n### Features\n\n* **api:** CMA Memory public beta ([fc30ebe](https://github.com/anthropics/anthropic-sdk-python/commit/fc30ebe5ca81204faa0b1d756b61dad176e37dcb))\n\n",
       "github": {
-        "stars": 3361,
+        "stars": 3362,
         "forks": 642,
         "language": "Python",
         "updated": "2026-05-04",
@@ -105,7 +105,7 @@
       "release_url": "https://github.com/googleapis/python-genai/releases/tag/v1.74.0",
       "release_notes": "## [1.74.0](https://github.com/googleapis/python-genai/compare/v1.73.1...v1.74.0) (2026-04-29)\n\n\n### Features\n\n* [Interactions] Add FileCitation.{custom_metadata,media_id,page_number} ([aed41ec](https://github.com/googleapis/python-genai/commit/aed41ecf4940f63446fc3e22744663be4d1057a6))\n* Add `outpu",
       "github": {
-        "stars": 3669,
+        "stars": 3670,
         "forks": 852,
         "language": "Python",
         "updated": "2026-05-04",
@@ -142,8 +142,8 @@
       "release_url": "https://github.com/deepseek-ai/DeepSeek-V3/releases/tag/v1.0.0",
       "release_notes": "This release is created for archival purposes and DOI generation.",
       "github": {
-        "stars": 103377,
-        "forks": 16731,
+        "stars": 103379,
+        "forks": 16732,
         "language": "Python",
         "updated": "2026-05-04",
         "topics": []
@@ -433,8 +433,8 @@
       "release_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
       "release_notes": "## What's changed\n\n- The `/model` picker now lists models from your gateway's `/v1/models` endpoint when `ANTHROPIC_BASE_URL` points at an Anthropic-compatible gateway\n- - Added `claude project purge [path]` to delete all Claude Code state for a project (transcripts, tasks, file history, config entr",
       "github": {
-        "stars": 120240,
-        "forks": 19930,
+        "stars": 120273,
+        "forks": 19931,
         "language": "Shell",
         "updated": "2026-05-04",
         "topics": []
@@ -543,8 +543,8 @@
       "release_url": "https://github.com/openai/codex/releases/tag/rust-v0.128.0",
       "release_notes": "## New Features\n- Added persisted `/goal` workflows with app-server APIs, model tools, runtime continuation, and TUI controls for create, pause, resume, and clear. (#18073, #18074, #18075, #18076, #18077, #20082)\n- Added `codex update`, configurable TUI keymaps, plan-mode nudges, action-required ter",
       "github": {
-        "stars": 79860,
-        "forks": 11486,
+        "stars": 79890,
+        "forks": 11488,
         "language": "Rust",
         "updated": "2026-05-04",
         "topics": []
@@ -579,7 +579,7 @@
       "release_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.40.1",
       "release_notes": "## What's Changed\n* fix(patch): cherry-pick 2194da2 to release/v0.40.0-pr-26153 to patch version v0.40.0 and create version 0.40.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/26268\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.40.0...v0.40.",
       "github": {
-        "stars": 103093,
+        "stars": 103098,
         "forks": 13473,
         "language": "TypeScript",
         "updated": "2026-05-04",
@@ -640,8 +640,8 @@
       "release_url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.0",
       "release_notes": "- Added support for all GPT-5 models.\r\n- Added support for Grok-4 via `xai/grok-4` and `openrouter/x-ai/grok-4` model names.\r\n- Added support for `gemini/gemini-2.5-flash-lite-preview-06-17` model, by Tamir Zahavi-Brunner.\r\n- `/clear` now prints “All chat history cleared.” so you know it worked, by ",
       "github": {
-        "stars": 44305,
-        "forks": 4350,
+        "stars": 44310,
+        "forks": 4351,
         "language": "Python",
         "updated": "2026-05-04",
         "topics": [
@@ -690,8 +690,8 @@
       "release_url": "https://github.com/cline/cline/releases/tag/v3.82.0",
       "release_notes": "\n### Added\n\n- Restore VS Code foreground terminal support and settings.\n- Add latest OpenAI, SAP AI Core, and Z AI models.\n\n### Fixed\n\n- Fix hook template JSON escaping.\n- Improve ripgrep file search error handling.\n\n### Changed\n\n- Remove hardcoded model lists from docs.\n\n**Full Changelog**: https:/",
       "github": {
-        "stars": 61341,
-        "forks": 6347,
+        "stars": 61346,
+        "forks": 6348,
         "language": "TypeScript",
         "updated": "2026-05-04",
         "topics": []
@@ -756,8 +756,8 @@
       "release_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/releases/tag/2025-11-25",
       "release_notes": "This release marks the **stable release** of the `2025-11-25` revision of the Model Context Protocol.\r\n\r\nThe specification is available on the [official Model Context Protocol website](https://modelcontextprotocol.io/specification/2025-11-25).\r\n\r\nFor a detailed overview of changes, see [2025-11-25 c",
       "github": {
-        "stars": 7997,
-        "forks": 1484,
+        "stars": 7999,
+        "forks": 1485,
         "language": "TypeScript",
         "updated": "2026-05-04",
         "topics": []
@@ -853,8 +853,8 @@
       "release_url": "https://github.com/ollama/ollama/releases/tag/v0.23.0",
       "release_notes": "## Claude Desktop\r\nClaude Desktop is now supported with Ollama Launch. \r\n\r\nClaude Cowork and Claude Code are supported within the Claude Desktop App.\r\n\r\n```\r\nollama launch claude-desktop\r\n```\r\n\r\n### Claude Cowork\r\n<img width=\"1272\" height=\"872\" alt=\"ca1\" src=\"https://github.com/user-attachments/asse",
       "github": {
-        "stars": 170660,
-        "forks": 15965,
+        "stars": 170662,
+        "forks": 15969,
         "language": "Go",
         "updated": "2026-05-04",
         "topics": [
@@ -917,8 +917,8 @@
       "release_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.0a2",
       "release_notes": "Initial release\n\nrelease(core): 1.4.0a2 (#37134)\nrefactor(core): unwind _AsyncEventsResult hybrid for astream_events (#37133)\nrelease(core): 1.4.0a1 (#37132)\nMerge remote-tracking branch 'origin/master' into v1.4\nfeat(core): stream_events(version='v3') protocol (#37111)\nfix(core): preserve structure",
       "github": {
-        "stars": 135729,
-        "forks": 22438,
+        "stars": 135735,
+        "forks": 22440,
         "language": "Python",
         "updated": "2026-05-04",
         "topics": [
@@ -973,8 +973,8 @@
       "release_url": "https://github.com/huggingface/transformers/releases/tag/v5.7.0",
       "release_notes": "# Release v5.7.0\r\n\r\n\r\n## New Model additions\r\n\r\n### Laguna\r\n\r\n<img width=\"699\" height=\"176\" alt=\"image\" src=\"https://github.com/user-attachments/assets/d3bae269-bea7-4ddf-a53f-d4718befdb17\" />\r\n\r\nLaguna is Poolside's mixture-of-experts language model family that extends standard SwiGLU MoE transform",
       "github": {
-        "stars": 160227,
-        "forks": 33102,
+        "stars": 160228,
+        "forks": 33103,
         "language": "Python",
         "updated": "2026-05-04",
         "topics": [
@@ -1022,8 +1022,8 @@
       "release_url": "https://github.com/vllm-project/vllm/releases/tag/v0.20.1",
       "release_notes": "# vLLM v0.20.1\r\n\r\nThis is a patch release on top of `v0.20.0` primarily focused on **DeepSeek V4 stabilization and performance improvements**, along with several important bug fixes.\r\n\r\n### DeepSeek V4\r\n* Base model support (#41006).\r\n* Multi-stream pre-attention GEMM (#41061), configurable pre-attn",
       "github": {
-        "stars": 78980,
-        "forks": 16384,
+        "stars": 78983,
+        "forks": 16386,
         "language": "Python",
         "updated": "2026-05-04",
         "topics": [
@@ -1184,7 +1184,7 @@
     {
       "name": "langchain-ai/langchain",
       "description": "The agent engineering platform. Available in TypeScript!",
-      "stars": 135729,
+      "stars": 135735,
       "language": "Python",
       "url": "https://github.com/langchain-ai/langchain",
       "updated": "2026-05-04"
@@ -1192,7 +1192,7 @@
     {
       "name": "microsoft/autogen",
       "description": "A programming framework for agentic AI",
-      "stars": 57688,
+      "stars": 57694,
       "language": "Python",
       "url": "https://github.com/microsoft/autogen",
       "updated": "2026-04-15"
@@ -1200,7 +1200,7 @@
     {
       "name": "crewAIInc/crewAI",
       "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
-      "stars": 50572,
+      "stars": 50577,
       "language": "Python",
       "url": "https://github.com/crewAIInc/crewAI",
       "updated": "2026-05-04"
@@ -1208,7 +1208,7 @@
     {
       "name": "langchain-ai/langgraph",
       "description": "Build resilient language agents as graphs. Available in TypeScript!",
-      "stars": 31146,
+      "stars": 31150,
       "language": "Python",
       "url": "https://github.com/langchain-ai/langgraph",
       "updated": "2026-05-04"
@@ -1216,7 +1216,7 @@
     {
       "name": "openai/openai-agents-python",
       "description": "A lightweight, powerful framework for multi-agent workflows",
-      "stars": 25848,
+      "stars": 25853,
       "language": "Python",
       "url": "https://github.com/openai/openai-agents-python",
       "updated": "2026-05-04"
