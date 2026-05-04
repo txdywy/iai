@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-04 22:53:20 (UTC)",
+  "lastUpdated": "2026-05-04 23:49:16 (UTC)",
   "version": "2.0",
   "models": [
     {
@@ -142,7 +142,7 @@
       "release_url": "https://github.com/deepseek-ai/DeepSeek-V3/releases/tag/v1.0.0",
       "release_notes": "This release is created for archival purposes and DOI generation.",
       "github": {
-        "stars": 103378,
+        "stars": 103379,
         "forks": 16734,
         "language": "Python",
         "updated": "2026-05-04",
@@ -428,12 +428,12 @@
         "Git 深度集成",
         "扩展思维模式"
       ],
-      "latest_version": "2.1.126",
-      "version_date": "2026-05-01",
-      "release_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
-      "release_notes": "## What's changed\n\n- The `/model` picker now lists models from your gateway's `/v1/models` endpoint when `ANTHROPIC_BASE_URL` points at an Anthropic-compatible gateway\n- - Added `claude project purge [path]` to delete all Claude Code state for a project (transcripts, tasks, file history, config entr",
+      "latest_version": "2.1.128",
+      "version_date": "2026-05-04",
+      "release_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.128",
+      "release_notes": "## What's changed\n\n- Bare `/color` (no args) now picks a random session color\n- `/mcp` now shows the tool count for connected servers and flags servers that connected with 0 tools\n- `--plugin-dir` now accepts `.zip` plugin archives in addition to directories\n- `--channels` now works with console (AP",
       "github": {
-        "stars": 120367,
+        "stars": 120374,
         "forks": 19952,
         "language": "Shell",
         "updated": "2026-05-04",
@@ -442,15 +442,15 @@
       "npm_downloads_weekly": 7687349,
       "recent_updates": [
         {
-          "title": "Release 2.1.126: v2.1.126",
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
-          "date": "2026-05-01",
+          "title": "Release 2.1.128: v2.1.128",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.128",
+          "date": "2026-05-04",
           "source": "GitHub Release"
         },
         {
-          "title": "npm v2.1.126 — Use Claude, Anthropic's AI assistant, right from your terminal. Claude can understand your codebase, edit files, run terminal commands, and handle entire workflows for you.",
+          "title": "npm v2.1.128 — Use Claude, Anthropic's AI assistant, right from your terminal. Claude can understand your codebase, edit files, run terminal commands, and handle entire workflows for you.",
           "url": "https://github.com/anthropics/claude-code",
-          "date": "2026-04-30",
+          "date": "2026-05-04",
           "source": "npm"
         },
         {
@@ -543,7 +543,7 @@
       "release_url": "https://github.com/openai/codex/releases/tag/rust-v0.128.0",
       "release_notes": "## New Features\n- Added persisted `/goal` workflows with app-server APIs, model tools, runtime continuation, and TUI controls for create, pause, resume, and clear. (#18073, #18074, #18075, #18076, #18077, #20082)\n- Added `codex update`, configurable TUI keymaps, plan-mode nudges, action-required ter",
       "github": {
-        "stars": 79943,
+        "stars": 79946,
         "forks": 11505,
         "language": "Rust",
         "updated": "2026-05-04",
@@ -579,8 +579,8 @@
       "release_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.40.1",
       "release_notes": "## What's Changed\n* fix(patch): cherry-pick 2194da2 to release/v0.40.0-pr-26153 to patch version v0.40.0 and create version 0.40.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/26268\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.40.0...v0.40.",
       "github": {
-        "stars": 103132,
-        "forks": 13478,
+        "stars": 103134,
+        "forks": 13479,
         "language": "TypeScript",
         "updated": "2026-05-04",
         "topics": [
@@ -641,7 +641,7 @@
       "release_notes": "- Added support for all GPT-5 models.\r\n- Added support for Grok-4 via `xai/grok-4` and `openrouter/x-ai/grok-4` model names.\r\n- Added support for `gemini/gemini-2.5-flash-lite-preview-06-17` model, by Tamir Zahavi-Brunner.\r\n- `/clear` now prints “All chat history cleared.” so you know it worked, by ",
       "github": {
         "stars": 44323,
-        "forks": 4351,
+        "forks": 4352,
         "language": "Python",
         "updated": "2026-05-04",
         "topics": [
@@ -690,7 +690,7 @@
       "release_url": "https://github.com/cline/cline/releases/tag/v3.82.0",
       "release_notes": "\n### Added\n\n- Restore VS Code foreground terminal support and settings.\n- Add latest OpenAI, SAP AI Core, and Z AI models.\n\n### Fixed\n\n- Fix hook template JSON escaping.\n- Improve ripgrep file search error handling.\n\n### Changed\n\n- Remove hardcoded model lists from docs.\n\n**Full Changelog**: https:/",
       "github": {
-        "stars": 61359,
+        "stars": 61361,
         "forks": 6350,
         "language": "TypeScript",
         "updated": "2026-05-04",
@@ -756,7 +756,7 @@
       "release_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/releases/tag/2025-11-25",
       "release_notes": "This release marks the **stable release** of the `2025-11-25` revision of the Model Context Protocol.\r\n\r\nThe specification is available on the [official Model Context Protocol website](https://modelcontextprotocol.io/specification/2025-11-25).\r\n\r\nFor a detailed overview of changes, see [2025-11-25 c",
       "github": {
-        "stars": 8001,
+        "stars": 8002,
         "forks": 1487,
         "language": "TypeScript",
         "updated": "2026-05-04",
@@ -853,8 +853,8 @@
       "release_url": "https://github.com/ollama/ollama/releases/tag/v0.23.0",
       "release_notes": "## Claude Desktop\r\nClaude Desktop is now supported with Ollama Launch. \r\n\r\nClaude Cowork and Claude Code are supported within the Claude Desktop App.\r\n\r\n```\r\nollama launch claude-desktop\r\n```\r\n\r\n### Claude Cowork\r\n<img width=\"1272\" height=\"872\" alt=\"ca1\" src=\"https://github.com/user-attachments/asse",
       "github": {
-        "stars": 170690,
-        "forks": 15976,
+        "stars": 170691,
+        "forks": 15975,
         "language": "Go",
         "updated": "2026-05-04",
         "topics": [
@@ -917,8 +917,8 @@
       "release_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.0a2",
       "release_notes": "Initial release\n\nrelease(core): 1.4.0a2 (#37134)\nrefactor(core): unwind _AsyncEventsResult hybrid for astream_events (#37133)\nrelease(core): 1.4.0a1 (#37132)\nMerge remote-tracking branch 'origin/master' into v1.4\nfeat(core): stream_events(version='v3') protocol (#37111)\nfix(core): preserve structure",
       "github": {
-        "stars": 135769,
-        "forks": 22444,
+        "stars": 135772,
+        "forks": 22445,
         "language": "Python",
         "updated": "2026-05-04",
         "topics": [
@@ -1022,8 +1022,8 @@
       "release_url": "https://github.com/vllm-project/vllm/releases/tag/v0.20.1",
       "release_notes": "# vLLM v0.20.1\r\n\r\nThis is a patch release on top of `v0.20.0` primarily focused on **DeepSeek V4 stabilization and performance improvements**, along with several important bug fixes.\r\n\r\n### DeepSeek V4\r\n* Base model support (#41006).\r\n* Multi-stream pre-attention GEMM (#41061), configurable pre-attn",
       "github": {
-        "stars": 79013,
-        "forks": 16396,
+        "stars": 79016,
+        "forks": 16395,
         "language": "Python",
         "updated": "2026-05-04",
         "topics": [
@@ -1184,7 +1184,7 @@
     {
       "name": "langchain-ai/langchain",
       "description": "The agent engineering platform. Available in TypeScript!",
-      "stars": 135769,
+      "stars": 135772,
       "language": "Python",
       "url": "https://github.com/langchain-ai/langchain",
       "updated": "2026-05-04"
@@ -1200,7 +1200,7 @@
     {
       "name": "crewAIInc/crewAI",
       "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
-      "stars": 50610,
+      "stars": 50613,
       "language": "Python",
       "url": "https://github.com/crewAIInc/crewAI",
       "updated": "2026-05-04"
@@ -1208,7 +1208,7 @@
     {
       "name": "AstrBotDevs/AstrBot",
       "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
-      "stars": 31316,
+      "stars": 31319,
       "language": "Python",
       "url": "https://github.com/AstrBotDevs/AstrBot",
       "updated": "2026-05-04"
