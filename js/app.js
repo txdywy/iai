@@ -23,6 +23,9 @@ function renderData(data) {
     renderGrid('openrouter-grid', data.openrouter);
     renderGrid('tools-grid', data.tools);
     renderGrid('plugins-grid', data.plugins);
+    if (data.news) {
+        renderGrid('news-grid', data.news);
+    }
 }
 
 function renderGrid(containerId, items) {

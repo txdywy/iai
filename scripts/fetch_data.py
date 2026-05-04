@@ -51,6 +51,33 @@ def fetch_openrouter_data():
             { "title": 'Mistral Nemo', "badge": '免费新星', "description": '性能强悍且在 OpenRouter 上免费提供。', "meta": ['12B', '免费'], "link": 'https://openrouter.ai' }
         ]
 
+def fetch_hn_news():
+    url = "https://hn.algolia.com/api/v1/search_by_date?query=AI%20OR%20LLM%20OR%20Agent&tags=story&hitsPerPage=6"
+    req = urllib.request.Request(url, headers={'User-Agent': 'AINexus/1.0'})
+    try:
+        with urllib.request.urlopen(req) as response:
+            data = json.loads(response.read().decode('utf-8'))
+            hits = data.get('hits', [])
+            result = []
+            for h in hits:
+                title = h.get('title', '')
+                link = h.get('url', '')
+                if not link:
+                    link = f"https://news.ycombinator.com/item?id={h.get('objectID')}"
+                author = h.get('author', 'unknown')
+                points = h.get('points', 0)
+                result.append({
+                    "title": title,
+                    "badge": f"HN 热点 ({points} pts)",
+                    "description": f"由 {author} 发布。在 Hacker News 上最新讨论的 AI 资讯。",
+                    "meta": ["Hacker News", "资讯"],
+                    "link": link
+                })
+            return result
+    except Exception as e:
+        print(f"Error fetching HN news: {e}")
+        return []
+
 def main():
     curated_data = {
         "lastUpdated": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S (UTC)"),
@@ -77,7 +104,8 @@ def main():
         "plugins": [
             { "title": 'cc claude', "badge": '高效', "description": '为 Claude 深度定制的增强插件，提供更便捷的 prompt 管理与历史记录。', "meta": ['浏览器插件', '效率提升'] },
             { "title": 'cliproxyapi', "badge": '开发者工具', "description": '一键将各类 CLI 工具转化为标准 API 接口，极大简化 Agent 调用外部工具的难度。', "meta": ['API 中转', 'Agent 增强'] }
-        ]
+        ],
+        "news": fetch_hn_news()
     }
     
     os.makedirs('data', exist_ok=True)

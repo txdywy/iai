@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-04 10:18:45 (UTC)",
+  "lastUpdated": "2026-05-04 18:20:19 (UTC)",
   "models": [
     {
       "title": "OpenAI GPT-5.5",
@@ -214,6 +214,68 @@
         "API 中转",
         "Agent 增强"
       ]
+    }
+  ],
+  "news": [
+    {
+      "title": "Show HN: Speq – A collaborative web-based repository for your product's spec",
+      "badge": "HN 热点 (2 pts)",
+      "description": "由 iowes 发布。在 Hacker News 上最新讨论的 AI 资讯。",
+      "meta": [
+        "Hacker News",
+        "资讯"
+      ],
+      "link": "https://getspeq.com"
+    },
+    {
+      "title": "Show HN: Agent-desktop – Native desktop automation CLI for AI agents",
+      "badge": "HN 热点 (97 pts)",
+      "description": "由 lahfir 发布。在 Hacker News 上最新讨论的 AI 资讯。",
+      "meta": [
+        "Hacker News",
+        "资讯"
+      ],
+      "link": "https://github.com/lahfir/agent-desktop"
+    },
+    {
+      "title": "Show HN: Spec27 – Spec-driven validation for AI agents",
+      "badge": "HN 热点 (13 pts)",
+      "description": "由 njyx 发布。在 Hacker News 上最新讨论的 AI 资讯。",
+      "meta": [
+        "Hacker News",
+        "资讯"
+      ],
+      "link": "https://www.spec27.ai/launch"
+    },
+    {
+      "title": "Ask HN: Anyone using AI agents for active learning sprints? Here's my setup",
+      "badge": "HN 热点 (4 pts)",
+      "description": "由 bhagyeshsp 发布。在 Hacker News 上最新讨论的 AI 资讯。",
+      "meta": [
+        "Hacker News",
+        "资讯"
+      ],
+      "link": "https://news.ycombinator.com/item?id=47959169"
+    },
+    {
+      "title": "Show HN: ToolMesh – turn all your REST APIs into MCP tools via declarative YAML",
+      "badge": "HN 热点 (2 pts)",
+      "description": "由 axeldunkel 发布。在 Hacker News 上最新讨论的 AI 资讯。",
+      "meta": [
+        "Hacker News",
+        "资讯"
+      ],
+      "link": "https://news.ycombinator.com/item?id=47933950"
+    },
+    {
+      "title": "$38k AWS Bedrock bill caused by a simple prompt caching miss",
+      "badge": "HN 热点 (8 pts)",
+      "description": "由 Zephyr0x 发布。在 Hacker News 上最新讨论的 AI 资讯。",
+      "meta": [
+        "Hacker News",
+        "资讯"
+      ],
+      "link": "https://news.ycombinator.com/item?id=47933355"
     }
   ]
 }
