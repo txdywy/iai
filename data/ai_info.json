@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-04 10:42:51 (UTC)",
+  "lastUpdated": "2026-05-04 10:44:15 (UTC)",
   "version": "2.0",
   "models": [
     {
@@ -20,34 +20,26 @@
         "代码工程 SOTA"
       ],
       "pricing_hint": "~$0.03/1K input tokens",
+      "latest_version": "2.33.0",
+      "version_date": "2026-04-28",
+      "release_url": "https://github.com/openai/openai-python/releases/tag/v2.33.0",
+      "release_notes": "## 2.33.0 (2026-04-28)\n\nFull Changelog: [v2.32.0...v2.33.0](https://github.com/openai/openai-python/compare/v2.32.0...v2.33.0)\n\n### Features\n\n* **api:** api update ([18f834a](https://github.com/openai/openai-python/commit/18f834a54f92ea827452471a46a4f442f251e2c8))\n\n\n### Bug Fixes\n\n* **api:** correct",
+      "github": {
+        "stars": 30675,
+        "forks": 4766,
+        "language": "Python",
+        "updated": "2026-05-04",
+        "topics": [
+          "openai",
+          "python"
+        ]
+      },
       "recent_updates": [
         {
-          "title": "Excellent discussion about LLM scaling [D]",
-          "url": "https://reddit.com/r/MachineLearning/comments/1t3ao9m/excellent_discussion_about_llm_scaling_d/",
-          "date": "2026-05-04",
-          "source": "r/MachineLearning",
-          "engagement": "2 pts, 0 comments"
-        },
-        {
-          "title": "T6 Active — AI Recursive Translator Experiment",
-          "url": "https://reddit.com/r/artificial/comments/1t2okqd/t6_active_ai_recursive_translator_experiment/",
-          "date": "2026-05-03",
-          "source": "r/artificial",
-          "engagement": "0 pts, 5 comments"
-        },
-        {
-          "title": "The Scaling Bandaid is Wearing Thin (And Nobody Wants to Admit It)",
-          "url": "https://reddit.com/r/artificial/comments/1t24gvd/the_scaling_bandaid_is_wearing_thin_and_nobody/",
-          "date": "2026-05-02",
-          "source": "r/artificial",
-          "engagement": "0 pts, 7 comments"
-        },
-        {
-          "title": "The Structured Output Benchmark (SOB) - validates both JSON parse and value accuracy [R]",
-          "url": "https://reddit.com/r/MachineLearning/comments/1syepnz/the_structured_output_benchmark_sob_validates/",
+          "title": "Release 2.33.0: v2.33.0",
+          "url": "https://github.com/openai/openai-python/releases/tag/v2.33.0",
           "date": "2026-04-28",
-          "source": "r/MachineLearning",
-          "engagement": "8 pts, 0 comments"
+          "source": "GitHub Release"
         }
       ]
     },
@@ -70,20 +62,23 @@
         "扩展思维"
       ],
       "pricing_hint": "~$0.015/1K input tokens",
+      "latest_version": "0.97.0",
+      "version_date": "2026-04-23",
+      "release_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.97.0",
+      "release_notes": "## 0.97.0 (2026-04-23)\n\nFull Changelog: [v0.96.0...v0.97.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.96.0...v0.97.0)\n\n### Features\n\n* **api:** CMA Memory public beta ([fc30ebe](https://github.com/anthropics/anthropic-sdk-python/commit/fc30ebe5ca81204faa0b1d756b61dad176e37dcb))\n\n",
+      "github": {
+        "stars": 3361,
+        "forks": 642,
+        "language": "Python",
+        "updated": "2026-05-04",
+        "topics": []
+      },
       "recent_updates": [
         {
-          "title": "Claude Status Update : Elevated errors on Claude Opus 4.5 on 2026-05-04T09:49:29.000Z",
-          "url": "https://reddit.com/r/ClaudeAI/comments/1t3d4h7/claude_status_update_elevated_errors_on_claude/",
-          "date": "2026-05-04",
-          "source": "r/ClaudeAI",
-          "engagement": "3 pts, 0 comments"
-        },
-        {
-          "title": "Claude Status Update : Elevated errors on Claude Opus 4.5 on 2026-05-04T09:23:04.000Z",
-          "url": "https://reddit.com/r/ClaudeAI/comments/1t3cls4/claude_status_update_elevated_errors_on_claude/",
-          "date": "2026-05-04",
-          "source": "r/ClaudeAI",
-          "engagement": "1 pts, 0 comments"
+          "title": "Release 0.97.0: v0.97.0",
+          "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.97.0",
+          "date": "2026-04-23",
+          "source": "GitHub Release"
         }
       ]
     },
@@ -105,27 +100,23 @@
         "Google 生态集成"
       ],
       "pricing_hint": "~$0.00125/1K input tokens",
+      "latest_version": "1.74.0",
+      "version_date": "2026-04-29",
+      "release_url": "https://github.com/googleapis/python-genai/releases/tag/v1.74.0",
+      "release_notes": "## [1.74.0](https://github.com/googleapis/python-genai/compare/v1.73.1...v1.74.0) (2026-04-29)\n\n\n### Features\n\n* [Interactions] Add FileCitation.{custom_metadata,media_id,page_number} ([aed41ec](https://github.com/googleapis/python-genai/commit/aed41ecf4940f63446fc3e22744663be4d1057a6))\n* Add `outpu",
+      "github": {
+        "stars": 3669,
+        "forks": 851,
+        "language": "Python",
+        "updated": "2026-05-04",
+        "topics": []
+      },
       "recent_updates": [
         {
-          "title": "I implemented meta paper [P]",
-          "url": "https://reddit.com/r/MachineLearning/comments/1t1rni9/i_implemented_meta_paper_p/",
-          "date": "2026-05-02",
-          "source": "r/MachineLearning",
-          "engagement": "2 pts, 5 comments"
-        },
-        {
-          "title": "Need Help Understanding This",
-          "url": "https://reddit.com/r/GoogleGemini/comments/1t0bp22/need_help_understanding_this/",
-          "date": "2026-04-30",
-          "source": "r/GoogleGemini",
-          "engagement": "6 pts, 4 comments"
-        },
-        {
-          "title": "Problem with Gemini: used to work, now blocks requests for no reason",
-          "url": "https://reddit.com/r/GoogleGemini/comments/1sxgmh8/problem_with_gemini_used_to_work_now_blocks/",
-          "date": "2026-04-27",
-          "source": "r/GoogleGemini",
-          "engagement": "1 pts, 1 comments"
+          "title": "Release 1.74.0: v1.74.0",
+          "url": "https://github.com/googleapis/python-genai/releases/tag/v1.74.0",
+          "date": "2026-04-29",
+          "source": "GitHub Release"
         }
       ]
     },
@@ -146,20 +137,23 @@
         "推理能力顶级"
       ],
       "pricing_hint": "~$0.27/M input tokens",
+      "latest_version": "1.0.0",
+      "version_date": "2025-06-27",
+      "release_url": "https://github.com/deepseek-ai/DeepSeek-V3/releases/tag/v1.0.0",
+      "release_notes": "This release is created for archival purposes and DOI generation.",
+      "github": {
+        "stars": 103374,
+        "forks": 16731,
+        "language": "Python",
+        "updated": "2026-05-04",
+        "topics": []
+      },
       "recent_updates": [
         {
-          "title": "Local LLM Benchmark about Backend Generation by Function Calling (GLM vs Qwen vs DeepSeek)",
-          "url": "https://reddit.com/r/LocalLLaMA/comments/1t2m7wi/local_llm_benchmark_about_backend_generation_by/",
-          "date": "2026-05-03",
-          "source": "r/LocalLLaMA",
-          "engagement": "17 pts, 2 comments"
-        },
-        {
-          "title": "Open Weights Models Hall of Fame",
-          "url": "https://reddit.com/r/LocalLLaMA/comments/1t2lwn0/open_weights_models_hall_of_fame/",
-          "date": "2026-05-03",
-          "source": "r/LocalLLaMA",
-          "engagement": "86 pts, 31 comments"
+          "title": "Release 1.0.0: v1.0.0",
+          "url": "https://github.com/deepseek-ai/DeepSeek-V3/releases/tag/v1.0.0",
+          "date": "2025-06-27",
+          "source": "GitHub Release"
         }
       ]
     },
@@ -180,22 +174,7 @@
         "多步推理"
       ],
       "pricing_hint": "国内定价",
-      "recent_updates": [
-        {
-          "title": "Open Weights Models Hall of Fame",
-          "url": "https://reddit.com/r/LocalLLaMA/comments/1t2lwn0/open_weights_models_hall_of_fame/",
-          "date": "2026-05-03",
-          "source": "r/LocalLLaMA",
-          "engagement": "84 pts, 31 comments"
-        },
-        {
-          "title": "I'm Not a Dev But I Use Qwen 3.6 35b to Code",
-          "url": "https://reddit.com/r/LocalLLaMA/comments/1sy4clx/im_not_a_dev_but_i_use_qwen_36_35b_to_code/",
-          "date": "2026-04-28",
-          "source": "r/LocalLLaMA",
-          "engagement": "15 pts, 74 comments"
-        }
-      ]
+      "recent_updates": []
     },
     {
       "title": "GLM-4 / ChatGLM",
@@ -214,6 +193,19 @@
         "代码推理增强"
       ],
       "pricing_hint": "国内定价",
+      "github": {
+        "stars": 7078,
+        "forks": 619,
+        "language": "Python",
+        "updated": "2026-05-03",
+        "topics": [
+          "chatglm",
+          "chatglm-6b",
+          "glm",
+          "glm-4",
+          "glm4"
+        ]
+      },
       "recent_updates": []
     },
     {
@@ -233,27 +225,23 @@
         "社区生态庞大"
       ],
       "pricing_hint": "免费开源",
+      "latest_version": "0.2.0",
+      "version_date": "2025-04-05",
+      "release_url": "https://github.com/meta-llama/llama-models/releases/tag/v0.2.0",
+      "release_notes": "Llama 4 Support ( https://www.llama.com ) \r\n\r\n",
+      "github": {
+        "stars": 7584,
+        "forks": 1367,
+        "language": "Python",
+        "updated": "2026-05-04",
+        "topics": []
+      },
       "recent_updates": [
         {
-          "title": "Mistral Medium 3.5 128B and Qwen 3.5 122B A10B on 4x RTX 3080 20GB",
-          "url": "https://reddit.com/r/LocalLLaMA/comments/1t372ml/mistral_medium_35_128b_and_qwen_35_122b_a10b_on/",
-          "date": "2026-05-04",
-          "source": "r/LocalLLaMA",
-          "engagement": "6 pts, 9 comments"
-        },
-        {
-          "title": "Testing PrismML Models",
-          "url": "https://reddit.com/r/LocalLLaMA/comments/1t329tw/testing_prismml_models/",
-          "date": "2026-05-04",
-          "source": "r/LocalLLaMA",
-          "engagement": "0 pts, 5 comments"
-        },
-        {
-          "title": "A Hackable ML Compiler Stack in 5,000 Lines of Python [P]",
-          "url": "https://reddit.com/r/MachineLearning/comments/1t07zff/a_hackable_ml_compiler_stack_in_5000_lines_of/",
-          "date": "2026-04-30",
-          "source": "r/MachineLearning",
-          "engagement": "8 pts, 0 comments"
+          "title": "Release 0.2.0: v0.2.0",
+          "url": "https://github.com/meta-llama/llama-models/releases/tag/v0.2.0",
+          "date": "2025-04-05",
+          "source": "GitHub Release"
         }
       ]
     },
@@ -274,36 +262,14 @@
         "开源可商用"
       ],
       "pricing_hint": "免费开源",
-      "recent_updates": [
-        {
-          "title": "Mistral Medium 3.5 128B and Qwen 3.5 122B A10B on 4x RTX 3080 20GB",
-          "url": "https://reddit.com/r/LocalLLaMA/comments/1t372ml/mistral_medium_35_128b_and_qwen_35_122b_a10b_on/",
-          "date": "2026-05-04",
-          "source": "r/LocalLLaMA",
-          "engagement": "7 pts, 9 comments"
-        },
-        {
-          "title": "Advice needed on eGPU and Mini PC",
-          "url": "https://reddit.com/r/LocalLLaMA/comments/1t36gsi/advice_needed_on_egpu_and_mini_pc/",
-          "date": "2026-05-04",
-          "source": "r/LocalLLaMA",
-          "engagement": "0 pts, 13 comments"
-        },
-        {
-          "title": "I gave my local LLM a \"suffering\" meter, and now it won’t stop self-modifying to fix its own stress.",
-          "url": "https://reddit.com/r/artificial/comments/1t31ghg/i_gave_my_local_llm_a_suffering_meter_and_now_it/",
-          "date": "2026-05-03",
-          "source": "r/artificial",
-          "engagement": "81 pts, 48 comments"
-        },
-        {
-          "title": "When you give Qwen 3.5:9b persistent suffering states and leave it alone overnight, this happens",
-          "url": "https://reddit.com/r/artificial/comments/1szo64c/when_you_give_qwen_359b_persistent_suffering/",
-          "date": "2026-04-30",
-          "source": "r/artificial",
-          "engagement": "14 pts, 11 comments"
-        }
-      ]
+      "github": {
+        "stars": 27196,
+        "forks": 1983,
+        "language": "Python",
+        "updated": "2026-05-04",
+        "topics": []
+      },
+      "recent_updates": []
     }
   ],
   "openrouter": [
@@ -463,22 +429,23 @@
         "扩展思维模式"
       ],
       "latest_version": "2.1.126",
-      "version_date": "2026-04-30",
+      "version_date": "2026-05-01",
+      "release_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
+      "release_notes": "## What's changed\n\n- The `/model` picker now lists models from your gateway's `/v1/models` endpoint when `ANTHROPIC_BASE_URL` points at an Anthropic-compatible gateway\n- - Added `claude project purge [path]` to delete all Claude Code state for a project (transcripts, tasks, file history, config entr",
+      "github": {
+        "stars": 120233,
+        "forks": 19929,
+        "language": "Shell",
+        "updated": "2026-05-04",
+        "topics": []
+      },
       "npm_downloads_weekly": 7687349,
       "recent_updates": [
         {
-          "title": "Your Claude Code agent is always working from stale context. I built it a fix it can rewind, replay, and stay ahead of every edit.",
-          "url": "https://reddit.com/r/ClaudeAI/comments/1t3du61/your_claude_code_agent_is_always_working_from/",
-          "date": "2026-05-04",
-          "source": "r/ClaudeAI",
-          "engagement": "8 pts, 2 comments"
-        },
-        {
-          "title": "Does Claude Pro include Claude Code ?",
-          "url": "https://reddit.com/r/ClaudeAI/comments/1t3c74t/does_claude_pro_include_claude_code/",
-          "date": "2026-05-04",
-          "source": "r/ClaudeAI",
-          "engagement": "0 pts, 14 comments"
+          "title": "Release 2.1.126: v2.1.126",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
+          "date": "2026-05-01",
+          "source": "GitHub Release"
         },
         {
           "title": "npm v2.1.126 — Use Claude, Anthropic's AI assistant, right from your terminal. Claude can understand your codebase, edit files, run terminal commands, and handle entire workflows for you.",
@@ -528,20 +495,6 @@
       ],
       "recent_updates": [
         {
-          "title": "FAREWELL CURSOR",
-          "url": "https://reddit.com/r/cursor/comments/1t2xk0n/farewell_cursor/",
-          "date": "2026-05-03",
-          "source": "r/cursor",
-          "engagement": "65 pts, 47 comments"
-        },
-        {
-          "title": "Multiples charges from my card by Cursor AI even though I never used the site",
-          "url": "https://reddit.com/r/cursor/comments/1t2maz1/multiples_charges_from_my_card_by_cursor_ai_even/",
-          "date": "2026-05-03",
-          "source": "r/cursor",
-          "engagement": "0 pts, 4 comments"
-        },
-        {
           "title": "Show HN: Onlook – Open-source, visual-first Cursor for designers",
           "url": "https://github.com/onlook-dev/onlook",
           "date": "2025-05-29",
@@ -585,20 +538,23 @@
         "自主代码生成",
         "多语言支持"
       ],
+      "latest_version": "rust-v0.128.0",
+      "version_date": "2026-04-30",
+      "release_url": "https://github.com/openai/codex/releases/tag/rust-v0.128.0",
+      "release_notes": "## New Features\n- Added persisted `/goal` workflows with app-server APIs, model tools, runtime continuation, and TUI controls for create, pause, resume, and clear. (#18073, #18074, #18075, #18076, #18077, #20082)\n- Added `codex update`, configurable TUI keymaps, plan-mode nudges, action-required ter",
+      "github": {
+        "stars": 79853,
+        "forks": 11486,
+        "language": "Rust",
+        "updated": "2026-05-04",
+        "topics": []
+      },
       "recent_updates": [
         {
-          "title": "Chat GPT's Internal Memory (the other Memory System)",
-          "url": "https://reddit.com/r/ChatGPT/comments/1t38lmi/chat_gpts_internal_memory_the_other_memory_system/",
-          "date": "2026-05-04",
-          "source": "r/ChatGPT",
-          "engagement": "0 pts, 7 comments"
-        },
-        {
-          "title": "In AI chat, what should stay text — and what should be UI?",
-          "url": "https://reddit.com/r/ChatGPT/comments/1t2vcf3/in_ai_chat_what_should_stay_text_and_what_should/",
-          "date": "2026-05-03",
-          "source": "r/ChatGPT",
-          "engagement": "2 pts, 4 comments"
+          "title": "Release rust-v0.128.0: 0.128.0",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.128.0",
+          "date": "2026-04-30",
+          "source": "GitHub Release"
         }
       ]
     },
@@ -618,7 +574,32 @@
         "代码生成",
         "免费额度"
       ],
-      "recent_updates": []
+      "latest_version": "0.40.1",
+      "version_date": "2026-04-30",
+      "release_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.40.1",
+      "release_notes": "## What's Changed\n* fix(patch): cherry-pick 2194da2 to release/v0.40.0-pr-26153 to patch version v0.40.0 and create version 0.40.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/26268\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.40.0...v0.40.",
+      "github": {
+        "stars": 103087,
+        "forks": 13473,
+        "language": "TypeScript",
+        "updated": "2026-05-04",
+        "topics": [
+          "ai",
+          "ai-agents",
+          "cli",
+          "gemini",
+          "gemini-api",
+          "mcp-client"
+        ]
+      },
+      "recent_updates": [
+        {
+          "title": "Release 0.40.1: Release v0.40.1",
+          "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.40.1",
+          "date": "2026-04-30",
+          "source": "GitHub Release"
+        }
+      ]
     },
     {
       "title": "GitHub Copilot",
@@ -636,29 +617,7 @@
         "VS Code/JetBrains 集成",
         "Copilot Workspace"
       ],
-      "recent_updates": [
-        {
-          "title": "Github if Google designed it",
-          "url": "https://reddit.com/r/github/comments/1t2k6qy/github_if_google_designed_it/",
-          "date": "2026-05-03",
-          "source": "r/github",
-          "engagement": "417 pts, 31 comments"
-        },
-        {
-          "title": "Did GitHub change how inline HTML is rendered in profile READMEs? My icon rows are now stacking vertically.",
-          "url": "https://reddit.com/r/github/comments/1t20lyu/did_github_change_how_inline_html_is_rendered_in/",
-          "date": "2026-05-02",
-          "source": "r/github",
-          "engagement": "2 pts, 1 comments"
-        },
-        {
-          "title": "An update on GitHub availability",
-          "url": "https://reddit.com/r/programming/comments/1sy00b7/an_update_on_github_availability/",
-          "date": "2026-04-28",
-          "source": "r/programming",
-          "engagement": "505 pts, 184 comments"
-        }
-      ]
+      "recent_updates": []
     },
     {
       "title": "Aider",
@@ -676,21 +635,30 @@
         "终端原生",
         "开源"
       ],
-      "latest_version": "0.86.2",
+      "latest_version": "0.86.0",
+      "version_date": "2025-08-09",
+      "release_url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.0",
+      "release_notes": "- Added support for all GPT-5 models.\r\n- Added support for Grok-4 via `xai/grok-4` and `openrouter/x-ai/grok-4` model names.\r\n- Added support for `gemini/gemini-2.5-flash-lite-preview-06-17` model, by Tamir Zahavi-Brunner.\r\n- `/clear` now prints “All chat history cleared.” so you know it worked, by ",
+      "github": {
+        "stars": 44304,
+        "forks": 4350,
+        "language": "Python",
+        "updated": "2026-05-04",
+        "topics": [
+          "anthropic",
+          "chatgpt",
+          "claude-3",
+          "cli",
+          "command-line",
+          "gemini"
+        ]
+      },
       "recent_updates": [
         {
-          "title": "Frontier models can't run on satellites. Here's an end-to-end wildfire detection pipeline using a 450M on-board Vision-Language Model (Sentinel-2 + LFM2.5-VL)",
-          "url": "https://reddit.com/r/LocalLLaMA/comments/1t36myv/frontier_models_cant_run_on_satellites_heres_an/",
-          "date": "2026-05-04",
-          "source": "r/LocalLLaMA",
-          "engagement": "9 pts, 4 comments"
-        },
-        {
-          "title": "Advice needed on eGPU and Mini PC",
-          "url": "https://reddit.com/r/LocalLLaMA/comments/1t36gsi/advice_needed_on_egpu_and_mini_pc/",
-          "date": "2026-05-04",
-          "source": "r/LocalLLaMA",
-          "engagement": "0 pts, 13 comments"
+          "title": "Release 0.86.0: Aider v0.86.0",
+          "url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.0",
+          "date": "2025-08-09",
+          "source": "GitHub Release"
         },
         {
           "title": "PyPI v0.86.2 — Aider is AI pair programming in your terminal",
@@ -717,16 +685,24 @@
         "自主编码",
         "多模型支持"
       ],
-      "latest_version": "3.10.10",
-      "version_date": "2025-04-09",
+      "latest_version": "3.82.0",
+      "version_date": "2026-05-01",
+      "release_url": "https://github.com/cline/cline/releases/tag/v3.82.0",
+      "release_notes": "\n### Added\n\n- Restore VS Code foreground terminal support and settings.\n- Add latest OpenAI, SAP AI Core, and Z AI models.\n\n### Fixed\n\n- Fix hook template JSON escaping.\n- Improve ripgrep file search error handling.\n\n### Changed\n\n- Remove hardcoded model lists from docs.\n\n**Full Changelog**: https:/",
+      "github": {
+        "stars": 61342,
+        "forks": 6347,
+        "language": "TypeScript",
+        "updated": "2026-05-04",
+        "topics": []
+      },
       "npm_downloads_weekly": 8,
       "recent_updates": [
         {
-          "title": "Someone compromised SAP's npm packages and used the CI pipeline against itself",
-          "url": "https://reddit.com/r/programming/comments/1sz094x/someone_compromised_saps_npm_packages_and_used/",
-          "date": "2026-04-29",
-          "source": "r/programming",
-          "engagement": "155 pts, 19 comments"
+          "title": "Release 3.82.0: v3.82.0",
+          "url": "https://github.com/cline/cline/releases/tag/v3.82.0",
+          "date": "2026-05-01",
+          "source": "GitHub Release"
         },
         {
           "title": "Show HN: Overture – Interactive plan viewer for AI coding agents (open source)",
@@ -775,20 +751,23 @@
         "多语言 SDK",
         "活跃社区生态"
       ],
+      "latest_version": "2025-11-25",
+      "version_date": "2025-11-25",
+      "release_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/releases/tag/2025-11-25",
+      "release_notes": "This release marks the **stable release** of the `2025-11-25` revision of the Model Context Protocol.\r\n\r\nThe specification is available on the [official Model Context Protocol website](https://modelcontextprotocol.io/specification/2025-11-25).\r\n\r\nFor a detailed overview of changes, see [2025-11-25 c",
+      "github": {
+        "stars": 7997,
+        "forks": 1484,
+        "language": "TypeScript",
+        "updated": "2026-05-04",
+        "topics": []
+      },
       "recent_updates": [
         {
-          "title": "Your Claude Code agent is always working from stale context. I built it a fix it can rewind, replay, and stay ahead of every edit.",
-          "url": "https://reddit.com/r/ClaudeAI/comments/1t3du61/your_claude_code_agent_is_always_working_from/",
-          "date": "2026-05-04",
-          "source": "r/ClaudeAI",
-          "engagement": "8 pts, 2 comments"
-        },
-        {
-          "title": "Used Claude Code to ship a native iOS puzzle game over a weekend, full breakdown",
-          "url": "https://reddit.com/r/ClaudeAI/comments/1t3alus/used_claude_code_to_ship_a_native_ios_puzzle_game/",
-          "date": "2026-05-04",
-          "source": "r/ClaudeAI",
-          "engagement": "0 pts, 10 comments"
+          "title": "Release 2025-11-25: 2025-11-25",
+          "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/releases/tag/2025-11-25",
+          "date": "2025-11-25",
+          "source": "GitHub Release"
         },
         {
           "title": "Show HN: Xano 2.0 – AI-Generated Back Ends That Are Production-Ready",
@@ -831,20 +810,6 @@
       ],
       "recent_updates": [
         {
-          "title": "openrouter/owl-alpha = Meituan_LongCat",
-          "url": "https://reddit.com/r/LocalLLaMA/comments/1t35rjc/openrouterowlalpha_meituan_longcat/",
-          "date": "2026-05-04",
-          "source": "r/LocalLLaMA",
-          "engagement": "4 pts, 3 comments"
-        },
-        {
-          "title": "Local LLM Benchmark about Backend Generation by Function Calling (GLM vs Qwen vs DeepSeek)",
-          "url": "https://reddit.com/r/LocalLLaMA/comments/1t2m7wi/local_llm_benchmark_about_backend_generation_by/",
-          "date": "2026-05-03",
-          "source": "r/LocalLLaMA",
-          "engagement": "19 pts, 2 comments"
-        },
-        {
           "title": "Show HN: EZClaw – Deploy OpenClaw agents in – 1 minute – no tech skills needed",
           "url": "https://ezclaw.app",
           "date": "2026-02-10",
@@ -883,20 +848,30 @@
         "API 兼容",
         "跨平台"
       ],
+      "latest_version": "0.23.0",
+      "version_date": "2026-05-03",
+      "release_url": "https://github.com/ollama/ollama/releases/tag/v0.23.0",
+      "release_notes": "## Claude Desktop\r\nClaude Desktop is now supported with Ollama Launch. \r\n\r\nClaude Cowork and Claude Code are supported within the Claude Desktop App.\r\n\r\n```\r\nollama launch claude-desktop\r\n```\r\n\r\n### Claude Cowork\r\n<img width=\"1272\" height=\"872\" alt=\"ca1\" src=\"https://github.com/user-attachments/asse",
+      "github": {
+        "stars": 170660,
+        "forks": 15963,
+        "language": "Go",
+        "updated": "2026-05-04",
+        "topics": [
+          "deepseek",
+          "gemma",
+          "gemma3",
+          "glm",
+          "go",
+          "golang"
+        ]
+      },
       "recent_updates": [
         {
-          "title": "Some ideas for cloud-local interaction for performance, efficiency and privacy",
-          "url": "https://reddit.com/r/LocalLLaMA/comments/1t393ac/some_ideas_for_cloudlocal_interaction_for/",
-          "date": "2026-05-04",
-          "source": "r/LocalLLaMA",
-          "engagement": "0 pts, 7 comments"
-        },
-        {
-          "title": "Secondary PC options",
-          "url": "https://reddit.com/r/LocalLLaMA/comments/1t2td49/secondary_pc_options/",
+          "title": "Release 0.23.0: v0.23.0",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.23.0",
           "date": "2026-05-03",
-          "source": "r/LocalLLaMA",
-          "engagement": "0 pts, 7 comments"
+          "source": "GitHub Release"
         },
         {
           "title": "Show HN: Tasklin outputs JSON and works with multiple AI models in pipelines",
@@ -937,23 +912,31 @@
         "工具调用链",
         "多语言 SDK"
       ],
-      "latest_version": "1.3.5",
-      "version_date": "2026-04-27",
+      "latest_version": "langchain-core==1.4.0a2",
+      "version_date": "2026-05-01",
+      "release_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.0a2",
+      "release_notes": "Initial release\n\nrelease(core): 1.4.0a2 (#37134)\nrefactor(core): unwind _AsyncEventsResult hybrid for astream_events (#37133)\nrelease(core): 1.4.0a1 (#37132)\nMerge remote-tracking branch 'origin/master' into v1.4\nfeat(core): stream_events(version='v3') protocol (#37111)\nfix(core): preserve structure",
+      "github": {
+        "stars": 135726,
+        "forks": 22437,
+        "language": "Python",
+        "updated": "2026-05-04",
+        "topics": [
+          "agents",
+          "ai",
+          "ai-agents",
+          "anthropic",
+          "chatgpt",
+          "deepagents"
+        ]
+      },
       "npm_downloads_weekly": 2047022,
       "recent_updates": [
         {
-          "title": "Built a pre-flight budget check for LangChain agents. stops expensive runs before they hit the API",
-          "url": "https://reddit.com/r/LangChain/comments/1t30mn4/built_a_preflight_budget_check_for_langchain/",
-          "date": "2026-05-03",
-          "source": "r/LangChain",
-          "engagement": "5 pts, 2 comments"
-        },
-        {
-          "title": "Learning LangGraph",
-          "url": "https://reddit.com/r/LangChain/comments/1t1jv89/learning_langgraph/",
-          "date": "2026-05-02",
-          "source": "r/LangChain",
-          "engagement": "34 pts, 7 comments"
+          "title": "Release langchain-core==1.4.0a2: langchain-core==1.4.0a2",
+          "url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.0a2",
+          "date": "2026-05-01",
+          "source": "GitHub Release"
         },
         {
           "title": "npm v1.3.5 — Typescript bindings for langchain",
@@ -986,27 +969,29 @@
         "多框架支持"
       ],
       "latest_version": "5.7.0",
+      "version_date": "2026-04-28",
+      "release_url": "https://github.com/huggingface/transformers/releases/tag/v5.7.0",
+      "release_notes": "# Release v5.7.0\r\n\r\n\r\n## New Model additions\r\n\r\n### Laguna\r\n\r\n<img width=\"699\" height=\"176\" alt=\"image\" src=\"https://github.com/user-attachments/assets/d3bae269-bea7-4ddf-a53f-d4718befdb17\" />\r\n\r\nLaguna is Poolside's mixture-of-experts language model family that extends standard SwiGLU MoE transform",
+      "github": {
+        "stars": 160227,
+        "forks": 33102,
+        "language": "Python",
+        "updated": "2026-05-04",
+        "topics": [
+          "audio",
+          "deep-learning",
+          "deepseek",
+          "gemma",
+          "glm",
+          "hacktoberfest"
+        ]
+      },
       "recent_updates": [
         {
-          "title": "Open Weights Models Hall of Fame",
-          "url": "https://reddit.com/r/LocalLLaMA/comments/1t2lwn0/open_weights_models_hall_of_fame/",
-          "date": "2026-05-03",
-          "source": "r/LocalLLaMA",
-          "engagement": "86 pts, 31 comments"
-        },
-        {
-          "title": "I made a visualizer for Hugging Face models",
-          "url": "https://reddit.com/r/LocalLLaMA/comments/1t24y4p/i_made_a_visualizer_for_hugging_face_models/",
-          "date": "2026-05-02",
-          "source": "r/LocalLLaMA",
-          "engagement": "609 pts, 33 comments"
-        },
-        {
-          "title": "I spent years building a 103B-token Usenet corpus (1980–2013) and finally documented it [P]",
-          "url": "https://reddit.com/r/MachineLearning/comments/1t10xaf/i_spent_years_building_a_103btoken_usenet_corpus/",
-          "date": "2026-05-01",
-          "source": "r/MachineLearning",
-          "engagement": "98 pts, 18 comments"
+          "title": "Release 5.7.0: Release v5.7.0",
+          "url": "https://github.com/huggingface/transformers/releases/tag/v5.7.0",
+          "date": "2026-04-28",
+          "source": "GitHub Release"
         },
         {
           "title": "PyPI v5.7.0 — Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
@@ -1033,20 +1018,29 @@
         "OpenAI 兼容 API"
       ],
       "latest_version": "0.20.1",
+      "version_date": "2026-05-04",
+      "release_url": "https://github.com/vllm-project/vllm/releases/tag/v0.20.1",
+      "release_notes": "# vLLM v0.20.1\r\n\r\nThis is a patch release on top of `v0.20.0` primarily focused on **DeepSeek V4 stabilization and performance improvements**, along with several important bug fixes.\r\n\r\n### DeepSeek V4\r\n* Base model support (#41006).\r\n* Multi-stream pre-attention GEMM (#41061), configurable pre-attn",
+      "github": {
+        "stars": 78978,
+        "forks": 16384,
+        "language": "Python",
+        "updated": "2026-05-04",
+        "topics": [
+          "amd",
+          "blackwell",
+          "cuda",
+          "deepseek",
+          "deepseek-v3",
+          "gpt"
+        ]
+      },
       "recent_updates": [
         {
-          "title": "Mistral Medium 3.5 128B and Qwen 3.5 122B A10B on 4x RTX 3080 20GB",
-          "url": "https://reddit.com/r/LocalLLaMA/comments/1t372ml/mistral_medium_35_128b_and_qwen_35_122b_a10b_on/",
+          "title": "Release 0.20.1: v0.20.1",
+          "url": "https://github.com/vllm-project/vllm/releases/tag/v0.20.1",
           "date": "2026-05-04",
-          "source": "r/LocalLLaMA",
-          "engagement": "6 pts, 9 comments"
-        },
-        {
-          "title": "Advice needed on eGPU and Mini PC",
-          "url": "https://reddit.com/r/LocalLLaMA/comments/1t36gsi/advice_needed_on_egpu_and_mini_pc/",
-          "date": "2026-05-04",
-          "source": "r/LocalLLaMA",
-          "engagement": "0 pts, 13 comments"
+          "source": "GitHub Release"
         },
         {
           "title": "Show HN: AlertMole – I stopped checking the internet, it now checks for me",
