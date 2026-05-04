@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-04 09:14:39 (UTC)",
+  "lastUpdated": "2026-05-04 18:18:28 (UTC)",
   "models": [
     {
       "title": "OpenAI GPT-5.5",
@@ -130,9 +130,29 @@
   ],
   "tools": [
     {
+      "title": "OpenClaw",
+      "badge": "生态互联",
+      "description": "最热门的开源 Gateway-first 智能体框架，拥有海量技能插件，轻松打通各大通讯平台与工作流。",
+      "meta": [
+        "Agent",
+        "多平台生态"
+      ],
+      "link": "https://github.com/openclaw"
+    },
+    {
+      "title": "Hermes Agent",
+      "badge": "自主进化",
+      "description": "Nous Research 2026年推出的 Agent-first 框架，主打自学习与长记忆循环，可作为持续进化的数字员工。",
+      "meta": [
+        "长记忆",
+        "自学习"
+      ],
+      "link": "https://nousresearch.com/hermes"
+    },
+    {
       "title": "Claude Code",
       "badge": "官方出品",
-      "description": "Anthropic 官方推出的命令行 AI 编程助手，深度集成 Claude 3.5 Sonnet。",
+      "description": "Anthropic 官方推出的命令行 AI 编程助手，深度集成最新 Claude 模型。",
       "meta": [
         "CLI",
         "代码生成"

@@ -66,7 +66,9 @@ def main():
         ],
         "openrouter": fetch_openrouter_data(),
         "tools": [
-            { "title": 'Claude Code', "badge": '官方出品', "description": 'Anthropic 官方推出的命令行 AI 编程助手，深度集成 Claude 3.5 Sonnet。', "meta": ['CLI', '代码生成'], "link": 'https://docs.anthropic.com' },
+            { "title": 'OpenClaw', "badge": '生态互联', "description": '最热门的开源 Gateway-first 智能体框架，拥有海量技能插件，轻松打通各大通讯平台与工作流。', "meta": ['Agent', '多平台生态'], "link": 'https://github.com/openclaw' },
+            { "title": 'Hermes Agent', "badge": '自主进化', "description": 'Nous Research 2026年推出的 Agent-first 框架，主打自学习与长记忆循环，可作为持续进化的数字员工。', "meta": ['长记忆', '自学习'], "link": 'https://nousresearch.com/hermes' },
+            { "title": 'Claude Code', "badge": '官方出品', "description": 'Anthropic 官方推出的命令行 AI 编程助手，深度集成最新 Claude 模型。', "meta": ['CLI', '代码生成'], "link": 'https://docs.anthropic.com' },
             { "title": 'Antigravity', "badge": '智能体架构', "description": '高级 Agentic 编码助手框架。', "meta": ['Agent', '前沿探索'] },
             { "title": 'OpenCode', "badge": '开源框架', "description": '开源社区驱动的下一代 AI 编程 IDE 插件框架。', "meta": ['开源', 'IDE 插件'] },
             { "title": 'Kiro', "badge": '自动化', "description": '轻量级 AI 工作流自动化工具，轻松串联各种模型 API。', "meta": ['Workflow', '轻量级'] },
