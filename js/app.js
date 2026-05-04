@@ -5,9 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
 async function fetchData() {
     try {
         const response = await fetch('data/ai_info.json');
-        if (!response.ok) {
-            throw new Error('Network response was not ok');
-        }
+        if (!response.ok) throw new Error('Network error');
         const data = await response.json();
         renderData(data);
     } catch (error) {
@@ -18,84 +16,271 @@ async function fetchData() {
 
 function renderData(data) {
     document.getElementById('last-updated').textContent = `最后更新: ${data.lastUpdated}`;
-    
-    renderGrid('models-grid', data.models);
-    renderGrid('openrouter-grid', data.openrouter);
-    renderGrid('tools-grid', data.tools);
-    renderGrid('plugins-grid', data.plugins);
-    if (data.news) {
-        renderGrid('news-grid', data.news);
-    }
+
+    renderModelCards('models-grid', data.models || []);
+    renderModelCards('tools-grid', data.tools || []);
+    renderModelCards('plugins-grid', data.plugins || []);
+    renderOpenRouterCards('openrouter-grid', data.openrouter || []);
+    renderTrendingCards('trending-grid', data.github_trending || []);
+    renderNewsCards('news-grid', data.news || []);
 }
 
-function renderGrid(containerId, items) {
-    const container = document.getElementById(containerId);
-    container.innerHTML = ''; // clear loading
+// ---------------------------------------------------------------------------
+// Model / Tool / Plugin cards — richest intelligence display
+// ---------------------------------------------------------------------------
 
-    if (!items || items.length === 0) {
-        container.innerHTML = '<p style="color: var(--text-secondary)">暂无数据更新。</p>';
+function renderModelCards(containerId, items) {
+    const container = document.getElementById(containerId);
+    container.innerHTML = '';
+
+    if (!items.length) {
+        container.innerHTML = '<p style="color: var(--text-secondary)">暂无数据。</p>';
         return;
     }
 
     items.forEach(item => {
         const card = document.createElement('div');
-        card.className = 'card';
-        
-        let metaHtml = '';
-        if (item.meta) {
-            metaHtml = `<div class="card-meta">
-                ${item.meta.map(m => `<span>${m}</span>`).join('')}
+        card.className = 'card intel-card';
+
+        let headerHtml = `
+            <div class="card-header">
+                <div class="card-title">${escHtml(item.title)}</div>
+                <div class="card-badges">
+                    ${item.badge ? `<span class="card-badge">${escHtml(item.badge)}</span>` : ''}
+                    ${item.latest_version ? `<span class="version-badge">v${escHtml(item.latest_version)}</span>` : ''}
+                </div>
+            </div>`;
+
+        let descHtml = `<div class="card-desc">${escHtml(item.description)}</div>`;
+
+        // Features section
+        let featuresHtml = '';
+        if (item.features && item.features.length) {
+            featuresHtml = `<div class="features-section">
+                <div class="features-title">核心特性</div>
+                <ul class="features-list">
+                    ${item.features.map(f => `<li>${escHtml(f)}</li>`).join('')}
+                </ul>
             </div>`;
         }
 
-        let updateHtml = '';
-        if (item.latest_update) {
-            updateHtml = `
-            <div style="margin-top: 12px; padding: 12px; background: rgba(99, 102, 241, 0.1); border-left: 3px solid var(--accent-color); border-radius: 4px;">
-                <div style="font-size: 0.8rem; color: var(--accent-color); font-weight: bold; margin-bottom: 4px;">🌟 最新动态 (${item.latest_update.date})</div>
-                <a href="${item.latest_update.url}" target="_blank" style="font-size: 0.9rem; color: var(--text-primary); text-decoration: none; font-weight: 500; display: block; margin-bottom: 4px; line-height: 1.4;">${item.latest_update.title}</a>
+        // GitHub stats bar
+        let ghHtml = '';
+        if (item.github) {
+            const gh = item.github;
+            ghHtml = `<div class="gh-stats">
+                ${gh.stars ? `<span class="gh-stat"><span class="gh-icon">&#9733;</span> ${formatNumber(gh.stars)}</span>` : ''}
+                ${gh.forks ? `<span class="gh-stat"><span class="gh-icon">&#9741;</span> ${formatNumber(gh.forks)}</span>` : ''}
+                ${gh.language ? `<span class="gh-lang">${escHtml(gh.language)}</span>` : ''}
+                ${gh.topics && gh.topics.length ? gh.topics.slice(0, 4).map(t => `<span class="gh-topic">${escHtml(t)}</span>`).join('') : ''}
             </div>`;
+        }
+
+        // npm downloads
+        let npmHtml = '';
+        if (item.npm_downloads_weekly) {
+            npmHtml = `<div class="npm-stats">npm 周下载: <strong>${formatNumber(item.npm_downloads_weekly)}</strong></div>`;
+        }
+
+        // Pricing hint
+        let pricingHtml = '';
+        if (item.pricing_hint) {
+            pricingHtml = `<div class="pricing-hint">${escHtml(item.pricing_hint)}</div>`;
+        }
+
+        // Meta tags
+        let metaHtml = '';
+        if (item.meta && item.meta.length) {
+            metaHtml = `<div class="card-meta">${item.meta.map(m => `<span>${escHtml(m)}</span>`).join('')}</div>`;
+        }
+
+        // Recent updates panel
+        let updatesHtml = '';
+        if (item.recent_updates && item.recent_updates.length) {
+            updatesHtml = `<div class="updates-panel">
+                <div class="updates-title">多源情报 (${item.recent_updates.length})</div>
+                ${item.recent_updates.map(u => {
+                    const sourceClass = getSourceClass(u.source);
+                    return `<a href="${escAttr(u.url)}" target="_blank" rel="noopener" class="update-item">
+                        <span class="update-source ${sourceClass}">${escHtml(u.source)}</span>
+                        <span class="update-text">${escHtml(u.title)}</span>
+                        <span class="update-meta">${escHtml(u.date || '')}${u.engagement ? ' · ' + escHtml(u.engagement) : ''}</span>
+                    </a>`;
+                }).join('')}
+            </div>`;
+        }
+
+        // Link
+        let linkHtml = '';
+        if (item.link && item.link !== '#') {
+            linkHtml = `<a href="${escAttr(item.link)}" class="card-link" target="_blank" rel="noopener">了解更多 &rarr;</a>`;
+        }
+
+        card.innerHTML = headerHtml + descHtml + featuresHtml + ghHtml + npmHtml + pricingHtml + metaHtml + updatesHtml + linkHtml;
+        container.appendChild(card);
+    });
+}
+
+// ---------------------------------------------------------------------------
+// OpenRouter cards
+// ---------------------------------------------------------------------------
+
+function renderOpenRouterCards(containerId, items) {
+    const container = document.getElementById(containerId);
+    container.innerHTML = '';
+
+    if (!items.length) {
+        container.innerHTML = '<p style="color: var(--text-secondary)">暂无 OpenRouter 数据。</p>';
+        return;
+    }
+
+    items.forEach(item => {
+        const card = document.createElement('div');
+        card.className = 'card or-card';
+
+        let pricingDetail = '';
+        if (item.pricing) {
+            const pp = item.pricing.prompt;
+            const pc = item.pricing.completion;
+            if (pp !== '?' || pc !== '?') {
+                pricingDetail = `<div class="pricing-detail">
+                    Input: $${pp}/tok | Output: $${pc}/tok
+                </div>`;
+            }
         }
 
         card.innerHTML = `
             <div class="card-header">
-                <div class="card-title">${item.title}</div>
-                ${item.badge ? `<div class="card-badge">${item.badge}</div>` : ''}
+                <div class="card-title">${escHtml(item.title)}</div>
+                ${item.badge ? `<span class="card-badge">${escHtml(item.badge)}</span>` : ''}
             </div>
-            <div class="card-desc">${item.description}</div>
-            ${updateHtml}
-            ${metaHtml}
-            ${item.link ? `<a href="${item.link}" class="card-link" target="_blank">官方了解更多 &rarr;</a>` : ''}
+            <div class="card-desc">${escHtml(item.description)}</div>
+            ${pricingDetail}
+            ${item.meta ? `<div class="card-meta">${item.meta.map(m => `<span>${escHtml(m)}</span>`).join('')}</div>` : ''}
+            ${item.link ? `<a href="${escAttr(item.link)}" class="card-link" target="_blank" rel="noopener">OpenRouter 查看 &rarr;</a>` : ''}
         `;
         container.appendChild(card);
     });
 }
 
+// ---------------------------------------------------------------------------
+// GitHub trending cards
+// ---------------------------------------------------------------------------
+
+function renderTrendingCards(containerId, items) {
+    const container = document.getElementById(containerId);
+    container.innerHTML = '';
+
+    if (!items.length) {
+        container.innerHTML = '<p style="color: var(--text-secondary)">暂无趋势数据。</p>';
+        return;
+    }
+
+    items.forEach(item => {
+        const card = document.createElement('div');
+        card.className = 'card trending-card';
+        card.innerHTML = `
+            <div class="card-header">
+                <div class="card-title">${escHtml(item.name)}</div>
+                <span class="gh-stat"><span class="gh-icon">&#9733;</span> ${formatNumber(item.stars)}</span>
+            </div>
+            <div class="card-desc">${escHtml(item.description)}</div>
+            <div class="card-meta">
+                ${item.language ? `<span>${escHtml(item.language)}</span>` : ''}
+                <span>Updated: ${escHtml(item.updated)}</span>
+            </div>
+            <a href="${escAttr(item.url)}" class="card-link" target="_blank" rel="noopener">GitHub 查看 &rarr;</a>
+        `;
+        container.appendChild(card);
+    });
+}
+
+// ---------------------------------------------------------------------------
+// News cards
+// ---------------------------------------------------------------------------
+
+function renderNewsCards(containerId, items) {
+    const container = document.getElementById(containerId);
+    container.innerHTML = '';
+
+    if (!items.length) {
+        container.innerHTML = '<p style="color: var(--text-secondary)">暂无资讯。</p>';
+        return;
+    }
+
+    items.forEach(item => {
+        const card = document.createElement('div');
+        card.className = 'card news-card';
+        card.innerHTML = `
+            <div class="card-header">
+                <div class="card-title">${escHtml(item.title)}</div>
+                ${item.badge ? `<span class="card-badge badge-hot">${escHtml(item.badge)}</span>` : ''}
+            </div>
+            <div class="card-desc">${escHtml(item.description)}</div>
+            ${item.meta ? `<div class="card-meta">${item.meta.map(m => `<span>${escHtml(m)}</span>`).join('')}</div>` : ''}
+            ${item.link ? `<a href="${escAttr(item.link)}" class="card-link" target="_blank" rel="noopener">阅读原文 &rarr;</a>` : ''}
+        `;
+        container.appendChild(card);
+    });
+}
+
+// ---------------------------------------------------------------------------
+// Utility helpers
+// ---------------------------------------------------------------------------
+
+function escHtml(str) {
+    if (!str) return '';
+    return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+}
+
+function escAttr(str) {
+    return escHtml(str);
+}
+
+function formatNumber(n) {
+    if (n >= 1000000) return (n / 1000000).toFixed(1) + 'M';
+    if (n >= 1000) return (n / 1000).toFixed(1) + 'K';
+    return String(n);
+}
+
+function getSourceClass(source) {
+    if (!source) return 'src-default';
+    const s = source.toLowerCase();
+    if (s.includes('github')) return 'src-github';
+    if (s.includes('hacker')) return 'src-hn';
+    if (s.includes('reddit')) return 'src-reddit';
+    if (s.includes('npm')) return 'src-npm';
+    if (s.includes('pypi')) return 'src-pypi';
+    if (s.includes('arxiv')) return 'src-arxiv';
+    return 'src-default';
+}
+
+// ---------------------------------------------------------------------------
+// Mock data fallback (minimal)
+// ---------------------------------------------------------------------------
+
 function getMockData() {
     return {
-        lastUpdated: new Date().toLocaleString('zh-CN'),
+        lastUpdated: new Date().toLocaleString('zh-CN') + ' (本地)',
+        version: "2.0",
         models: [
-            { title: 'OpenAI GPT-4o', badge: '领先', description: 'OpenAI 最新多模态旗舰模型，支持原生音频、视觉和文本交互，性能全面提升。', meta: ['多模态', '响应快', '闭源'], link: 'https://openai.com' },
-            { title: 'Claude 3.5 Sonnet', badge: '热门', description: 'Anthropic 发布的当前最强中杯模型，代码能力与逻辑推理能力大幅超越前代。', meta: ['代码强', '长文本', '闭源'], link: 'https://anthropic.com' },
-            { title: 'Google Gemini 1.5 Pro', badge: '原生多模态', description: '支持高达 2M Token 上下文窗口，在长文档分析与视频理解方面一骑绝尘。', meta: ['超长上下文', 'Google 生态', '闭源'], link: 'https://deepmind.google' },
-            { title: 'DeepSeek V2', badge: '国产高性价比', description: '采用创新架构的国产开源模型，API 价格极具竞争力，综合性能比肩顶级模型。', meta: ['开源', 'API 极简', '高性价比'], link: 'https://deepseek.com' },
-            { title: 'Kimi (Moonshot)', badge: '国产长文本', description: '月之暗面出品，主打超长文本处理与精准的信息提取能力，国内口碑极佳。', meta: ['长文本', '国内免翻'], link: 'https://kimi.moonshot.cn' },
-            { title: 'GLM-4', badge: '智谱AI', description: '智谱AI新一代基座大模型，综合能力全面升级，支持智能体定制。', meta: ['多模态', '国产头部'], link: 'https://zhipuai.cn' }
+            { title: 'OpenAI GPT-5.5', badge: '2026 旗舰', description: 'OpenAI 最新旗舰，代码工程与 Agentic 任务颠覆性提升。', meta: ['多模态', 'Agent', '闭源'], features: ['原生多模态', '自主 Agent', '幻觉率下降'], link: 'https://openai.com' },
+            { title: 'Claude Opus 4.7', badge: '逻辑之王', description: 'Anthropic 超大杯，任务预算控制，1M 上下文。', meta: ['精准控制', '1M 上下文', '闭源'], features: ['任务预算控制', '扩展思维', '代码能力登顶'], link: 'https://anthropic.com' },
+            { title: 'DeepSeek V3/R1', badge: '开源之光', description: '开源巨兽，MoE 架构，API 成本极具竞争力。', meta: ['开源', 'MoE', '高性价比'], features: ['MoE 架构', '开源权重', '推理能力顶级'], link: 'https://deepseek.com' }
         ],
         openrouter: [
-            { title: 'Llama 3 8B (Free)', badge: '免费/用量第一', description: '当前 OpenRouter 上最受欢迎的免费开源模型，适用于日常轻量级任务。', meta: ['Meta', '开源', '免费'], link: 'https://openrouter.ai' },
-            { title: 'Mistral Nemo', badge: '免费新星', description: 'Mistral 与 NVIDIA 联合发布的 12B 模型，性能强悍且在 OpenRouter 上免费提供。', meta: ['12B', '免费'], link: 'https://openrouter.ai' },
-            { title: 'Command R+', badge: '企业级测试', description: 'Cohere 针对 RAG 优化的旗舰模型，适合企业级复杂检索增强生成任务。', meta: ['RAG 优化', 'Alpha'], link: 'https://openrouter.ai' }
+            { title: 'Llama 3 8B (Free)', badge: '免费', description: 'OpenRouter 最受欢迎的免费开源模型。', meta: ['Meta', '免费'], link: 'https://openrouter.ai' }
         ],
         tools: [
-            { title: 'Claude Code', badge: '官方出品', description: 'Anthropic 官方推出的命令行 AI 编程助手，深度集成 Claude 3.5 Sonnet。', meta: ['CLI', '代码生成'], link: 'https://docs.anthropic.com' },
-            { title: 'Antigravity', badge: '智能体架构', description: 'Google DeepMind 团队开发的高级 Agentic 编码助手框架。', meta: ['Agent', '前沿探索'] },
-            { title: 'OpenCode', badge: '开源框架', description: '开源社区驱动的下一代 AI 编程 IDE 插件框架。', meta: ['开源', 'IDE 插件'] },
-            { title: 'Kiro', badge: '自动化', description: '轻量级 AI 工作流自动化工具，轻松串联各种模型 API。', meta: ['Workflow', '轻量级'] }
+            { title: 'Claude Code', badge: 'AI 编程旗舰', description: 'Anthropic 官方命令行 AI 编程助手。', meta: ['CLI', 'Agent'], features: ['自主编码', 'MCP 支持', 'Git 集成'], link: 'https://docs.anthropic.com' },
+            { title: 'Cursor', badge: 'AI IDE', description: 'AI-native IDE，Tab 补全与 Agent 模式。', meta: ['IDE', '多模型'], features: ['Tab 补全', 'Agent 模式'], link: 'https://cursor.com' }
         ],
         plugins: [
-            { title: 'cc claude', badge: '高效', description: '为 Claude 深度定制的增强插件，提供更便捷的 prompt 管理与历史记录。', meta: ['浏览器插件', '效率提升'] },
-            { title: 'cliproxyapi', badge: '开发者工具', description: '一键将各类 CLI 工具转化为标准 API 接口，极大简化 Agent 调用外部工具的难度。', meta: ['API 中转', 'Agent 增强'] }
-        ]
+            { title: 'MCP 生态', badge: '协议标准', description: 'AI 工具调用开放标准。', meta: ['协议', '开放'], features: ['标准化工具调用', '安全沙箱'], link: 'https://modelcontextprotocol.io' }
+        ],
+        news: [
+            { title: 'AI News (mock)', badge: 'HN (100 pts)', description: '示例新闻数据。', meta: ['Hacker News'], link: '#' }
+        ],
+        github_trending: []
     };
 }

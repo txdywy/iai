@@ -1,335 +1,1231 @@
 {
-  "lastUpdated": "2026-05-04 10:27:03 (UTC)",
+  "lastUpdated": "2026-05-04 10:42:51 (UTC)",
+  "version": "2.0",
   "models": [
     {
       "title": "OpenAI GPT-5.5",
-      "badge": "2026 新旗舰",
-      "description": "2026年最新发布，大幅减少幻觉，在代码工程与复杂 Agentic 任务上具备颠覆性提升。",
+      "badge": "2026 旗舰",
+      "description": "OpenAI 最新旗舰，大幅减少幻觉，代码工程与复杂 Agentic 任务能力颠覆性提升。原生多模态，支持自主 Agent 工作流。",
       "meta": [
         "多模态",
         "自主 Agent",
-        "闭源"
+        "闭源",
+        "OpenAI"
       ],
       "link": "https://openai.com",
-      "latest_update": {
-        "title": "Tell HN: Claude account suspension after flagging duplicate billing",
-        "url": "https://news.ycombinator.com/item?id=47976682",
-        "date": "2026-05-01"
-      }
+      "features": [
+        "原生多模态输入/输出",
+        "自主 Agent 循环",
+        "幻觉率大幅下降",
+        "代码工程 SOTA"
+      ],
+      "pricing_hint": "~$0.03/1K input tokens",
+      "recent_updates": [
+        {
+          "title": "Excellent discussion about LLM scaling [D]",
+          "url": "https://reddit.com/r/MachineLearning/comments/1t3ao9m/excellent_discussion_about_llm_scaling_d/",
+          "date": "2026-05-04",
+          "source": "r/MachineLearning",
+          "engagement": "2 pts, 0 comments"
+        },
+        {
+          "title": "T6 Active — AI Recursive Translator Experiment",
+          "url": "https://reddit.com/r/artificial/comments/1t2okqd/t6_active_ai_recursive_translator_experiment/",
+          "date": "2026-05-03",
+          "source": "r/artificial",
+          "engagement": "0 pts, 5 comments"
+        },
+        {
+          "title": "The Scaling Bandaid is Wearing Thin (And Nobody Wants to Admit It)",
+          "url": "https://reddit.com/r/artificial/comments/1t24gvd/the_scaling_bandaid_is_wearing_thin_and_nobody/",
+          "date": "2026-05-02",
+          "source": "r/artificial",
+          "engagement": "0 pts, 7 comments"
+        },
+        {
+          "title": "The Structured Output Benchmark (SOB) - validates both JSON parse and value accuracy [R]",
+          "url": "https://reddit.com/r/MachineLearning/comments/1syepnz/the_structured_output_benchmark_sob_validates/",
+          "date": "2026-04-28",
+          "source": "r/MachineLearning",
+          "engagement": "8 pts, 0 comments"
+        }
+      ]
     },
     {
       "title": "Claude Opus 4.7",
       "badge": "逻辑之王",
-      "description": "Anthropic 发布的最新超大杯，原生引入“任务预算”控制，极强的高阶规划和代码能力。",
+      "description": "Anthropic 最新超大杯，原生任务预算控制，高阶规划与代码能力登顶。1M token 上下文。",
       "meta": [
         "精准控制",
-        "长文本",
-        "闭源"
+        "1M 上下文",
+        "闭源",
+        "Anthropic"
       ],
       "link": "https://anthropic.com",
-      "latest_update": {
-        "title": "$38k AWS Bedrock bill caused by a simple prompt caching miss",
-        "url": "https://news.ycombinator.com/item?id=47933355",
-        "date": "2026-04-28"
-      }
+      "features": [
+        "任务预算控制",
+        "1M token 上下文",
+        "高阶规划",
+        "代码能力登顶",
+        "扩展思维"
+      ],
+      "pricing_hint": "~$0.015/1K input tokens",
+      "recent_updates": [
+        {
+          "title": "Claude Status Update : Elevated errors on Claude Opus 4.5 on 2026-05-04T09:49:29.000Z",
+          "url": "https://reddit.com/r/ClaudeAI/comments/1t3d4h7/claude_status_update_elevated_errors_on_claude/",
+          "date": "2026-05-04",
+          "source": "r/ClaudeAI",
+          "engagement": "3 pts, 0 comments"
+        },
+        {
+          "title": "Claude Status Update : Elevated errors on Claude Opus 4.5 on 2026-05-04T09:23:04.000Z",
+          "url": "https://reddit.com/r/ClaudeAI/comments/1t3cls4/claude_status_update_elevated_errors_on_claude/",
+          "date": "2026-05-04",
+          "source": "r/ClaudeAI",
+          "engagement": "1 pts, 0 comments"
+        }
+      ]
     },
     {
-      "title": "Google Gemini 3.1 Pro",
+      "title": "Google Gemini 2.5 Pro",
       "badge": "原生多模态",
-      "description": "霸榜多项推理 Benchmark，在多模态理解与超长上下文方面维持统治级表现。",
+      "description": "Google DeepMind 出品，多项推理 Benchmark 霸榜，原生多模态与超长上下文统治级表现。",
       "meta": [
         "超长上下文",
-        "Google生态",
-        "闭源"
+        "Google 生态",
+        "闭源",
+        "DeepMind"
       ],
-      "link": "https://deepmind.google"
+      "link": "https://deepmind.google",
+      "features": [
+        "原生多模态",
+        "超长上下文",
+        "推理 Benchmark 霸榜",
+        "Google 生态集成"
+      ],
+      "pricing_hint": "~$0.00125/1K input tokens",
+      "recent_updates": [
+        {
+          "title": "I implemented meta paper [P]",
+          "url": "https://reddit.com/r/MachineLearning/comments/1t1rni9/i_implemented_meta_paper_p/",
+          "date": "2026-05-02",
+          "source": "r/MachineLearning",
+          "engagement": "2 pts, 5 comments"
+        },
+        {
+          "title": "Need Help Understanding This",
+          "url": "https://reddit.com/r/GoogleGemini/comments/1t0bp22/need_help_understanding_this/",
+          "date": "2026-04-30",
+          "source": "r/GoogleGemini",
+          "engagement": "6 pts, 4 comments"
+        },
+        {
+          "title": "Problem with Gemini: used to work, now blocks requests for no reason",
+          "url": "https://reddit.com/r/GoogleGemini/comments/1sxgmh8/problem_with_gemini_used_to_work_now_blocks/",
+          "date": "2026-04-27",
+          "source": "r/GoogleGemini",
+          "engagement": "1 pts, 1 comments"
+        }
+      ]
     },
     {
-      "title": "DeepSeek V4",
-      "badge": "国产之光",
-      "description": "最新发布的开源巨兽，采用极致高效架构，API 成本依然极具竞争力。",
+      "title": "DeepSeek V3/R1",
+      "badge": "开源之光",
+      "description": "开源巨兽，极致高效 MoE 架构，API 成本极具竞争力，推理能力比肩闭源旗舰。",
       "meta": [
         "开源/开放权重",
-        "API极简"
+        "MoE 架构",
+        "高性价比"
       ],
       "link": "https://deepseek.com",
-      "latest_update": {
-        "title": "DeepSeek's Sequel",
-        "url": "https://messaging-custom-newsletters.nytimes.com/dynamic/render",
-        "date": "2026-05-04"
-      }
+      "features": [
+        "MoE 高效架构",
+        "开源权重",
+        "API 极低价",
+        "推理能力顶级"
+      ],
+      "pricing_hint": "~$0.27/M input tokens",
+      "recent_updates": [
+        {
+          "title": "Local LLM Benchmark about Backend Generation by Function Calling (GLM vs Qwen vs DeepSeek)",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1t2m7wi/local_llm_benchmark_about_backend_generation_by/",
+          "date": "2026-05-03",
+          "source": "r/LocalLLaMA",
+          "engagement": "17 pts, 2 comments"
+        },
+        {
+          "title": "Open Weights Models Hall of Fame",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1t2lwn0/open_weights_models_hall_of_fame/",
+          "date": "2026-05-03",
+          "source": "r/LocalLLaMA",
+          "engagement": "86 pts, 31 comments"
+        }
+      ]
     },
     {
-      "title": "Kimi K2.6",
+      "title": "Kimi K2 (月之暗面)",
       "badge": "长文本领军",
-      "description": "支持恐怖的超长上下文，并引入全新 \"Agent Swarm\" 技术进行复杂任务拆解。",
+      "description": "月之暗面出品，支持超长上下文，Agent Swarm 技术进行复杂任务拆解。",
       "meta": [
         "Agent Swarm",
-        "长文本"
+        "超长文本",
+        "Moonshot AI"
       ],
       "link": "https://kimi.moonshot.cn",
-      "latest_update": {
-        "title": "Show HN: Real-Time AI Design Benchmark",
-        "url": "https://shuffle.dev/ai-design",
-        "date": "2026-02-24"
-      }
+      "features": [
+        "超长上下文窗口",
+        "Agent Swarm 任务拆解",
+        "中文能力顶级",
+        "多步推理"
+      ],
+      "pricing_hint": "国内定价",
+      "recent_updates": [
+        {
+          "title": "Open Weights Models Hall of Fame",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1t2lwn0/open_weights_models_hall_of_fame/",
+          "date": "2026-05-03",
+          "source": "r/LocalLLaMA",
+          "engagement": "84 pts, 31 comments"
+        },
+        {
+          "title": "I'm Not a Dev But I Use Qwen 3.6 35b to Code",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1sy4clx/im_not_a_dev_but_i_use_qwen_36_35b_to_code/",
+          "date": "2026-04-28",
+          "source": "r/LocalLLaMA",
+          "engagement": "15 pts, 74 comments"
+        }
+      ]
     },
     {
-      "title": "GLM-5.1",
+      "title": "GLM-4 / ChatGLM",
       "badge": "智谱AI",
-      "description": "MoE 架构，纯国产算力训练，在代码和逻辑推理上获得巨大后训练提升。",
+      "description": "智谱 AI 出品，MoE 架构，纯国产算力训练，代码与逻辑推理后训练大幅增强。",
       "meta": [
         "国产算力",
-        "开源"
+        "开源",
+        "MoE"
       ],
-      "link": "https://zhipuai.cn"
+      "link": "https://zhipuai.cn",
+      "features": [
+        "MoE 架构",
+        "国产算力",
+        "开源可商用",
+        "代码推理增强"
+      ],
+      "pricing_hint": "国内定价",
+      "recent_updates": []
     },
     {
-      "title": "MiniMax M2.7",
-      "badge": "高吞吐",
-      "description": "自进化模型架构，在自动化工具调用和办公流（Productivity）场景下表现绝佳。",
+      "title": "Llama 4 (Meta)",
+      "badge": "开源霸主",
+      "description": "Meta 最新开源大模型系列，Scout/Maverick 多尺寸覆盖，原生多模态。",
       "meta": [
-        "工具调用",
-        "办公流"
+        "开源",
+        "多模态",
+        "Meta"
       ],
-      "link": "https://api.minimax.chat",
-      "latest_update": {
-        "title": "Aligning to What? Rethinking Agent Generalization in MiniMax M2",
-        "url": "https://huggingface.co/blog/MiniMax-AI/aligning-to-what",
-        "date": "2025-12-26"
-      }
+      "link": "https://llama.meta.com",
+      "features": [
+        "完全开源",
+        "多尺寸",
+        "原生多模态",
+        "社区生态庞大"
+      ],
+      "pricing_hint": "免费开源",
+      "recent_updates": [
+        {
+          "title": "Mistral Medium 3.5 128B and Qwen 3.5 122B A10B on 4x RTX 3080 20GB",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1t372ml/mistral_medium_35_128b_and_qwen_35_122b_a10b_on/",
+          "date": "2026-05-04",
+          "source": "r/LocalLLaMA",
+          "engagement": "6 pts, 9 comments"
+        },
+        {
+          "title": "Testing PrismML Models",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1t329tw/testing_prismml_models/",
+          "date": "2026-05-04",
+          "source": "r/LocalLLaMA",
+          "engagement": "0 pts, 5 comments"
+        },
+        {
+          "title": "A Hackable ML Compiler Stack in 5,000 Lines of Python [P]",
+          "url": "https://reddit.com/r/MachineLearning/comments/1t07zff/a_hackable_ml_compiler_stack_in_5000_lines_of/",
+          "date": "2026-04-30",
+          "source": "r/MachineLearning",
+          "engagement": "8 pts, 0 comments"
+        }
+      ]
     },
     {
-      "title": "MiMo V2.5-Pro",
-      "badge": "全能新星",
-      "description": "小米 AI 实验室最新大作，万亿参数 MoE 架构，强力支撑多步 Agentic 规划。",
+      "title": "Qwen 3 (阿里云)",
+      "badge": "通义千问",
+      "description": "阿里云通义千问最新系列，MoE 与 Dense 多型号覆盖，工具调用与代码能力领先。",
       "meta": [
-        "百万上下文",
-        "全模态"
+        "开源",
+        "MoE",
+        "阿里云"
       ],
-      "link": "#"
+      "link": "https://qwenlm.github.io",
+      "features": [
+        "MoE + Dense 多型号",
+        "工具调用领先",
+        "代码生成强",
+        "开源可商用"
+      ],
+      "pricing_hint": "免费开源",
+      "recent_updates": [
+        {
+          "title": "Mistral Medium 3.5 128B and Qwen 3.5 122B A10B on 4x RTX 3080 20GB",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1t372ml/mistral_medium_35_128b_and_qwen_35_122b_a10b_on/",
+          "date": "2026-05-04",
+          "source": "r/LocalLLaMA",
+          "engagement": "7 pts, 9 comments"
+        },
+        {
+          "title": "Advice needed on eGPU and Mini PC",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1t36gsi/advice_needed_on_egpu_and_mini_pc/",
+          "date": "2026-05-04",
+          "source": "r/LocalLLaMA",
+          "engagement": "0 pts, 13 comments"
+        },
+        {
+          "title": "I gave my local LLM a \"suffering\" meter, and now it won’t stop self-modifying to fix its own stress.",
+          "url": "https://reddit.com/r/artificial/comments/1t31ghg/i_gave_my_local_llm_a_suffering_meter_and_now_it/",
+          "date": "2026-05-03",
+          "source": "r/artificial",
+          "engagement": "81 pts, 48 comments"
+        },
+        {
+          "title": "When you give Qwen 3.5:9b persistent suffering states and leave it alone overnight, this happens",
+          "url": "https://reddit.com/r/artificial/comments/1szo64c/when_you_give_qwen_359b_persistent_suffering/",
+          "date": "2026-04-30",
+          "source": "r/artificial",
+          "engagement": "14 pts, 11 comments"
+        }
+      ]
     }
   ],
   "openrouter": [
     {
       "title": "Owl Alpha",
-      "badge": "免费体验",
-      "description": "OpenRouter 提供的免费访问模型。ID: openrouter/owl-alpha。上下文长度: 1048756 tokens。",
+      "badge": "免费",
+      "description": "Owl Alpha is a high-performance foundation model designed for agentic workloads. Natively supports tool use, and long-context tasks, with strong performance in code generation, automated workflows, an",
       "meta": [
-        "免费",
-        "API 开放"
+        "上下文 1048K",
+        "text->text",
+        "免费"
       ],
-      "link": "https://openrouter.ai/models/openrouter/owl-alpha"
+      "link": "https://openrouter.ai/models/openrouter/owl-alpha",
+      "model_id": "openrouter/owl-alpha",
+      "context_length": 1048756,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      }
     },
     {
       "title": "Google: Lyria 3 Pro Preview",
-      "badge": "免费体验",
-      "description": "OpenRouter 提供的免费访问模型。ID: google/lyria-3-pro-preview。上下文长度: 1048576 tokens。",
+      "badge": "免费",
+      "description": "Full-length songs are priced at $0.08 per song. Lyria 3 is Google's family of music generation models, available through the Gemini API. With Lyria 3, you can generate high-quality, 48kHz...",
       "meta": [
-        "免费",
-        "API 开放"
+        "上下文 1048K",
+        "text+image->text+audio",
+        "免费"
       ],
-      "link": "https://openrouter.ai/models/google/lyria-3-pro-preview"
+      "link": "https://openrouter.ai/models/google/lyria-3-pro-preview",
+      "model_id": "google/lyria-3-pro-preview",
+      "context_length": 1048576,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      }
     },
     {
       "title": "Google: Lyria 3 Clip Preview",
-      "badge": "免费体验",
-      "description": "OpenRouter 提供的免费访问模型。ID: google/lyria-3-clip-preview。上下文长度: 1048576 tokens。",
+      "badge": "免费",
+      "description": "30 second duration clips are priced at $0.04 per clip. Lyria 3 is Google's family of music generation models, available through the Gemini API. With Lyria 3, you can generate...",
       "meta": [
-        "免费",
-        "API 开放"
+        "上下文 1048K",
+        "text+image->text+audio",
+        "免费"
       ],
-      "link": "https://openrouter.ai/models/google/lyria-3-clip-preview"
+      "link": "https://openrouter.ai/models/google/lyria-3-clip-preview",
+      "model_id": "google/lyria-3-clip-preview",
+      "context_length": 1048576,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      }
     },
     {
       "title": "inclusionAI: Ling-2.6-1T (free)",
-      "badge": "免费体验",
-      "description": "OpenRouter 提供的免费访问模型。ID: inclusionai/ling-2.6-1t:free。上下文长度: 262144 tokens。",
+      "badge": "免费",
+      "description": "Ling-2.6-1T is an instant (instruct) model from inclusionAI and the company’s trillion-parameter flagship, designed for real-world agents that require fast execution and high efficiency at scale. It u",
       "meta": [
-        "免费",
-        "API 开放"
+        "上下文 262K",
+        "text->text",
+        "免费"
       ],
-      "link": "https://openrouter.ai/models/inclusionai/ling-2.6-1t:free"
+      "link": "https://openrouter.ai/models/inclusionai/ling-2.6-1t:free",
+      "model_id": "inclusionai/ling-2.6-1t:free",
+      "context_length": 262144,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      }
+    },
+    {
+      "title": "Tencent: Hy3 preview (free)",
+      "badge": "免费",
+      "description": "Hy3 preview is a high-efficiency Mixture-of-Experts model from Tencent designed for agentic workflows and production use. It supports configurable reasoning levels across disabled, low, and high modes",
+      "meta": [
+        "上下文 262K",
+        "text->text",
+        "免费"
+      ],
+      "link": "https://openrouter.ai/models/tencent/hy3-preview:free",
+      "model_id": "tencent/hy3-preview:free",
+      "context_length": 262144,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      }
+    },
+    {
+      "title": "xAI: Grok 4.20 Multi-Agent",
+      "badge": "超低价",
+      "description": "Grok 4.20 Multi-Agent is a variant of xAI’s Grok 4.20 designed for collaborative, agent-based workflows. Multiple agents operate in parallel to conduct deep research, coordinate tool use, and synthesi",
+      "meta": [
+        "上下文 2000K",
+        "text+image+file->text",
+        "$0.00/M tok"
+      ],
+      "link": "https://openrouter.ai/models/x-ai/grok-4.20-multi-agent",
+      "model_id": "x-ai/grok-4.20-multi-agent",
+      "context_length": 2000000,
+      "pricing": {
+        "prompt": "0.000002",
+        "completion": "0.000006"
+      }
+    },
+    {
+      "title": "xAI: Grok 4.20",
+      "badge": "超低价",
+      "description": "Grok 4.20 is xAI's newest flagship model with industry-leading speed and agentic tool calling capabilities. It combines the lowest hallucination rate on the market with strict prompt adherance, delive",
+      "meta": [
+        "上下文 2000K",
+        "text+image+file->text",
+        "$0.00/M tok"
+      ],
+      "link": "https://openrouter.ai/models/x-ai/grok-4.20",
+      "model_id": "x-ai/grok-4.20",
+      "context_length": 2000000,
+      "pricing": {
+        "prompt": "0.00000125",
+        "completion": "0.0000025"
+      }
+    },
+    {
+      "title": "xAI: Grok 4.1 Fast",
+      "badge": "超低价",
+      "description": "Grok 4.1 Fast is xAI's best agentic tool calling model that shines in real-world use cases like customer support and deep research. 2M context window. Reasoning can be enabled/disabled using...",
+      "meta": [
+        "上下文 2000K",
+        "text+image+file->text",
+        "$0.00/M tok"
+      ],
+      "link": "https://openrouter.ai/models/x-ai/grok-4.1-fast",
+      "model_id": "x-ai/grok-4.1-fast",
+      "context_length": 2000000,
+      "pricing": {
+        "prompt": "0.0000002",
+        "completion": "0.0000005"
+      }
     }
   ],
   "tools": [
     {
-      "title": "OpenClaw",
-      "badge": "生态互联",
-      "description": "最热门的开源 Gateway-first 智能体框架，拥有海量技能插件，轻松打通工作流。",
-      "meta": [
-        "Agent",
-        "多平台生态"
-      ],
-      "link": "https://github.com/openclaw"
-    },
-    {
-      "title": "Hermes Agent",
-      "badge": "自主进化",
-      "description": "Nous Research 推出的 Agent-first 框架，主打自学习与长记忆循环，持续进化。",
-      "meta": [
-        "长记忆",
-        "自学习"
-      ],
-      "link": "https://nousresearch.com/hermes",
-      "latest_update": {
-        "title": "Show HN: AI Hermes Agent – An independent Hermes Agent install guide",
-        "url": "https://ai-hermes-agent.com/install",
-        "date": "2026-04-22"
-      }
-    },
-    {
       "title": "Claude Code",
-      "badge": "官方出品",
-      "description": "Anthropic 官方推出的命令行 AI 编程助手，深度集成最新 Claude 模型。",
+      "badge": "AI 编程旗舰",
+      "description": "Anthropic 官方命令行 AI 编程助手，深度集成 Claude 模型，支持自主编码、测试、调试全流程。",
       "meta": [
         "CLI",
-        "代码生成"
-      ],
-      "link": "https://docs.anthropic.com",
-      "latest_update": {
-        "title": "Ruflo: Multi-agent AI orchestration for Claude Code",
-        "url": "https://github.com/ruvnet/ruflo/blob/main/docs/USERGUIDE.md",
-        "date": "2026-05-04"
-      }
-    },
-    {
-      "title": "Antigravity",
-      "badge": "智能体架构",
-      "description": "高级 Agentic 编码助手框架。",
-      "meta": [
+        "代码生成",
         "Agent",
-        "前沿探索"
+        "Anthropic"
       ],
-      "latest_update": {
-        "title": "Ask HN: Anyone using AI agents for active learning sprints? Here's my setup",
-        "url": "https://news.ycombinator.com/item?id=47959169",
-        "date": "2026-04-30"
-      }
+      "link": "https://docs.anthropic.com/en/docs/claude-code",
+      "features": [
+        "自主编码全流程",
+        "MCP 协议支持",
+        "Git 深度集成",
+        "扩展思维模式"
+      ],
+      "latest_version": "2.1.126",
+      "version_date": "2026-04-30",
+      "npm_downloads_weekly": 7687349,
+      "recent_updates": [
+        {
+          "title": "Your Claude Code agent is always working from stale context. I built it a fix it can rewind, replay, and stay ahead of every edit.",
+          "url": "https://reddit.com/r/ClaudeAI/comments/1t3du61/your_claude_code_agent_is_always_working_from/",
+          "date": "2026-05-04",
+          "source": "r/ClaudeAI",
+          "engagement": "8 pts, 2 comments"
+        },
+        {
+          "title": "Does Claude Pro include Claude Code ?",
+          "url": "https://reddit.com/r/ClaudeAI/comments/1t3c74t/does_claude_pro_include_claude_code/",
+          "date": "2026-05-04",
+          "source": "r/ClaudeAI",
+          "engagement": "0 pts, 14 comments"
+        },
+        {
+          "title": "npm v2.1.126 — Use Claude, Anthropic's AI assistant, right from your terminal. Claude can understand your codebase, edit files, run terminal commands, and handle entire workflows for you.",
+          "url": "https://github.com/anthropics/claude-code",
+          "date": "2026-04-30",
+          "source": "npm"
+        },
+        {
+          "title": "Show HN: Generate Automatic Standup Updates from Claude Code",
+          "url": "https://github.com/AlexanderBZ/claude-status-update",
+          "date": "2026-03-16",
+          "source": "Hacker News",
+          "engagement": "2 pts, 0 comments"
+        },
+        {
+          "title": "Show HN: SnipKey v5.0 – Free Keyboard Extension",
+          "url": "https://apps.apple.com/us/app/snipkey-keyboard-extension/id6480381137",
+          "date": "2025-11-13",
+          "source": "Hacker News",
+          "engagement": "1 pts, 0 comments"
+        },
+        {
+          "title": "Show HN: InsForge – Open-source agent-native alternative to Supabase",
+          "url": "https://github.com/InsForge/InsForge",
+          "date": "2025-08-03",
+          "source": "Hacker News",
+          "engagement": "7 pts, 1 comments"
+        }
+      ]
     },
     {
-      "title": "OpenCode",
-      "badge": "开源框架",
-      "description": "开源社区驱动的下一代 AI 编程 IDE 插件框架。",
+      "title": "Cursor",
+      "badge": "AI IDE 先驱",
+      "description": "基于 VS Code 的 AI-native IDE，集成多模型支持，Tab 补全与 Agent 模式并行。",
       "meta": [
-        "开源",
-        "IDE插件"
+        "IDE",
+        "多模型",
+        "Tab 补全"
       ],
-      "latest_update": {
-        "title": "Show HN: An agent that remembers across sessions (no chat history)",
-        "url": "https://github.com/umbecanessa/neural-ledger-system",
-        "date": "2026-04-28"
-      }
+      "link": "https://cursor.com",
+      "features": [
+        "AI-native 代码编辑",
+        "多模型切换",
+        "Tab 智能补全",
+        "Agent 模式",
+        "代码库索引"
+      ],
+      "recent_updates": [
+        {
+          "title": "FAREWELL CURSOR",
+          "url": "https://reddit.com/r/cursor/comments/1t2xk0n/farewell_cursor/",
+          "date": "2026-05-03",
+          "source": "r/cursor",
+          "engagement": "65 pts, 47 comments"
+        },
+        {
+          "title": "Multiples charges from my card by Cursor AI even though I never used the site",
+          "url": "https://reddit.com/r/cursor/comments/1t2maz1/multiples_charges_from_my_card_by_cursor_ai_even/",
+          "date": "2026-05-03",
+          "source": "r/cursor",
+          "engagement": "0 pts, 4 comments"
+        },
+        {
+          "title": "Show HN: Onlook – Open-source, visual-first Cursor for designers",
+          "url": "https://github.com/onlook-dev/onlook",
+          "date": "2025-05-29",
+          "source": "Hacker News",
+          "engagement": "408 pts, 81 comments"
+        }
+      ]
     },
     {
-      "title": "Kiro",
-      "badge": "自动化",
-      "description": "轻量级 AI 工作流自动化工具，轻松串联各种模型 API。",
+      "title": "Windsurf (Codeium)",
+      "badge": "流式 AI",
+      "description": "Codeium 推出的 AI IDE，主打 Cascade 流式 Agent 和深度代码理解。",
       "meta": [
-        "Workflow",
-        "轻量级"
+        "IDE",
+        "Cascade",
+        "流式 Agent"
       ],
-      "latest_update": {
-        "title": "OPC Workflow – Three Markdown files that enforce discipline on AI coding tools",
-        "url": "https://news.ycombinator.com/item?id=47804867",
-        "date": "2026-04-17"
-      }
+      "link": "https://codeium.com/windsurf",
+      "features": [
+        "Cascade 流式 Agent",
+        "深度代码理解",
+        "多文件编辑",
+        "免费额度"
+      ],
+      "recent_updates": []
     },
     {
-      "title": "Gemini-CLI",
-      "badge": "命令行",
-      "description": "快速调用 Google Gemini API 的终端工具。",
+      "title": "OpenAI Codex CLI",
+      "badge": "OpenAI 官方",
+      "description": "OpenAI 推出的开源命令行编码 Agent，支持沙箱执行与自主代码生成。",
       "meta": [
         "CLI",
-        "Google"
+        "开源",
+        "Agent",
+        "OpenAI"
       ],
-      "latest_update": {
-        "title": "Show HN: A marketplace for LLM-powered webapps earning on token margins",
-        "url": "https://codeplusequalsai.com/dashboard",
-        "date": "2026-05-02"
-      }
+      "link": "https://github.com/openai/codex",
+      "features": [
+        "开源 CLI Agent",
+        "沙箱安全执行",
+        "自主代码生成",
+        "多语言支持"
+      ],
+      "recent_updates": [
+        {
+          "title": "Chat GPT's Internal Memory (the other Memory System)",
+          "url": "https://reddit.com/r/ChatGPT/comments/1t38lmi/chat_gpts_internal_memory_the_other_memory_system/",
+          "date": "2026-05-04",
+          "source": "r/ChatGPT",
+          "engagement": "0 pts, 7 comments"
+        },
+        {
+          "title": "In AI chat, what should stay text — and what should be UI?",
+          "url": "https://reddit.com/r/ChatGPT/comments/1t2vcf3/in_ai_chat_what_should_stay_text_and_what_should/",
+          "date": "2026-05-03",
+          "source": "r/ChatGPT",
+          "engagement": "2 pts, 4 comments"
+        }
+      ]
+    },
+    {
+      "title": "Gemini CLI",
+      "badge": "Google 出品",
+      "description": "Google 官方命令行 Gemini 交互工具，支持代码生成与 API 调用。",
+      "meta": [
+        "CLI",
+        "Google",
+        "Gemini"
+      ],
+      "link": "https://github.com/google-gemini/gemini-cli",
+      "features": [
+        "官方命令行工具",
+        "Gemini 模型调用",
+        "代码生成",
+        "免费额度"
+      ],
+      "recent_updates": []
+    },
+    {
+      "title": "GitHub Copilot",
+      "badge": "行业标配",
+      "description": "GitHub + Microsoft 的 AI 编程助手，支持 Agent 模式、多模型切换、Copilot Workspace。",
+      "meta": [
+        "IDE 集成",
+        "Agent 模式",
+        "多模型"
+      ],
+      "link": "https://github.com/features/copilot",
+      "features": [
+        "Agent 模式",
+        "多模型支持",
+        "VS Code/JetBrains 集成",
+        "Copilot Workspace"
+      ],
+      "recent_updates": [
+        {
+          "title": "Github if Google designed it",
+          "url": "https://reddit.com/r/github/comments/1t2k6qy/github_if_google_designed_it/",
+          "date": "2026-05-03",
+          "source": "r/github",
+          "engagement": "417 pts, 31 comments"
+        },
+        {
+          "title": "Did GitHub change how inline HTML is rendered in profile READMEs? My icon rows are now stacking vertically.",
+          "url": "https://reddit.com/r/github/comments/1t20lyu/did_github_change_how_inline_html_is_rendered_in/",
+          "date": "2026-05-02",
+          "source": "r/github",
+          "engagement": "2 pts, 1 comments"
+        },
+        {
+          "title": "An update on GitHub availability",
+          "url": "https://reddit.com/r/programming/comments/1sy00b7/an_update_on_github_availability/",
+          "date": "2026-04-28",
+          "source": "r/programming",
+          "engagement": "505 pts, 184 comments"
+        }
+      ]
+    },
+    {
+      "title": "Aider",
+      "badge": "终端 AI 助手",
+      "description": "AI pair programming in your terminal. 支持多种 LLM 后端，Git 深度集成。",
+      "meta": [
+        "CLI",
+        "多模型",
+        "开源"
+      ],
+      "link": "https://aider.chat",
+      "features": [
+        "多 LLM 后端支持",
+        "Git 深度集成",
+        "终端原生",
+        "开源"
+      ],
+      "latest_version": "0.86.2",
+      "recent_updates": [
+        {
+          "title": "Frontier models can't run on satellites. Here's an end-to-end wildfire detection pipeline using a 450M on-board Vision-Language Model (Sentinel-2 + LFM2.5-VL)",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1t36myv/frontier_models_cant_run_on_satellites_heres_an/",
+          "date": "2026-05-04",
+          "source": "r/LocalLLaMA",
+          "engagement": "9 pts, 4 comments"
+        },
+        {
+          "title": "Advice needed on eGPU and Mini PC",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1t36gsi/advice_needed_on_egpu_and_mini_pc/",
+          "date": "2026-05-04",
+          "source": "r/LocalLLaMA",
+          "engagement": "0 pts, 13 comments"
+        },
+        {
+          "title": "PyPI v0.86.2 — Aider is AI pair programming in your terminal",
+          "url": "https://pypi.org/project/aider-chat/",
+          "date": "",
+          "source": "PyPI"
+        }
+      ]
+    },
+    {
+      "title": "Cline",
+      "badge": "VS Code Agent",
+      "description": "VS Code 内的自主编码 Agent，支持 Plan & Act 模式，MCP 工具扩展。",
+      "meta": [
+        "VS Code",
+        "Agent",
+        "MCP",
+        "开源"
+      ],
+      "link": "https://github.com/cline/cline",
+      "features": [
+        "Plan & Act 模式",
+        "MCP 工具扩展",
+        "自主编码",
+        "多模型支持"
+      ],
+      "latest_version": "3.10.10",
+      "version_date": "2025-04-09",
+      "npm_downloads_weekly": 8,
+      "recent_updates": [
+        {
+          "title": "Someone compromised SAP's npm packages and used the CI pipeline against itself",
+          "url": "https://reddit.com/r/programming/comments/1sz094x/someone_compromised_saps_npm_packages_and_used/",
+          "date": "2026-04-29",
+          "source": "r/programming",
+          "engagement": "155 pts, 19 comments"
+        },
+        {
+          "title": "Show HN: Overture – Interactive plan viewer for AI coding agents (open source)",
+          "url": "https://github.com/SixHq/Overture",
+          "date": "2026-02-22",
+          "source": "Hacker News",
+          "engagement": "2 pts, 0 comments"
+        },
+        {
+          "title": "Show HN: AutEng Docs – Google Docs x Gist x LLM chat",
+          "url": "https://auteng.ai",
+          "date": "2025-12-09",
+          "source": "Hacker News",
+          "engagement": "1 pts, 0 comments"
+        },
+        {
+          "title": "npm v3.10.10 — Autonomous coding agent right in your IDE, capable of creating/editing files, running commands, using the browser, and more with your permission every step of the way.",
+          "url": "https://cline.bot",
+          "date": "2025-04-09",
+          "source": "npm"
+        },
+        {
+          "title": "Show HN: Cline – Open-Source VS Code AI Coding Agent with a New MCP Marketplace",
+          "url": "https://github.com/cline/cline",
+          "date": "2025-02-19",
+          "source": "Hacker News",
+          "engagement": "3 pts, 1 comments"
+        }
+      ]
     }
   ],
   "plugins": [
     {
-      "title": "cc claude",
-      "badge": "高效",
-      "description": "为 Claude 深度定制的增强插件，提供更便捷的 prompt 管理与历史记录。",
+      "title": "MCP 生态 (Model Context Protocol)",
+      "badge": "工具协议标准",
+      "description": "Anthropic 发起的开放工具协议标准，让 AI 模型安全调用外部工具与数据源。生态快速扩展中。",
       "meta": [
-        "浏览器插件",
-        "效率提升"
+        "协议标准",
+        "工具调用",
+        "开放生态"
+      ],
+      "link": "https://modelcontextprotocol.io",
+      "features": [
+        "标准化工具调用",
+        "安全沙箱执行",
+        "多语言 SDK",
+        "活跃社区生态"
+      ],
+      "recent_updates": [
+        {
+          "title": "Your Claude Code agent is always working from stale context. I built it a fix it can rewind, replay, and stay ahead of every edit.",
+          "url": "https://reddit.com/r/ClaudeAI/comments/1t3du61/your_claude_code_agent_is_always_working_from/",
+          "date": "2026-05-04",
+          "source": "r/ClaudeAI",
+          "engagement": "8 pts, 2 comments"
+        },
+        {
+          "title": "Used Claude Code to ship a native iOS puzzle game over a weekend, full breakdown",
+          "url": "https://reddit.com/r/ClaudeAI/comments/1t3alus/used_claude_code_to_ship_a_native_ios_puzzle_game/",
+          "date": "2026-05-04",
+          "source": "r/ClaudeAI",
+          "engagement": "0 pts, 10 comments"
+        },
+        {
+          "title": "Show HN: Xano 2.0 – AI-Generated Back Ends That Are Production-Ready",
+          "url": "https://www.xano.com/",
+          "date": "2025-10-22",
+          "source": "Hacker News",
+          "engagement": "1 pts, 0 comments"
+        },
+        {
+          "title": "Launch HN: April (YC S25) – Voice AI to manage your email and calendar",
+          "url": "https://news.ycombinator.com/item?id=45015230",
+          "date": "2025-08-25",
+          "source": "Hacker News",
+          "engagement": "98 pts, 95 comments"
+        },
+        {
+          "title": "OneNoughtOne – AI That Turns Conversations into Actions Across Your Digital Life",
+          "url": "https://news.ycombinator.com/item?id=44661394",
+          "date": "2025-07-23",
+          "source": "Hacker News",
+          "engagement": "2 pts, 0 comments"
+        }
       ]
     },
     {
-      "title": "cliproxyapi",
-      "badge": "开发者工具",
-      "description": "一键将各类 CLI 工具转化为标准 API 接口，极大简化 Agent 调用外部工具的难度。",
+      "title": "OpenRouter",
+      "badge": "模型聚合网关",
+      "description": "统一 API 接入 100+ 模型提供商，支持免费模型、价格对比与智能路由。",
       "meta": [
-        "API中转",
-        "Agent增强"
+        "API 网关",
+        "多模型",
+        "价格透明"
+      ],
+      "link": "https://openrouter.ai",
+      "features": [
+        "100+ 模型接入",
+        "免费模型池",
+        "智能路由",
+        "价格对比"
+      ],
+      "recent_updates": [
+        {
+          "title": "openrouter/owl-alpha = Meituan_LongCat",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1t35rjc/openrouterowlalpha_meituan_longcat/",
+          "date": "2026-05-04",
+          "source": "r/LocalLLaMA",
+          "engagement": "4 pts, 3 comments"
+        },
+        {
+          "title": "Local LLM Benchmark about Backend Generation by Function Calling (GLM vs Qwen vs DeepSeek)",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1t2m7wi/local_llm_benchmark_about_backend_generation_by/",
+          "date": "2026-05-03",
+          "source": "r/LocalLLaMA",
+          "engagement": "19 pts, 2 comments"
+        },
+        {
+          "title": "Show HN: EZClaw – Deploy OpenClaw agents in – 1 minute – no tech skills needed",
+          "url": "https://ezclaw.app",
+          "date": "2026-02-10",
+          "source": "Hacker News",
+          "engagement": "2 pts, 0 comments"
+        },
+        {
+          "title": "Show HN: Git Auto Commit (GAC) – LLM-powered Git commit command line tool",
+          "url": "https://github.com/cellwebb/gac",
+          "date": "2025-10-27",
+          "source": "Hacker News",
+          "engagement": "56 pts, 36 comments"
+        },
+        {
+          "title": "Show HN: Plandex v2 – open source AI coding agent for large projects and tasks",
+          "url": "https://github.com/plandex-ai/plandex",
+          "date": "2025-04-16",
+          "source": "Hacker News",
+          "engagement": "257 pts, 81 comments"
+        }
+      ]
+    },
+    {
+      "title": "Ollama",
+      "badge": "本地模型运行",
+      "description": "一行命令在本地运行开源 LLM。支持 Llama、Qwen、DeepSeek 等主流开源模型。",
+      "meta": [
+        "本地部署",
+        "开源",
+        "一键运行"
+      ],
+      "link": "https://ollama.com",
+      "features": [
+        "一键本地运行",
+        "多模型支持",
+        "API 兼容",
+        "跨平台"
+      ],
+      "recent_updates": [
+        {
+          "title": "Some ideas for cloud-local interaction for performance, efficiency and privacy",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1t393ac/some_ideas_for_cloudlocal_interaction_for/",
+          "date": "2026-05-04",
+          "source": "r/LocalLLaMA",
+          "engagement": "0 pts, 7 comments"
+        },
+        {
+          "title": "Secondary PC options",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1t2td49/secondary_pc_options/",
+          "date": "2026-05-03",
+          "source": "r/LocalLLaMA",
+          "engagement": "0 pts, 7 comments"
+        },
+        {
+          "title": "Show HN: Tasklin outputs JSON and works with multiple AI models in pipelines",
+          "url": "https://github.com/jetroni/tasklin",
+          "date": "2025-08-17",
+          "source": "Hacker News",
+          "engagement": "1 pts, 0 comments"
+        },
+        {
+          "title": "Show HN: I built open-source Apple Intelligence-like Writing Tools for Windows",
+          "url": "https://github.com/theJayTea/WritingTools/releases/tag/v3",
+          "date": "2024-10-20",
+          "source": "Hacker News",
+          "engagement": "2 pts, 0 comments"
+        },
+        {
+          "title": "Show HN: Continue.dev releases local, open-source tab-autocomplete",
+          "url": "https://continue.dev/docs/walkthroughs/tab-autocomplete",
+          "date": "2024-02-29",
+          "source": "Hacker News",
+          "engagement": "53 pts, 3 comments"
+        }
+      ]
+    },
+    {
+      "title": "LangChain / LangGraph",
+      "badge": "AI 应用框架",
+      "description": "最流行的 LLM 应用开发框架，LangGraph 支持有状态 Agent 工作流编排。",
+      "meta": [
+        "框架",
+        "Agent 编排",
+        "Python/JS"
+      ],
+      "link": "https://langchain.com",
+      "features": [
+        "LLM 应用开发",
+        "Agent 工作流",
+        "工具调用链",
+        "多语言 SDK"
+      ],
+      "latest_version": "1.3.5",
+      "version_date": "2026-04-27",
+      "npm_downloads_weekly": 2047022,
+      "recent_updates": [
+        {
+          "title": "Built a pre-flight budget check for LangChain agents. stops expensive runs before they hit the API",
+          "url": "https://reddit.com/r/LangChain/comments/1t30mn4/built_a_preflight_budget_check_for_langchain/",
+          "date": "2026-05-03",
+          "source": "r/LangChain",
+          "engagement": "5 pts, 2 comments"
+        },
+        {
+          "title": "Learning LangGraph",
+          "url": "https://reddit.com/r/LangChain/comments/1t1jv89/learning_langgraph/",
+          "date": "2026-05-02",
+          "source": "r/LangChain",
+          "engagement": "34 pts, 7 comments"
+        },
+        {
+          "title": "npm v1.3.5 — Typescript bindings for langchain",
+          "url": "https://github.com/langchain-ai/langchainjs/tree/main/libs/langchain/",
+          "date": "2026-04-27",
+          "source": "npm"
+        },
+        {
+          "title": "PyPI v1.2.17 — Building applications with LLMs through composability",
+          "url": "https://pypi.org/project/langchain/",
+          "date": "",
+          "source": "PyPI"
+        }
+      ]
+    },
+    {
+      "title": "Hugging Face Transformers",
+      "badge": "模型 Hub 标配",
+      "description": "最流行的开源 ML 库，统一接口调用数万个预训练模型，社区生态庞大。",
+      "meta": [
+        "开源",
+        "模型 Hub",
+        "Python"
+      ],
+      "link": "https://huggingface.co/docs/transformers",
+      "features": [
+        "数万预训练模型",
+        "统一推理接口",
+        "活跃社区",
+        "多框架支持"
+      ],
+      "latest_version": "5.7.0",
+      "recent_updates": [
+        {
+          "title": "Open Weights Models Hall of Fame",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1t2lwn0/open_weights_models_hall_of_fame/",
+          "date": "2026-05-03",
+          "source": "r/LocalLLaMA",
+          "engagement": "86 pts, 31 comments"
+        },
+        {
+          "title": "I made a visualizer for Hugging Face models",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1t24y4p/i_made_a_visualizer_for_hugging_face_models/",
+          "date": "2026-05-02",
+          "source": "r/LocalLLaMA",
+          "engagement": "609 pts, 33 comments"
+        },
+        {
+          "title": "I spent years building a 103B-token Usenet corpus (1980–2013) and finally documented it [P]",
+          "url": "https://reddit.com/r/MachineLearning/comments/1t10xaf/i_spent_years_building_a_103btoken_usenet_corpus/",
+          "date": "2026-05-01",
+          "source": "r/MachineLearning",
+          "engagement": "98 pts, 18 comments"
+        },
+        {
+          "title": "PyPI v5.7.0 — Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training.",
+          "url": "https://github.com/huggingface/transformers",
+          "date": "",
+          "source": "PyPI"
+        }
+      ]
+    },
+    {
+      "title": "vLLM",
+      "badge": "高性能推理",
+      "description": "高吞吐量 LLM 推理引擎，PagedAttention 技术大幅提升 GPU 利用率。",
+      "meta": [
+        "推理引擎",
+        "高性能",
+        "开源"
+      ],
+      "link": "https://github.com/vllm-project/vllm",
+      "features": [
+        "PagedAttention",
+        "高吞吐量推理",
+        "GPU 利用率优化",
+        "OpenAI 兼容 API"
+      ],
+      "latest_version": "0.20.1",
+      "recent_updates": [
+        {
+          "title": "Mistral Medium 3.5 128B and Qwen 3.5 122B A10B on 4x RTX 3080 20GB",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1t372ml/mistral_medium_35_128b_and_qwen_35_122b_a10b_on/",
+          "date": "2026-05-04",
+          "source": "r/LocalLLaMA",
+          "engagement": "6 pts, 9 comments"
+        },
+        {
+          "title": "Advice needed on eGPU and Mini PC",
+          "url": "https://reddit.com/r/LocalLLaMA/comments/1t36gsi/advice_needed_on_egpu_and_mini_pc/",
+          "date": "2026-05-04",
+          "source": "r/LocalLLaMA",
+          "engagement": "0 pts, 13 comments"
+        },
+        {
+          "title": "Show HN: AlertMole – I stopped checking the internet, it now checks for me",
+          "url": "https://alertmole.com/",
+          "date": "2026-03-08",
+          "source": "Hacker News",
+          "engagement": "1 pts, 0 comments"
+        },
+        {
+          "title": "PyPI v0.20.1 — A high-throughput and memory-efficient inference and serving engine for LLMs",
+          "url": "https://pypi.org/project/vllm/",
+          "date": "",
+          "source": "PyPI"
+        }
       ]
     }
   ],
   "news": [
     {
-      "title": "Show HN: Speq – A collaborative web-based repository for your product's spec",
-      "badge": "HN 热点 (2 pts)",
-      "description": "由 iowes 发布。在 Hacker News 上最新讨论的 AI 资讯。",
+      "title": "Show HN: Robust LLM extractor for websites in TypeScript",
+      "badge": "HN (72 pts)",
+      "description": "by andrew_zhong | 49 comments",
       "meta": [
         "Hacker News",
         "资讯"
       ],
-      "link": "https://getspeq.com"
+      "link": "https://github.com/lightfeed/extractor",
+      "points": 72,
+      "comments": 49
     },
     {
-      "title": "Show HN: Agent-desktop – Native desktop automation CLI for AI agents",
-      "badge": "HN 热点 (97 pts)",
-      "description": "由 lahfir 发布。在 Hacker News 上最新讨论的 AI 资讯。",
+      "title": "Show HN: Spine AI – Visual workspace to think across multiple AI models",
+      "badge": "HN (11 pts)",
+      "description": "by akshay_budhkar | 0 comments",
       "meta": [
         "Hacker News",
         "资讯"
       ],
-      "link": "https://github.com/lahfir/agent-desktop"
+      "link": "https://app.getspine.ai/guest",
+      "points": 11,
+      "comments": 0
     },
     {
-      "title": "Show HN: Spec27 – Spec-driven validation for AI agents",
-      "badge": "HN 热点 (13 pts)",
-      "description": "由 njyx 发布。在 Hacker News 上最新讨论的 AI 资讯。",
+      "title": "Show HN: Hollow – serverless web perception for AI agents",
+      "badge": "HN (2 pts)",
+      "description": "by LahanF | 0 comments",
       "meta": [
         "Hacker News",
         "资讯"
       ],
-      "link": "https://www.spec27.ai/launch"
+      "link": "https://artiqal.vercel.app/hollow",
+      "points": 2,
+      "comments": 0
     },
     {
-      "title": "Ask HN: Anyone using AI agents for active learning sprints? Here's my setup",
-      "badge": "HN 热点 (4 pts)",
-      "description": "由 bhagyeshsp 发布。在 Hacker News 上最新讨论的 AI 资讯。",
+      "title": "Show HN: Sovant – Memory that works across OpenAI, Claude and Gemini",
+      "badge": "HN (2 pts)",
+      "description": "by hechin91 | 0 comments",
       "meta": [
         "Hacker News",
         "资讯"
       ],
-      "link": "https://news.ycombinator.com/item?id=47959169"
+      "link": "https://sovant.ai",
+      "points": 2,
+      "comments": 0
     },
     {
-      "title": "Show HN: ToolMesh – turn all your REST APIs into MCP tools via declarative YAML",
-      "badge": "HN 热点 (2 pts)",
-      "description": "由 axeldunkel 发布。在 Hacker News 上最新讨论的 AI 资讯。",
+      "title": "Show HN: An open-source Chrome extension that lets any LLMs control the browser",
+      "badge": "HN (2 pts)",
+      "description": "by hanzili | 0 comments",
       "meta": [
         "Hacker News",
         "资讯"
       ],
-      "link": "https://news.ycombinator.com/item?id=47933950"
+      "link": "https://github.com/hanzili/llm-in-chrome",
+      "points": 2,
+      "comments": 0
     },
     {
-      "title": "$38k AWS Bedrock bill caused by a simple prompt caching miss",
-      "badge": "HN 热点 (8 pts)",
-      "description": "由 Zephyr0x 发布。在 Hacker News 上最新讨论的 AI 资讯。",
+      "title": "Show HN: AI coding agent for VS Code with pay-as-you-go pricing- no subscription",
+      "badge": "HN (2 pts)",
+      "description": "by hhossain | 0 comments",
       "meta": [
         "Hacker News",
         "资讯"
       ],
-      "link": "https://news.ycombinator.com/item?id=47933355"
+      "link": "https://www.llmonestop.com/#pricing",
+      "points": 2,
+      "comments": 0
+    },
+    {
+      "title": "Show HN: Dapto – AI Prompt and Response Firewall for Enterprises",
+      "badge": "HN (2 pts)",
+      "description": "by sharmasachin98 | 1 comments",
+      "meta": [
+        "Hacker News",
+        "资讯"
+      ],
+      "link": "https://dapto.ai",
+      "points": 2,
+      "comments": 1
+    },
+    {
+      "title": "Show HN: EZClaw – Deploy OpenClaw agents in – 1 minute – no tech skills needed",
+      "badge": "HN (2 pts)",
+      "description": "by felipejfc | 0 comments",
+      "meta": [
+        "Hacker News",
+        "资讯"
+      ],
+      "link": "https://ezclaw.app",
+      "points": 2,
+      "comments": 0
+    },
+    {
+      "title": "Show HN: Forge – 3MB Rust binary that coordinates multi-AI coding agents via MCP",
+      "badge": "HN (1 pts)",
+      "description": "by vipdestiny | 1 comments",
+      "meta": [
+        "Hacker News",
+        "资讯"
+      ],
+      "link": "https://github.com/nxtg-ai/forge-orchestrator",
+      "points": 1,
+      "comments": 1
+    },
+    {
+      "title": "Show HN: CSL MCP Server – Write and Verify AI Safety Policies from Claude/Cursor",
+      "badge": "HN (1 pts)",
+      "description": "by aytuakarlar | 1 comments",
+      "meta": [
+        "Hacker News",
+        "资讯"
+      ],
+      "link": "https://pypi.org/project/csl-core/",
+      "points": 1,
+      "comments": 1
+    }
+  ],
+  "github_trending": [
+    {
+      "name": "langchain-ai/langchain",
+      "description": "The agent engineering platform. Available in TypeScript!",
+      "stars": 135726,
+      "language": "Python",
+      "url": "https://github.com/langchain-ai/langchain",
+      "updated": "2026-05-04"
+    },
+    {
+      "name": "microsoft/autogen",
+      "description": "A programming framework for agentic AI",
+      "stars": 57688,
+      "language": "Python",
+      "url": "https://github.com/microsoft/autogen",
+      "updated": "2026-04-15"
+    },
+    {
+      "name": "crewAIInc/crewAI",
+      "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
+      "stars": 50570,
+      "language": "Python",
+      "url": "https://github.com/crewAIInc/crewAI",
+      "updated": "2026-05-04"
+    },
+    {
+      "name": "langchain-ai/langgraph",
+      "description": "Build resilient language agents as graphs. Available in TypeScript!",
+      "stars": 31143,
+      "language": "Python",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "updated": "2026-05-04"
+    },
+    {
+      "name": "openai/openai-agents-python",
+      "description": "A lightweight, powerful framework for multi-agent workflows",
+      "stars": 25846,
+      "language": "Python",
+      "url": "https://github.com/openai/openai-agents-python",
+      "updated": "2026-05-04"
     }
   ]
 }

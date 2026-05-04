@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI 聚合情报站 - 最新模型与工具动态</title>
-    <meta name="description" content="全方位跟踪最新 AI 模型 (GPT, Opus, Gemini, Kimi 等), OpenRouter 榜单, Agent 框架及开源插件进展。">
+    <title>AI 聚合情报站 - 深度追踪 AI 生态全景</title>
+    <meta name="description" content="多源聚合深度追踪全球 AI 模型、开发工具、Agent 框架、开源生态的最新特性、版本发布与社区动态。">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="background-effects">
@@ -21,9 +21,10 @@
             <nav>
                 <a href="#models" class="nav-link">大模型情报</a>
                 <a href="#openrouter" class="nav-link">OpenRouter 榜单</a>
-                <a href="#tools" class="nav-link">开发工具与框架</a>
-                <a href="#plugins" class="nav-link">开源插件</a>
-                <a href="#news" class="nav-link">全球资讯追踪</a>
+                <a href="#tools" class="nav-link">开发工具</a>
+                <a href="#plugins" class="nav-link">生态与插件</a>
+                <a href="#trending" class="nav-link">GitHub 趋势</a>
+                <a href="#news" class="nav-link">全球资讯</a>
             </nav>
             <div class="last-updated" id="last-updated">最后更新: 获取中...</div>
         </div>
@@ -32,39 +33,52 @@
     <main class="container">
         <section class="hero">
             <h2>洞悉 AI 时代脉搏</h2>
-            <p>实时追踪全球顶尖 AI 模型、开发框架与开源生态的最新演进。</p>
+            <p>多源聚合深度情报：模型特性、版本发布、社区动态、生态趋势 — 一站尽览。</p>
         </section>
 
         <section id="models" class="category-section">
-            <h2 class="section-title">🌟 前沿大模型进展</h2>
+            <h2 class="section-title">前沿大模型情报</h2>
+            <p class="section-subtitle">版本追踪 · 特性分析 · 社区热议 · 多源情报聚合</p>
             <div class="card-grid" id="models-grid">
                 <div class="loading-spinner"></div>
             </div>
         </section>
 
         <section id="openrouter" class="category-section">
-            <h2 class="section-title">📊 OpenRouter 动态榜单</h2>
+            <h2 class="section-title">OpenRouter 动态榜单</h2>
+            <p class="section-subtitle">免费模型 · 超低价模型 · 上下文长度 · 价格对比</p>
             <div class="card-grid" id="openrouter-grid">
                 <div class="loading-spinner"></div>
             </div>
         </section>
 
         <section id="tools" class="category-section">
-            <h2 class="section-title">🛠️ 热门开发工具与 Agent 框架</h2>
+            <h2 class="section-title">AI 开发工具与 Agent 框架</h2>
+            <p class="section-subtitle">IDE · CLI · Agent 框架 · 版本动态 · GitHub 活跃度</p>
             <div class="card-grid" id="tools-grid">
                 <div class="loading-spinner"></div>
             </div>
         </section>
 
         <section id="plugins" class="category-section">
-            <h2 class="section-title">🧩 精选开源插件</h2>
+            <h2 class="section-title">AI 生态与基础设施</h2>
+            <p class="section-subtitle">协议标准 · 框架 · 推理引擎 · 模型聚合 · 社区生态</p>
             <div class="card-grid" id="plugins-grid">
                 <div class="loading-spinner"></div>
             </div>
         </section>
 
+        <section id="trending" class="category-section">
+            <h2 class="section-title">GitHub AI 趋势仓库</h2>
+            <p class="section-subtitle">近期活跃 · 高星项目 · Agent 框架 · 工具生态</p>
+            <div class="card-grid" id="trending-grid">
+                <div class="loading-spinner"></div>
+            </div>
+        </section>
+
         <section id="news" class="category-section">
-            <h2 class="section-title">🌍 实时 AI 资讯聚合 (Hacker News)</h2>
+            <h2 class="section-title">全球 AI 热点资讯</h2>
+            <p class="section-subtitle">Hacker News 高分热帖 · 按热度排序</p>
             <div class="card-grid" id="news-grid">
                 <div class="loading-spinner"></div>
             </div>
@@ -72,7 +86,7 @@
     </main>
 
     <footer>
-        <p>&copy; 2026 AI Nexus. Automatically updated via GitHub Actions.</p>
+        <p>&copy; 2026 AI Nexus | 多源聚合，深度追踪 | Auto-updated via GitHub Actions</p>
     </footer>
 
     <script src="js/app.js"></script>
