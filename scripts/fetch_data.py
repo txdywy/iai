@@ -2,6 +2,28 @@ import json
 import urllib.request
 import datetime
 import os
+import time
+
+def fetch_latest_intelligence(query):
+    """Deeply mine the latest news and feature updates for a specific keyword."""
+    # We use URL encoding for the query
+    encoded_query = urllib.parse.quote(query)
+    url = f"https://hn.algolia.com/api/v1/search_by_date?query={encoded_query}&tags=story&hitsPerPage=1"
+    req = urllib.request.Request(url, headers={'User-Agent': 'AINexus/1.0'})
+    try:
+        with urllib.request.urlopen(req) as response:
+            data = json.loads(response.read().decode('utf-8'))
+            hits = data.get('hits', [])
+            if hits:
+                h = hits[0]
+                return {
+                    "title": h.get('title', ''),
+                    "url": h.get('url', f"https://news.ycombinator.com/item?id={h.get('objectID')}"),
+                    "date": h.get('created_at', '')[:10]
+                }
+    except Exception as e:
+        print(f"Error fetching intelligence for {query}: {e}")
+    return None
 
 def fetch_openrouter_data():
     url = "https://openrouter.ai/api/v1/models"
@@ -79,32 +101,46 @@ def fetch_hn_news():
         return []
 
 def main():
+    base_models = [
+        { "title": 'OpenAI GPT-5.5', "search_query": '"GPT-5" OR "OpenAI"', "badge": '2026 新旗舰', "description": '2026年最新发布，大幅减少幻觉，在代码工程与复杂 Agentic 任务上具备颠覆性提升。', "meta": ['多模态', '自主 Agent', '闭源'], "link": 'https://openai.com' },
+        { "title": 'Claude Opus 4.7', "search_query": '"Claude Opus" OR "Anthropic"', "badge": '逻辑之王', "description": 'Anthropic 发布的最新超大杯，原生引入“任务预算”控制，极强的高阶规划和代码能力。', "meta": ['精准控制', '长文本', '闭源'], "link": 'https://anthropic.com' },
+        { "title": 'Google Gemini 3.1 Pro', "search_query": '"Gemini 1.5" OR "Gemini Pro" OR "DeepMind"', "badge": '原生多模态', "description": '霸榜多项推理 Benchmark，在多模态理解与超长上下文方面维持统治级表现。', "meta": ['超长上下文', 'Google生态', '闭源'], "link": 'https://deepmind.google' },
+        { "title": 'DeepSeek V4', "search_query": '"DeepSeek"', "badge": '国产之光', "description": '最新发布的开源巨兽，采用极致高效架构，API 成本依然极具竞争力。', "meta": ['开源/开放权重', 'API极简'], "link": 'https://deepseek.com' },
+        { "title": 'Kimi K2.6', "search_query": '"Moonshot AI" OR "Kimi"', "badge": '长文本领军', "description": '支持恐怖的超长上下文，并引入全新 "Agent Swarm" 技术进行复杂任务拆解。', "meta": ['Agent Swarm', '长文本'], "link": 'https://kimi.moonshot.cn' },
+        { "title": 'GLM-5.1', "search_query": '"Zhipu" OR "GLM-4"', "badge": '智谱AI', "description": 'MoE 架构，纯国产算力训练，在代码和逻辑推理上获得巨大后训练提升。', "meta": ['国产算力', '开源'], "link": 'https://zhipuai.cn' },
+        { "title": 'MiniMax M2.7', "search_query": '"MiniMax AI"', "badge": '高吞吐', "description": '自进化模型架构，在自动化工具调用和办公流（Productivity）场景下表现绝佳。', "meta": ['工具调用', '办公流'], "link": 'https://api.minimax.chat' },
+        { "title": 'MiMo V2.5-Pro', "search_query": '"Xiaomi AI" OR "MiMo model"', "badge": '全能新星', "description": '小米 AI 实验室最新大作，万亿参数 MoE 架构，强力支撑多步 Agentic 规划。', "meta": ['百万上下文', '全模态'], "link": '#' }
+    ]
+
+    base_tools = [
+        { "title": 'OpenClaw', "search_query": '"OpenClaw" OR "Gateway agent"', "badge": '生态互联', "description": '最热门的开源 Gateway-first 智能体框架，拥有海量技能插件，轻松打通工作流。', "meta": ['Agent', '多平台生态'], "link": 'https://github.com/openclaw' },
+        { "title": 'Hermes Agent', "search_query": '"Hermes Agent" OR "Nous Research"', "badge": '自主进化', "description": 'Nous Research 推出的 Agent-first 框架，主打自学习与长记忆循环，持续进化。', "meta": ['长记忆', '自学习'], "link": 'https://nousresearch.com/hermes' },
+        { "title": 'Claude Code', "search_query": '"Claude Code"', "badge": '官方出品', "description": 'Anthropic 官方推出的命令行 AI 编程助手，深度集成最新 Claude 模型。', "meta": ['CLI', '代码生成'], "link": 'https://docs.anthropic.com' },
+        { "title": 'Antigravity', "search_query": '"Antigravity" "Agent"', "badge": '智能体架构', "description": '高级 Agentic 编码助手框架。', "meta": ['Agent', '前沿探索'] },
+        { "title": 'OpenCode', "search_query": '"OpenCode" AI', "badge": '开源框架', "description": '开源社区驱动的下一代 AI 编程 IDE 插件框架。', "meta": ['开源', 'IDE插件'] },
+        { "title": 'Kiro', "search_query": '"Kiro" AI workflow', "badge": '自动化', "description": '轻量级 AI 工作流自动化工具，轻松串联各种模型 API。', "meta": ['Workflow', '轻量级'] },
+        { "title": 'Gemini-CLI', "search_query": '"Gemini CLI"', "badge": '命令行', "description": '快速调用 Google Gemini API 的终端工具。', "meta": ['CLI', 'Google'] }
+    ]
+    
+    base_plugins = [
+        { "title": 'cc claude', "search_query": '"cc claude"', "badge": '高效', "description": '为 Claude 深度定制的增强插件，提供更便捷的 prompt 管理与历史记录。', "meta": ['浏览器插件', '效率提升'] },
+        { "title": 'cliproxyapi', "search_query": '"cliproxyapi"', "badge": '开发者工具', "description": '一键将各类 CLI 工具转化为标准 API 接口，极大简化 Agent 调用外部工具的难度。', "meta": ['API中转', 'Agent增强'] }
+    ]
+
+    # Dynamically fetch intelligence for each item
+    for item in base_models + base_tools + base_plugins:
+        query = item.pop("search_query")
+        intel = fetch_latest_intelligence(query)
+        if intel:
+            item["latest_update"] = intel
+        time.sleep(0.1) # Be nice to the API
+
     curated_data = {
         "lastUpdated": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S (UTC)"),
-        "models": [
-            { "title": 'OpenAI GPT-5.5', "badge": '2026 新旗舰', "description": '2026年4月最新发布，大幅减少幻觉，在代码工程 (SWE-bench) 与复杂 Agentic 任务上具备颠覆性提升。', "meta": ['多模态', '自主 Agent', '闭源'], "link": 'https://openai.com' },
-            { "title": 'Claude Opus 4.7', "badge": '逻辑之王', "description": 'Anthropic 于 2026年4月 发布的最新超大杯，原生引入“任务预算”控制，极强的高阶规划和代码能力。', "meta": ['精准控制', '长文本', '闭源'], "link": 'https://anthropic.com' },
-            { "title": 'Google Gemini 3.1 Pro', "badge": '原生多模态', "description": '霸榜多项推理 Benchmark，在多模态理解与超长上下文（处理书籍与视频）方面维持统治级表现。', "meta": ['超长上下文', 'Google 生态', '闭源'], "link": 'https://deepmind.google' },
-            { "title": 'DeepSeek V4', "badge": '国产之光', "description": '2026年4月最新发布的开源巨兽，采用极致高效架构，在各项测评中追平闭源顶尖模型，API 成本依然极具竞争力。', "meta": ['开源/开放权重', 'API 极简', '高性价比'], "link": 'https://deepseek.com' },
-            { "title": 'Kimi K2.6', "badge": '长文本领军', "description": '2026年4月重磅升级，支持恐怖的超长上下文，并引入全新 "Agent Swarm" 技术进行复杂任务拆解与并行执行。', "meta": ['Agent Swarm', '国内免翻'], "link": 'https://kimi.moonshot.cn' },
-            { "title": 'GLM-5.1', "badge": '智谱AI', "description": '744B 级 MoE 架构，纯国产算力训练，在代码和逻辑推理上获得巨大后训练提升。', "meta": ['国产算力', '开源'], "link": 'https://zhipuai.cn' },
-            { "title": 'MiniMax M2.7', "badge": '高吞吐', "description": '2026年3月发布，自进化模型架构，在自动化工具调用和办公流（Productivity）场景下表现绝佳。', "meta": ['工具调用', '办公流'], "link": 'https://api.minimax.chat' },
-            { "title": 'MiMo V2.5-Pro', "badge": '全能新星', "description": '小米 AI 实验室 2026 年最新大作，万亿参数 MoE 架构，拥有超大百万上下文，强力支撑多步 Agentic 规划。', "meta": ['百万上下文', '全模态'], "link": '#' }
-        ],
+        "models": base_models,
         "openrouter": fetch_openrouter_data(),
-        "tools": [
-            { "title": 'OpenClaw', "badge": '生态互联', "description": '最热门的开源 Gateway-first 智能体框架，拥有海量技能插件，轻松打通各大通讯平台与工作流。', "meta": ['Agent', '多平台生态'], "link": 'https://github.com/openclaw' },
-            { "title": 'Hermes Agent', "badge": '自主进化', "description": 'Nous Research 2026年推出的 Agent-first 框架，主打自学习与长记忆循环，可作为持续进化的数字员工。', "meta": ['长记忆', '自学习'], "link": 'https://nousresearch.com/hermes' },
-            { "title": 'Claude Code', "badge": '官方出品', "description": 'Anthropic 官方推出的命令行 AI 编程助手，深度集成最新 Claude 模型。', "meta": ['CLI', '代码生成'], "link": 'https://docs.anthropic.com' },
-            { "title": 'Antigravity', "badge": '智能体架构', "description": '高级 Agentic 编码助手框架。', "meta": ['Agent', '前沿探索'] },
-            { "title": 'OpenCode', "badge": '开源框架', "description": '开源社区驱动的下一代 AI 编程 IDE 插件框架。', "meta": ['开源', 'IDE 插件'] },
-            { "title": 'Kiro', "badge": '自动化', "description": '轻量级 AI 工作流自动化工具，轻松串联各种模型 API。', "meta": ['Workflow', '轻量级'] },
-            { "title": 'Gemini-CLI', "badge": '命令行', "description": '快速调用 Google Gemini API 的终端工具。', "meta": ['CLI', 'Google'] }
-        ],
-        "plugins": [
-            { "title": 'cc claude', "badge": '高效', "description": '为 Claude 深度定制的增强插件，提供更便捷的 prompt 管理与历史记录。', "meta": ['浏览器插件', '效率提升'] },
-            { "title": 'cliproxyapi', "badge": '开发者工具', "description": '一键将各类 CLI 工具转化为标准 API 接口，极大简化 Agent 调用外部工具的难度。', "meta": ['API 中转', 'Agent 增强'] }
-        ],
+        "tools": base_tools,
+        "plugins": base_plugins,
         "news": fetch_hn_news()
     }
     

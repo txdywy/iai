@@ -48,14 +48,24 @@ function renderGrid(containerId, items) {
             </div>`;
         }
 
+        let updateHtml = '';
+        if (item.latest_update) {
+            updateHtml = `
+            <div style="margin-top: 12px; padding: 12px; background: rgba(99, 102, 241, 0.1); border-left: 3px solid var(--accent-color); border-radius: 4px;">
+                <div style="font-size: 0.8rem; color: var(--accent-color); font-weight: bold; margin-bottom: 4px;">🌟 最新动态 (${item.latest_update.date})</div>
+                <a href="${item.latest_update.url}" target="_blank" style="font-size: 0.9rem; color: var(--text-primary); text-decoration: none; font-weight: 500; display: block; margin-bottom: 4px; line-height: 1.4;">${item.latest_update.title}</a>
+            </div>`;
+        }
+
         card.innerHTML = `
             <div class="card-header">
                 <div class="card-title">${item.title}</div>
                 ${item.badge ? `<div class="card-badge">${item.badge}</div>` : ''}
             </div>
             <div class="card-desc">${item.description}</div>
+            ${updateHtml}
             ${metaHtml}
-            ${item.link ? `<a href="${item.link}" class="card-link" target="_blank">了解更多 &rarr;</a>` : ''}
+            ${item.link ? `<a href="${item.link}" class="card-link" target="_blank">官方了解更多 &rarr;</a>` : ''}
         `;
         container.appendChild(card);
     });

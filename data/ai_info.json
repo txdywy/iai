@@ -1,35 +1,45 @@
 {
-  "lastUpdated": "2026-05-04 10:20:35 (UTC)",
+  "lastUpdated": "2026-05-04 18:26:29 (UTC)",
   "models": [
     {
       "title": "OpenAI GPT-5.5",
       "badge": "2026 新旗舰",
-      "description": "2026年4月最新发布，大幅减少幻觉，在代码工程 (SWE-bench) 与复杂 Agentic 任务上具备颠覆性提升。",
+      "description": "2026年最新发布，大幅减少幻觉，在代码工程与复杂 Agentic 任务上具备颠覆性提升。",
       "meta": [
         "多模态",
         "自主 Agent",
         "闭源"
       ],
-      "link": "https://openai.com"
+      "link": "https://openai.com",
+      "latest_update": {
+        "title": "Tell HN: Claude account suspension after flagging duplicate billing",
+        "url": "https://news.ycombinator.com/item?id=47976682",
+        "date": "2026-05-01"
+      }
     },
     {
       "title": "Claude Opus 4.7",
       "badge": "逻辑之王",
-      "description": "Anthropic 于 2026年4月 发布的最新超大杯，原生引入“任务预算”控制，极强的高阶规划和代码能力。",
+      "description": "Anthropic 发布的最新超大杯，原生引入“任务预算”控制，极强的高阶规划和代码能力。",
       "meta": [
         "精准控制",
         "长文本",
         "闭源"
       ],
-      "link": "https://anthropic.com"
+      "link": "https://anthropic.com",
+      "latest_update": {
+        "title": "$38k AWS Bedrock bill caused by a simple prompt caching miss",
+        "url": "https://news.ycombinator.com/item?id=47933355",
+        "date": "2026-04-28"
+      }
     },
     {
       "title": "Google Gemini 3.1 Pro",
       "badge": "原生多模态",
-      "description": "霸榜多项推理 Benchmark，在多模态理解与超长上下文（处理书籍与视频）方面维持统治级表现。",
+      "description": "霸榜多项推理 Benchmark，在多模态理解与超长上下文方面维持统治级表现。",
       "meta": [
         "超长上下文",
-        "Google 生态",
+        "Google生态",
         "闭源"
       ],
       "link": "https://deepmind.google"
@@ -37,28 +47,37 @@
     {
       "title": "DeepSeek V4",
       "badge": "国产之光",
-      "description": "2026年4月最新发布的开源巨兽，采用极致高效架构，在各项测评中追平闭源顶尖模型，API 成本依然极具竞争力。",
+      "description": "最新发布的开源巨兽，采用极致高效架构，API 成本依然极具竞争力。",
       "meta": [
         "开源/开放权重",
-        "API 极简",
-        "高性价比"
+        "API极简"
       ],
-      "link": "https://deepseek.com"
+      "link": "https://deepseek.com",
+      "latest_update": {
+        "title": "DeepSeek's Sequel",
+        "url": "https://messaging-custom-newsletters.nytimes.com/dynamic/render",
+        "date": "2026-05-04"
+      }
     },
     {
       "title": "Kimi K2.6",
       "badge": "长文本领军",
-      "description": "2026年4月重磅升级，支持恐怖的超长上下文，并引入全新 \"Agent Swarm\" 技术进行复杂任务拆解与并行执行。",
+      "description": "支持恐怖的超长上下文，并引入全新 \"Agent Swarm\" 技术进行复杂任务拆解。",
       "meta": [
         "Agent Swarm",
-        "国内免翻"
+        "长文本"
       ],
-      "link": "https://kimi.moonshot.cn"
+      "link": "https://kimi.moonshot.cn",
+      "latest_update": {
+        "title": "Show HN: Real-Time AI Design Benchmark",
+        "url": "https://shuffle.dev/ai-design",
+        "date": "2026-02-24"
+      }
     },
     {
       "title": "GLM-5.1",
       "badge": "智谱AI",
-      "description": "744B 级 MoE 架构，纯国产算力训练，在代码和逻辑推理上获得巨大后训练提升。",
+      "description": "MoE 架构，纯国产算力训练，在代码和逻辑推理上获得巨大后训练提升。",
       "meta": [
         "国产算力",
         "开源"
@@ -68,17 +87,22 @@
     {
       "title": "MiniMax M2.7",
       "badge": "高吞吐",
-      "description": "2026年3月发布，自进化模型架构，在自动化工具调用和办公流（Productivity）场景下表现绝佳。",
+      "description": "自进化模型架构，在自动化工具调用和办公流（Productivity）场景下表现绝佳。",
       "meta": [
         "工具调用",
         "办公流"
       ],
-      "link": "https://api.minimax.chat"
+      "link": "https://api.minimax.chat",
+      "latest_update": {
+        "title": "Aligning to What? Rethinking Agent Generalization in MiniMax M2",
+        "url": "https://huggingface.co/blog/MiniMax-AI/aligning-to-what",
+        "date": "2025-12-26"
+      }
     },
     {
       "title": "MiMo V2.5-Pro",
       "badge": "全能新星",
-      "description": "小米 AI 实验室 2026 年最新大作，万亿参数 MoE 架构，拥有超大百万上下文，强力支撑多步 Agentic 规划。",
+      "description": "小米 AI 实验室最新大作，万亿参数 MoE 架构，强力支撑多步 Agentic 规划。",
       "meta": [
         "百万上下文",
         "全模态"
@@ -132,7 +156,7 @@
     {
       "title": "OpenClaw",
       "badge": "生态互联",
-      "description": "最热门的开源 Gateway-first 智能体框架，拥有海量技能插件，轻松打通各大通讯平台与工作流。",
+      "description": "最热门的开源 Gateway-first 智能体框架，拥有海量技能插件，轻松打通工作流。",
       "meta": [
         "Agent",
         "多平台生态"
@@ -142,12 +166,17 @@
     {
       "title": "Hermes Agent",
       "badge": "自主进化",
-      "description": "Nous Research 2026年推出的 Agent-first 框架，主打自学习与长记忆循环，可作为持续进化的数字员工。",
+      "description": "Nous Research 推出的 Agent-first 框架，主打自学习与长记忆循环，持续进化。",
       "meta": [
         "长记忆",
         "自学习"
       ],
-      "link": "https://nousresearch.com/hermes"
+      "link": "https://nousresearch.com/hermes",
+      "latest_update": {
+        "title": "Show HN: AI Hermes Agent – An independent Hermes Agent install guide",
+        "url": "https://ai-hermes-agent.com/install",
+        "date": "2026-04-22"
+      }
     },
     {
       "title": "Claude Code",
@@ -157,7 +186,12 @@
         "CLI",
         "代码生成"
       ],
-      "link": "https://docs.anthropic.com"
+      "link": "https://docs.anthropic.com",
+      "latest_update": {
+        "title": "Ruflo: Multi-agent AI orchestration for Claude Code",
+        "url": "https://github.com/ruvnet/ruflo/blob/main/docs/USERGUIDE.md",
+        "date": "2026-05-04"
+      }
     },
     {
       "title": "Antigravity",
@@ -166,7 +200,12 @@
       "meta": [
         "Agent",
         "前沿探索"
-      ]
+      ],
+      "latest_update": {
+        "title": "Ask HN: Anyone using AI agents for active learning sprints? Here's my setup",
+        "url": "https://news.ycombinator.com/item?id=47959169",
+        "date": "2026-04-30"
+      }
     },
     {
       "title": "OpenCode",
@@ -174,8 +213,13 @@
       "description": "开源社区驱动的下一代 AI 编程 IDE 插件框架。",
       "meta": [
         "开源",
-        "IDE 插件"
-      ]
+        "IDE插件"
+      ],
+      "latest_update": {
+        "title": "Show HN: An agent that remembers across sessions (no chat history)",
+        "url": "https://github.com/umbecanessa/neural-ledger-system",
+        "date": "2026-04-28"
+      }
     },
     {
       "title": "Kiro",
@@ -184,7 +228,12 @@
       "meta": [
         "Workflow",
         "轻量级"
-      ]
+      ],
+      "latest_update": {
+        "title": "OPC Workflow – Three Markdown files that enforce discipline on AI coding tools",
+        "url": "https://news.ycombinator.com/item?id=47804867",
+        "date": "2026-04-17"
+      }
     },
     {
       "title": "Gemini-CLI",
@@ -193,7 +242,12 @@
       "meta": [
         "CLI",
         "Google"
-      ]
+      ],
+      "latest_update": {
+        "title": "Show HN: A marketplace for LLM-powered webapps earning on token margins",
+        "url": "https://codeplusequalsai.com/dashboard",
+        "date": "2026-05-02"
+      }
     }
   ],
   "plugins": [
@@ -211,8 +265,8 @@
       "badge": "开发者工具",
       "description": "一键将各类 CLI 工具转化为标准 API 接口，极大简化 Agent 调用外部工具的难度。",
       "meta": [
-        "API 中转",
-        "Agent 增强"
+        "API中转",
+        "Agent增强"
       ]
     }
   ],
