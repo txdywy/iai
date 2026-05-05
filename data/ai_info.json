@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-05 22:51:58 (UTC)",
+  "lastUpdated": "2026-05-05 23:43:19 (UTC)",
   "version": "2.0",
   "models": [
     {
@@ -142,7 +142,7 @@
       "release_url": "https://github.com/deepseek-ai/DeepSeek-V3/releases/tag/v1.0.0",
       "release_notes": "This release is created for archival purposes and DOI generation.",
       "github": {
-        "stars": 103392,
+        "stars": 103393,
         "forks": 16725,
         "language": "Python",
         "updated": "2026-05-05",
@@ -230,7 +230,7 @@
       "release_url": "https://github.com/meta-llama/llama-models/releases/tag/v0.2.0",
       "release_notes": "Llama 4 Support ( https://www.llama.com ) \r\n\r\n",
       "github": {
-        "stars": 7589,
+        "stars": 7590,
         "forks": 1367,
         "language": "Python",
         "updated": "2026-05-05",
@@ -263,7 +263,7 @@
       ],
       "pricing_hint": "免费开源",
       "github": {
-        "stars": 27199,
+        "stars": 27200,
         "forks": 1982,
         "language": "Python",
         "updated": "2026-05-05",
@@ -433,8 +433,8 @@
       "release_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.128",
       "release_notes": "## What's changed\n\n- Bare `/color` (no args) now picks a random session color\n- `/mcp` now shows the tool count for connected servers and flags servers that connected with 0 tools\n- `--plugin-dir` now accepts `.zip` plugin archives in addition to directories\n- `--channels` now works with console (AP",
       "github": {
-        "stars": 120628,
-        "forks": 19984,
+        "stars": 120631,
+        "forks": 19983,
         "language": "Shell",
         "updated": "2026-05-05",
         "topics": []
@@ -543,7 +543,7 @@
       "release_url": "https://github.com/openai/codex/releases/tag/rust-v0.128.0",
       "release_notes": "## New Features\n- Added persisted `/goal` workflows with app-server APIs, model tools, runtime continuation, and TUI controls for create, pause, resume, and clear. (#18073, #18074, #18075, #18076, #18077, #20082)\n- Added `codex update`, configurable TUI keymaps, plan-mode nudges, action-required ter",
       "github": {
-        "stars": 80143,
+        "stars": 80144,
         "forks": 11560,
         "language": "Rust",
         "updated": "2026-05-05",
@@ -579,7 +579,7 @@
       "release_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.41.1",
       "release_notes": "## What's Changed\n* fix(patch): cherry-pick 3627f47 to release/v0.41.0-pr-26542 to patch version v0.41.0 and create version 0.41.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/26545\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.41.0...v0.41.",
       "github": {
-        "stars": 103209,
+        "stars": 103210,
         "forks": 13496,
         "language": "TypeScript",
         "updated": "2026-05-05",
@@ -640,7 +640,7 @@
       "release_url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.0",
       "release_notes": "- Added support for all GPT-5 models.\r\n- Added support for Grok-4 via `xai/grok-4` and `openrouter/x-ai/grok-4` model names.\r\n- Added support for `gemini/gemini-2.5-flash-lite-preview-06-17` model, by Tamir Zahavi-Brunner.\r\n- `/clear` now prints “All chat history cleared.” so you know it worked, by ",
       "github": {
-        "stars": 44368,
+        "stars": 44371,
         "forks": 4358,
         "language": "Python",
         "updated": "2026-05-05",
@@ -757,7 +757,7 @@
       "release_notes": "This release marks the **stable release** of the `2025-11-25` revision of the Model Context Protocol.\r\n\r\nThe specification is available on the [official Model Context Protocol website](https://modelcontextprotocol.io/specification/2025-11-25).\r\n\r\nFor a detailed overview of changes, see [2025-11-25 c",
       "github": {
         "stars": 8017,
-        "forks": 1492,
+        "forks": 1493,
         "language": "TypeScript",
         "updated": "2026-05-05",
         "topics": []
@@ -853,7 +853,7 @@
       "release_url": "https://github.com/ollama/ollama/releases/tag/v0.23.1",
       "release_notes": "## Gemma 4 MTP (Multi-token Processing) for the MLX runner\r\nGemma 4 MTP speculative decoding is now supported on Macs. This can give over a 2x speed increase for the Gemma 4 31B model on coding tasks.\r\n\r\n```\r\nollama run gemma4:31b-coding-mtp-bf16\r\n```\r\n\r\n## What's Changed\r\n* Update MLX and MLX-C wit",
       "github": {
-        "stars": 170787,
+        "stars": 170788,
         "forks": 15994,
         "language": "Go",
         "updated": "2026-05-05",
@@ -974,7 +974,7 @@
       "release_notes": "# Release v5.8.0\r\n\r\n\r\n## New Model additions\r\n\r\n### DeepSeek-V4\r\n\r\n<img width=\"6604\" height=\"3574\" alt=\"image\" src=\"https://github.com/user-attachments/assets/4c0fdb29-f770-463c-a97b-d24438896a4c\" />\r\n\r\nDeepSeek-V4 is the next-generation MoE (Mixture of Experts) language model from DeepSeek that int",
       "github": {
         "stars": 160280,
-        "forks": 33115,
+        "forks": 33114,
         "language": "Python",
         "updated": "2026-05-05",
         "topics": [
@@ -1022,8 +1022,8 @@
       "release_url": "https://github.com/vllm-project/vllm/releases/tag/v0.20.1",
       "release_notes": "# vLLM v0.20.1\r\n\r\nThis is a patch release on top of `v0.20.0` primarily focused on **DeepSeek V4 stabilization and performance improvements**, along with several important bug fixes.\r\n\r\n### DeepSeek V4\r\n* Base model support (#41006).\r\n* Multi-stream pre-attention GEMM (#41061), configurable pre-attn",
       "github": {
-        "stars": 79098,
-        "forks": 16443,
+        "stars": 79101,
+        "forks": 16445,
         "language": "Python",
         "updated": "2026-05-05",
         "topics": [
@@ -1200,7 +1200,7 @@
     {
       "name": "crewAIInc/crewAI",
       "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
-      "stars": 50694,
+      "stars": 50696,
       "language": "Python",
       "url": "https://github.com/crewAIInc/crewAI",
       "updated": "2026-05-05"
@@ -1216,7 +1216,7 @@
     {
       "name": "langchain-ai/langgraph",
       "description": "Build resilient language agents as graphs. Available in TypeScript!",
-      "stars": 31250,
+      "stars": 31253,
       "language": "Python",
       "url": "https://github.com/langchain-ai/langgraph",
       "updated": "2026-05-05"
