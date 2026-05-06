@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-06 17:47:47 (UTC)",
+  "lastUpdated": "2026-05-06 19:30:21 (UTC)",
   "version": "2.0",
   "models": [
     {
@@ -26,7 +26,7 @@
       "release_notes": "## 2.35.0 (2026-05-06)\n\nFull Changelog: [v2.34.0...v2.35.0](https://github.com/openai/openai-python/compare/v2.34.0...v2.35.0)\n\n### Features\n\n* **api:** update image 2 ([0ba55d7](https://github.com/openai/openai-python/commit/0ba55d7569565045426e1587906a70d5682a4bba))\n* **api:** manual updates ([72b",
       "github": {
         "stars": 30697,
-        "forks": 4769,
+        "forks": 4768,
         "language": "Python",
         "updated": "2026-05-06",
         "topics": [
@@ -142,8 +142,8 @@
       "release_url": "https://github.com/deepseek-ai/DeepSeek-V3/releases/tag/v1.0.0",
       "release_notes": "This release is created for archival purposes and DOI generation.",
       "github": {
-        "stars": 103408,
-        "forks": 16724,
+        "stars": 103409,
+        "forks": 16723,
         "language": "Python",
         "updated": "2026-05-06",
         "topics": []
@@ -230,7 +230,7 @@
       "release_url": "https://github.com/meta-llama/llama-models/releases/tag/v0.2.0",
       "release_notes": "Llama 4 Support ( https://www.llama.com ) \r\n\r\n",
       "github": {
-        "stars": 7591,
+        "stars": 7590,
         "forks": 1367,
         "language": "Python",
         "updated": "2026-05-06",
@@ -263,7 +263,7 @@
       ],
       "pricing_hint": "免费开源",
       "github": {
-        "stars": 27203,
+        "stars": 27204,
         "forks": 1983,
         "language": "Python",
         "updated": "2026-05-06",
@@ -433,8 +433,8 @@
       "release_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.131",
       "release_notes": "## What's changed\n\n- Fixed VS Code extension failing to activate on Windows due to a hardcoded build path in the bundled SDK (`createRequire` polyfill bug)\n- Fixed Mantle endpoint authentication failing with missing `x-api-key` header\n",
       "github": {
-        "stars": 120944,
-        "forks": 20020,
+        "stars": 120961,
+        "forks": 20025,
         "language": "Shell",
         "updated": "2026-05-06",
         "topics": []
@@ -543,8 +543,8 @@
       "release_url": "https://github.com/openai/codex/releases/tag/rust-v0.128.0",
       "release_notes": "## New Features\n- Added persisted `/goal` workflows with app-server APIs, model tools, runtime continuation, and TUI controls for create, pause, resume, and clear. (#18073, #18074, #18075, #18076, #18077, #20082)\n- Added `codex update`, configurable TUI keymaps, plan-mode nudges, action-required ter",
       "github": {
-        "stars": 80386,
-        "forks": 11589,
+        "stars": 80397,
+        "forks": 11592,
         "language": "Rust",
         "updated": "2026-05-06",
         "topics": []
@@ -574,13 +574,13 @@
         "代码生成",
         "免费额度"
       ],
-      "latest_version": "0.41.1",
-      "version_date": "2026-05-05",
-      "release_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.41.1",
-      "release_notes": "## What's Changed\n* fix(patch): cherry-pick 3627f47 to release/v0.41.0-pr-26542 to patch version v0.41.0 and create version 0.41.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/26545\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.41.0...v0.41.",
+      "latest_version": "0.41.2",
+      "version_date": "2026-05-06",
+      "release_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.41.2",
+      "release_notes": "## What's Changed\n* fix(patch): cherry-pick 02995ba to release/v0.41.1-pr-26568 to patch version v0.41.1 and create version 0.41.2 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/26589\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.41.1...v0.41.",
       "github": {
-        "stars": 103268,
-        "forks": 13512,
+        "stars": 103272,
+        "forks": 13513,
         "language": "TypeScript",
         "updated": "2026-05-06",
         "topics": [
@@ -594,9 +594,9 @@
       },
       "recent_updates": [
         {
-          "title": "Release 0.41.1: Release v0.41.1",
-          "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.41.1",
-          "date": "2026-05-05",
+          "title": "Release 0.41.2: Release v0.41.2",
+          "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.41.2",
+          "date": "2026-05-06",
           "source": "GitHub Release"
         }
       ]
@@ -690,8 +690,8 @@
       "release_url": "https://github.com/cline/cline/releases/tag/v3.82.0",
       "release_notes": "\n### Added\n\n- Restore VS Code foreground terminal support and settings.\n- Add latest OpenAI, SAP AI Core, and Z AI models.\n\n### Fixed\n\n- Fix hook template JSON escaping.\n- Improve ripgrep file search error handling.\n\n### Changed\n\n- Remove hardcoded model lists from docs.\n\n**Full Changelog**: https:/",
       "github": {
-        "stars": 61429,
-        "forks": 6362,
+        "stars": 61430,
+        "forks": 6364,
         "language": "TypeScript",
         "updated": "2026-05-06",
         "topics": []
@@ -756,7 +756,7 @@
       "release_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/releases/tag/2025-11-25",
       "release_notes": "This release marks the **stable release** of the `2025-11-25` revision of the Model Context Protocol.\r\n\r\nThe specification is available on the [official Model Context Protocol website](https://modelcontextprotocol.io/specification/2025-11-25).\r\n\r\nFor a detailed overview of changes, see [2025-11-25 c",
       "github": {
-        "stars": 8025,
+        "stars": 8026,
         "forks": 1498,
         "language": "TypeScript",
         "updated": "2026-05-06",
@@ -853,8 +853,8 @@
       "release_url": "https://github.com/ollama/ollama/releases/tag/v0.23.1",
       "release_notes": "## Gemma 4 MTP (Multi-token Processing) for the MLX runner\r\nGemma 4 MTP speculative decoding is now supported on Macs. This can give over a 2x speed increase for the Gemma 4 31B model on coding tasks.\r\n\r\n```\r\nollama run gemma4:31b-coding-mtp-bf16\r\n```\r\n\r\n## What's Changed\r\n* Update MLX and MLX-C wit",
       "github": {
-        "stars": 170844,
-        "forks": 16007,
+        "stars": 170849,
+        "forks": 16012,
         "language": "Go",
         "updated": "2026-05-06",
         "topics": [
@@ -917,8 +917,8 @@
       "release_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D0.3.85",
       "release_notes": "Changes since langchain-core==0.3.84\n\nrelease(core): 0.3.85 (#37205)\nfix(core, langchain): harden `load()` against untrusted manifests (#37201)",
       "github": {
-        "stars": 135940,
-        "forks": 22469,
+        "stars": 135947,
+        "forks": 22472,
         "language": "Python",
         "updated": "2026-05-06",
         "topics": [
@@ -973,8 +973,8 @@
       "release_url": "https://github.com/huggingface/transformers/releases/tag/v5.8.0",
       "release_notes": "# Release v5.8.0\r\n\r\n\r\n## New Model additions\r\n\r\n### DeepSeek-V4\r\n\r\n<img width=\"6604\" height=\"3574\" alt=\"image\" src=\"https://github.com/user-attachments/assets/4c0fdb29-f770-463c-a97b-d24438896a4c\" />\r\n\r\nDeepSeek-V4 is the next-generation MoE (Mixture of Experts) language model from DeepSeek that int",
       "github": {
-        "stars": 160310,
-        "forks": 33124,
+        "stars": 160308,
+        "forks": 33126,
         "language": "Python",
         "updated": "2026-05-06",
         "topics": [
@@ -1022,8 +1022,8 @@
       "release_url": "https://github.com/vllm-project/vllm/releases/tag/v0.20.1",
       "release_notes": "# vLLM v0.20.1\r\n\r\nThis is a patch release on top of `v0.20.0` primarily focused on **DeepSeek V4 stabilization and performance improvements**, along with several important bug fixes.\r\n\r\n### DeepSeek V4\r\n* Base model support (#41006).\r\n* Multi-stream pre-attention GEMM (#41061), configurable pre-attn",
       "github": {
-        "stars": 79181,
-        "forks": 16479,
+        "stars": 79191,
+        "forks": 16485,
         "language": "Python",
         "updated": "2026-05-06",
         "topics": [
@@ -1184,10 +1184,10 @@
     {
       "name": "langchain-ai/langchain",
       "description": "The agent engineering platform. Available in TypeScript!",
-      "stars": 135940,
+      "stars": 135947,
       "language": "Python",
       "url": "https://github.com/langchain-ai/langchain",
-      "updated": "2026-05-05"
+      "updated": "2026-05-06"
     },
     {
       "name": "microsoft/autogen",
@@ -1200,7 +1200,7 @@
     {
       "name": "crewAIInc/crewAI",
       "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
-      "stars": 50749,
+      "stars": 50754,
       "language": "Python",
       "url": "https://github.com/crewAIInc/crewAI",
       "updated": "2026-05-06"
@@ -1208,7 +1208,7 @@
     {
       "name": "AstrBotDevs/AstrBot",
       "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
-      "stars": 31469,
+      "stars": 31473,
       "language": "Python",
       "url": "https://github.com/AstrBotDevs/AstrBot",
       "updated": "2026-05-06"
@@ -1216,7 +1216,7 @@
     {
       "name": "langchain-ai/langgraph",
       "description": "Build resilient language agents as graphs. Available in TypeScript!",
-      "stars": 31332,
+      "stars": 31338,
       "language": "Python",
       "url": "https://github.com/langchain-ai/langgraph",
       "updated": "2026-05-06"
