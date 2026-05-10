@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-10 15:47:24 (UTC)",
+  "lastUpdated": "2026-05-10 16:47:04 (UTC)",
   "version": "2.0",
   "models": [
     {
@@ -26,7 +26,7 @@
       "release_notes": "## 2.36.0 (2026-05-07)\n\nFull Changelog: [v2.35.1...v2.36.0](https://github.com/openai/openai-python/compare/v2.35.1...v2.36.0)\n\n### Features\n\n* **api:** manual updates ([13c639c](https://github.com/openai/openai-python/commit/13c639cc7d57e4fbd4406563511e15eeb88a54b2))\n* **api:** realtime 2 ([8fe0ab8",
       "github": {
         "stars": 30732,
-        "forks": 4777,
+        "forks": 4776,
         "language": "Python",
         "updated": "2026-05-10",
         "topics": [
@@ -106,7 +106,7 @@
       "release_notes": "## [2.0.1](https://github.com/googleapis/python-genai/compare/v2.0.0...v2.0.1) (2026-05-09)\n\n\n### Bug Fixes\n\n* Update response_format field names to snake_case. ([97142b1](https://github.com/googleapis/python-genai/commit/97142b11fa71ccb5b6b844662db5d4478a50da4c))",
       "github": {
         "stars": 3685,
-        "forks": 855,
+        "forks": 856,
         "language": "Python",
         "updated": "2026-05-10",
         "topics": []
@@ -142,8 +142,8 @@
       "release_url": "https://github.com/deepseek-ai/DeepSeek-V3/releases/tag/v1.0.0",
       "release_notes": "This release is created for archival purposes and DOI generation.",
       "github": {
-        "stars": 103445,
-        "forks": 16726,
+        "stars": 103448,
+        "forks": 16725,
         "language": "Python",
         "updated": "2026-05-10",
         "topics": []
@@ -433,8 +433,8 @@
       "release_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.138",
       "release_notes": "## What's changed\n\n- Internal fixes\n",
       "github": {
-        "stars": 122202,
-        "forks": 20197,
+        "stars": 122207,
+        "forks": 20199,
         "language": "Shell",
         "updated": "2026-05-10",
         "topics": []
@@ -543,8 +543,8 @@
       "release_url": "https://github.com/openai/codex/releases/tag/rust-v0.130.0",
       "release_notes": "## New Features\n- Plugin details now show bundled hooks, and plugin sharing exposes link metadata plus discoverability controls. (#21447, #21495, #21637)\n- Added `codex remote-control` as a simpler entrypoint for starting a headless, remotely controllable app-server. (#21424)\n- App-server clients ca",
       "github": {
-        "stars": 81536,
-        "forks": 11780,
+        "stars": 81544,
+        "forks": 11782,
         "language": "Rust",
         "updated": "2026-05-10",
         "topics": []
@@ -579,8 +579,8 @@
       "release_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.41.2",
       "release_notes": "## What's Changed\n* fix(patch): cherry-pick 02995ba to release/v0.41.1-pr-26568 to patch version v0.41.1 and create version 0.41.2 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/26589\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.41.1...v0.41.",
       "github": {
-        "stars": 103596,
-        "forks": 13565,
+        "stars": 103603,
+        "forks": 13568,
         "language": "TypeScript",
         "updated": "2026-05-10",
         "topics": [
@@ -641,7 +641,7 @@
       "release_notes": "- Added support for all GPT-5 models.\r\n- Added support for Grok-4 via `xai/grok-4` and `openrouter/x-ai/grok-4` model names.\r\n- Added support for `gemini/gemini-2.5-flash-lite-preview-06-17` model, by Tamir Zahavi-Brunner.\r\n- `/clear` now prints “All chat history cleared.” so you know it worked, by ",
       "github": {
         "stars": 44615,
-        "forks": 4384,
+        "forks": 4385,
         "language": "Python",
         "updated": "2026-05-10",
         "topics": [
@@ -690,7 +690,7 @@
       "release_url": "https://github.com/cline/cline/releases/tag/v3.82.0",
       "release_notes": "\n### Added\n\n- Restore VS Code foreground terminal support and settings.\n- Add latest OpenAI, SAP AI Core, and Z AI models.\n\n### Fixed\n\n- Fix hook template JSON escaping.\n- Improve ripgrep file search error handling.\n\n### Changed\n\n- Remove hardcoded model lists from docs.\n\n**Full Changelog**: https:/",
       "github": {
-        "stars": 61580,
+        "stars": 61582,
         "forks": 6394,
         "language": "TypeScript",
         "updated": "2026-05-10",
@@ -756,7 +756,7 @@
       "release_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/releases/tag/2025-11-25",
       "release_notes": "This release marks the **stable release** of the `2025-11-25` revision of the Model Context Protocol.\r\n\r\nThe specification is available on the [official Model Context Protocol website](https://modelcontextprotocol.io/specification/2025-11-25).\r\n\r\nFor a detailed overview of changes, see [2025-11-25 c",
       "github": {
-        "stars": 8064,
+        "stars": 8065,
         "forks": 1510,
         "language": "TypeScript",
         "updated": "2026-05-10",
@@ -853,8 +853,8 @@
       "release_url": "https://github.com/ollama/ollama/releases/tag/v0.23.2",
       "release_notes": "## What's Changed\r\n\r\n* `ollama launch` no longer includes Claude Desktop due to the third-party integration being limited to Anthropic models. \r\n* Use `ollama launch claude-desktop --restore` to restore Claude Desktop to its normal state.\r\n* `/api/show` responses are now cached, improving median lat",
       "github": {
-        "stars": 171131,
-        "forks": 16055,
+        "stars": 171134,
+        "forks": 16054,
         "language": "Go",
         "updated": "2026-05-10",
         "topics": [
@@ -917,8 +917,8 @@
       "release_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D0.3.86",
       "release_notes": "Changes since langchain-core==0.3.85\n\nrelease(core): 0.3.86 (#37242)\nfix(core): backport path-traversal fix to v0.3 (CVE-2026-34070, GHSA-qh6h-p6c9-ff54) (#37233)",
       "github": {
-        "stars": 136307,
-        "forks": 22527,
+        "stars": 136312,
+        "forks": 22529,
         "language": "Python",
         "updated": "2026-05-10",
         "topics": [
@@ -974,7 +974,7 @@
       "release_notes": "# Release v5.8.0\r\n\r\n\r\n## New Model additions\r\n\r\n### DeepSeek-V4\r\n\r\n<img width=\"6604\" height=\"3574\" alt=\"image\" src=\"https://github.com/user-attachments/assets/4c0fdb29-f770-463c-a97b-d24438896a4c\" />\r\n\r\nDeepSeek-V4 is the next-generation MoE (Mixture of Experts) language model from DeepSeek that int",
       "github": {
         "stars": 160440,
-        "forks": 33151,
+        "forks": 33153,
         "language": "Python",
         "updated": "2026-05-10",
         "topics": [
@@ -1023,7 +1023,7 @@
       "release_notes": "# vLLM v0.20.2\r\n\r\n## Highlights\r\nThis release features 6 commits from 6 contributors (0 new)!\r\n\r\nThis is a small patch release with bug fixes for DeepSeek V4, gpt-oss, and Qwen3-VL\r\n\r\n### Bug Fixes\r\n* **DeepSeek V4 sparse attention**: Re-enable the persistent topk path on Hopper and ensure the memse",
       "github": {
         "stars": 79557,
-        "forks": 16620,
+        "forks": 16622,
         "language": "Python",
         "updated": "2026-05-10",
         "topics": [
@@ -1184,7 +1184,7 @@
     {
       "name": "langchain-ai/langchain",
       "description": "The agent engineering platform. Available in TypeScript!",
-      "stars": 136307,
+      "stars": 136312,
       "language": "Python",
       "url": "https://github.com/langchain-ai/langchain",
       "updated": "2026-05-10"
@@ -1192,7 +1192,7 @@
     {
       "name": "microsoft/autogen",
       "description": "A programming framework for agentic AI",
-      "stars": 57884,
+      "stars": 57886,
       "language": "Python",
       "url": "https://github.com/microsoft/autogen",
       "updated": "2026-04-15"
@@ -1200,7 +1200,7 @@
     {
       "name": "crewAIInc/crewAI",
       "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
-      "stars": 51079,
+      "stars": 51081,
       "language": "Python",
       "url": "https://github.com/crewAIInc/crewAI",
       "updated": "2026-05-09"
@@ -1208,7 +1208,7 @@
     {
       "name": "AstrBotDevs/AstrBot",
       "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
-      "stars": 31792,
+      "stars": 31801,
       "language": "Python",
       "url": "https://github.com/AstrBotDevs/AstrBot",
       "updated": "2026-05-09"
@@ -1216,7 +1216,7 @@
     {
       "name": "langchain-ai/langgraph",
       "description": "Build resilient language agents as graphs. Available in TypeScript!",
-      "stars": 31658,
+      "stars": 31664,
       "language": "Python",
       "url": "https://github.com/langchain-ai/langgraph",
       "updated": "2026-05-10"
