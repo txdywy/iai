@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-13 21:22:55 (UTC)",
+  "lastUpdated": "2026-05-13 23:01:56 (UTC)",
   "version": "2.0",
   "models": [
     {
@@ -67,8 +67,8 @@
       "release_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.102.0",
       "release_notes": "## 0.102.0 (2026-05-13)\n\nFull Changelog: [v0.101.0...v0.102.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.101.0...v0.102.0)\n\n### Features\n\n* **api:** Add BetaManagedAgentsSearchResultBlock types ([3681f10](https://github.com/anthropics/anthropic-sdk-python/commit/3681f1042608b6be4",
       "github": {
-        "stars": 3435,
-        "forks": 670,
+        "stars": 3436,
+        "forks": 671,
         "language": "Python",
         "updated": "2026-05-13",
         "topics": []
@@ -433,8 +433,8 @@
       "release_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.140",
       "release_notes": "## What's changed\n\n- Improved Agent tool `subagent_type` matching to accept case- and separator-insensitive values (e.g. `\"Code Reviewer\"` resolves to `code-reviewer`)\n- Updated agent color palette\n- Fixed `/goal` silently hanging when `disableAllHooks` or `allowManagedHooksOnly` is set — now shows ",
       "github": {
-        "stars": 123239,
-        "forks": 20332,
+        "stars": 123244,
+        "forks": 20334,
         "language": "Shell",
         "updated": "2026-05-13",
         "topics": []
@@ -543,8 +543,8 @@
       "release_url": "https://github.com/openai/codex/releases/tag/rust-v0.130.0",
       "release_notes": "## New Features\n- Plugin details now show bundled hooks, and plugin sharing exposes link metadata plus discoverability controls. (#21447, #21495, #21637)\n- Added `codex remote-control` as a simpler entrypoint for starting a headless, remotely controllable app-server. (#21424)\n- App-server clients ca",
       "github": {
-        "stars": 82374,
-        "forks": 11904,
+        "stars": 82375,
+        "forks": 11907,
         "language": "Rust",
         "updated": "2026-05-13",
         "topics": []
@@ -579,8 +579,8 @@
       "release_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.42.0",
       "release_notes": "## What's Changed\n* fix(cli): prevent automatic updates from switching to less stable channels by @Adib234 in https://github.com/google-gemini/gemini-cli/pull/26132\n* chore(release): bump version to 0.42.0-nightly.20260428.g59b2dea0e by @gemini-cli-robot in https://github.com/google-gemini/gemini-cl",
       "github": {
-        "stars": 103890,
-        "forks": 13633,
+        "stars": 103894,
+        "forks": 13635,
         "language": "TypeScript",
         "updated": "2026-05-13",
         "topics": [
@@ -640,8 +640,8 @@
       "release_url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.0",
       "release_notes": "- Added support for all GPT-5 models.\r\n- Added support for Grok-4 via `xai/grok-4` and `openrouter/x-ai/grok-4` model names.\r\n- Added support for `gemini/gemini-2.5-flash-lite-preview-06-17` model, by Tamir Zahavi-Brunner.\r\n- `/clear` now prints “All chat history cleared.” so you know it worked, by ",
       "github": {
-        "stars": 44769,
-        "forks": 4403,
+        "stars": 44771,
+        "forks": 4404,
         "language": "Python",
         "updated": "2026-05-13",
         "topics": [
@@ -690,8 +690,8 @@
       "release_url": "https://github.com/cline/cline/releases/tag/v3.83.0",
       "release_notes": "\n### Fixed\n\n- Show a clear \"Searching...\" state in the @-mention file picker\n- Improve @-mention file search performance\n- Allow `write_to_file` to create or overwrite files with empty content.\n- Fix validation failures for MCP servers that require an object.\n- Enable OpenRouter prompt cache control",
       "github": {
-        "stars": 61725,
-        "forks": 6411,
+        "stars": 61729,
+        "forks": 6412,
         "language": "TypeScript",
         "updated": "2026-05-13",
         "topics": []
@@ -756,7 +756,7 @@
       "release_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/releases/tag/2025-11-25",
       "release_notes": "This release marks the **stable release** of the `2025-11-25` revision of the Model Context Protocol.\r\n\r\nThe specification is available on the [official Model Context Protocol website](https://modelcontextprotocol.io/specification/2025-11-25).\r\n\r\nFor a detailed overview of changes, see [2025-11-25 c",
       "github": {
-        "stars": 8097,
+        "stars": 8098,
         "forks": 1517,
         "language": "TypeScript",
         "updated": "2026-05-13",
@@ -853,8 +853,8 @@
       "release_url": "https://github.com/ollama/ollama/releases/tag/v0.23.3",
       "release_notes": "## What's Changed\r\n* mlx: refined model push behavior by @dhiltgen in https://github.com/ollama/ollama/pull/15431\r\n* test: integration test hardening by @dhiltgen in https://github.com/ollama/ollama/pull/13532\r\n* app: harden update flows by @dhiltgen in https://github.com/ollama/ollama/pull/16100\r\n*",
       "github": {
-        "stars": 171342,
-        "forks": 16098,
+        "stars": 171350,
+        "forks": 16100,
         "language": "Go",
         "updated": "2026-05-13",
         "topics": [
@@ -917,8 +917,8 @@
       "release_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.0",
       "release_notes": "Changes since langchain-core==0.3.86\n\nchore(infra): merge v1.4 into master (#37350)\nchore: bump urllib3 from 2.6.3 to 2.7.0 in /libs/core (#37329)\nfix(core): avoid eager `pydantic.v1` import in `@deprecated` (#37308)\nchore: bump mistune from 3.1.4 to 3.2.1 in /libs/core (#37237)\nchore: bump jupyter-",
       "github": {
-        "stars": 136652,
-        "forks": 22599,
+        "stars": 136653,
+        "forks": 22600,
         "language": "Python",
         "updated": "2026-05-13",
         "topics": [
@@ -973,7 +973,7 @@
       "release_url": "https://github.com/huggingface/transformers/releases/tag/v5.8.1",
       "release_notes": "# Patch release v5.8.1 \r\nThis release is mainly to fix the Deepseek V4 integration!!! \r\n\r\n<img width=\"714\" height=\"774\" alt=\"image\" src=\"https://github.com/user-attachments/assets/0d85e891-a0ff-436e-a9d4-b6633096f2b5\" />\r\n\r\n\r\n* [fix] Add fatal_error to ContinuousBatchingManager so the serving... by ",
       "github": {
-        "stars": 160577,
+        "stars": 160578,
         "forks": 33197,
         "language": "Python",
         "updated": "2026-05-13",
@@ -1022,8 +1022,8 @@
       "release_url": "https://github.com/vllm-project/vllm/releases/tag/v0.20.2",
       "release_notes": "# vLLM v0.20.2\r\n\r\n## Highlights\r\nThis release features 6 commits from 6 contributors (0 new)!\r\n\r\nThis is a small patch release with bug fixes for DeepSeek V4, gpt-oss, and Qwen3-VL\r\n\r\n### Bug Fixes\r\n* **DeepSeek V4 sparse attention**: Re-enable the persistent topk path on Hopper and ensure the memse",
       "github": {
-        "stars": 79916,
-        "forks": 16757,
+        "stars": 79921,
+        "forks": 16759,
         "language": "Python",
         "updated": "2026-05-13",
         "topics": [
@@ -1184,7 +1184,7 @@
     {
       "name": "langchain-ai/langchain",
       "description": "The agent engineering platform.",
-      "stars": 136652,
+      "stars": 136653,
       "language": "Python",
       "url": "https://github.com/langchain-ai/langchain",
       "updated": "2026-05-13"
@@ -1200,7 +1200,7 @@
     {
       "name": "crewAIInc/crewAI",
       "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
-      "stars": 51343,
+      "stars": 51345,
       "language": "Python",
       "url": "https://github.com/crewAIInc/crewAI",
       "updated": "2026-05-13"
@@ -1208,7 +1208,7 @@
     {
       "name": "AstrBotDevs/AstrBot",
       "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
-      "stars": 32093,
+      "stars": 32094,
       "language": "Python",
       "url": "https://github.com/AstrBotDevs/AstrBot",
       "updated": "2026-05-13"
@@ -1216,7 +1216,7 @@
     {
       "name": "langchain-ai/langgraph",
       "description": "Build resilient agents.",
-      "stars": 31983,
+      "stars": 31986,
       "language": "Python",
       "url": "https://github.com/langchain-ai/langgraph",
       "updated": "2026-05-13"
