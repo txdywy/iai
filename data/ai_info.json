@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-14 13:56:40 (UTC)",
+  "lastUpdated": "2026-05-14 16:09:42 (UTC)",
   "version": "2.0",
   "models": [
     {
@@ -68,7 +68,7 @@
       "release_notes": "## 0.102.0 (2026-05-13)\n\nFull Changelog: [v0.101.0...v0.102.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.101.0...v0.102.0)\n\n### Features\n\n* **api:** Add BetaManagedAgentsSearchResultBlock types ([3681f10](https://github.com/anthropics/anthropic-sdk-python/commit/3681f1042608b6be4",
       "github": {
         "stars": 3441,
-        "forks": 674,
+        "forks": 675,
         "language": "Python",
         "updated": "2026-05-14",
         "topics": []
@@ -142,8 +142,8 @@
       "release_url": "https://github.com/deepseek-ai/DeepSeek-V3/releases/tag/v1.0.0",
       "release_notes": "This release is created for archival purposes and DOI generation.",
       "github": {
-        "stars": 103508,
-        "forks": 16729,
+        "stars": 103511,
+        "forks": 16730,
         "language": "Python",
         "updated": "2026-05-14",
         "topics": []
@@ -230,7 +230,7 @@
       "release_url": "https://github.com/meta-llama/llama-models/releases/tag/v0.2.0",
       "release_notes": "Llama 4 Support ( https://www.llama.com ) \r\n\r\n",
       "github": {
-        "stars": 7600,
+        "stars": 7601,
         "forks": 1371,
         "language": "Python",
         "updated": "2026-05-14",
@@ -291,6 +291,23 @@
       }
     },
     {
+      "title": "DeepSeek: DeepSeek V4 Flash (free)",
+      "badge": "免费",
+      "description": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window. It is designed for fa",
+      "meta": [
+        "上下文 1048K",
+        "text->text",
+        "免费"
+      ],
+      "link": "https://openrouter.ai/models/deepseek/deepseek-v4-flash:free",
+      "model_id": "deepseek/deepseek-v4-flash:free",
+      "context_length": 1048576,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      }
+    },
+    {
       "title": "Google: Lyria 3 Pro Preview",
       "badge": "免费",
       "description": "Full-length songs are priced at $0.08 per song. Lyria 3 is Google's family of music generation models, available through the Gemini API. With Lyria 3, you can generate high-quality, 48kHz...",
@@ -335,23 +352,6 @@
       ],
       "link": "https://openrouter.ai/models/inclusionai/ring-2.6-1t:free",
       "model_id": "inclusionai/ring-2.6-1t:free",
-      "context_length": 262144,
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      }
-    },
-    {
-      "title": "Google: Gemma 4 26B A4B  (free)",
-      "badge": "免费",
-      "description": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B qual",
-      "meta": [
-        "上下文 262K",
-        "text+image+video->text",
-        "免费"
-      ],
-      "link": "https://openrouter.ai/models/google/gemma-4-26b-a4b-it:free",
-      "model_id": "google/gemma-4-26b-a4b-it:free",
       "context_length": 262144,
       "pricing": {
         "prompt": "0",
@@ -433,8 +433,8 @@
       "release_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
       "release_notes": "## What's changed\n\n- Added `terminalSequence` field to hook JSON output so hooks can emit desktop notifications, window titles, and bells without a controlling terminal\n- Added `CLAUDE_CODE_PLUGIN_PREFER_HTTPS` to clone GitHub plugin sources over HTTPS instead of SSH, for environments without a GitH",
       "github": {
-        "stars": 123486,
-        "forks": 20367,
+        "stars": 123519,
+        "forks": 20369,
         "language": "Shell",
         "updated": "2026-05-14",
         "topics": []
@@ -543,8 +543,8 @@
       "release_url": "https://github.com/openai/codex/releases/tag/rust-v0.130.0",
       "release_notes": "## New Features\n- Plugin details now show bundled hooks, and plugin sharing exposes link metadata plus discoverability controls. (#21447, #21495, #21637)\n- Added `codex remote-control` as a simpler entrypoint for starting a headless, remotely controllable app-server. (#21424)\n- App-server clients ca",
       "github": {
-        "stars": 82569,
-        "forks": 11947,
+        "stars": 82597,
+        "forks": 11952,
         "language": "Rust",
         "updated": "2026-05-14",
         "topics": []
@@ -579,7 +579,7 @@
       "release_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.42.0",
       "release_notes": "## What's Changed\n* fix(cli): prevent automatic updates from switching to less stable channels by @Adib234 in https://github.com/google-gemini/gemini-cli/pull/26132\n* chore(release): bump version to 0.42.0-nightly.20260428.g59b2dea0e by @gemini-cli-robot in https://github.com/google-gemini/gemini-cl",
       "github": {
-        "stars": 103948,
+        "stars": 103952,
         "forks": 13650,
         "language": "TypeScript",
         "updated": "2026-05-14",
@@ -640,8 +640,8 @@
       "release_url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.0",
       "release_notes": "- Added support for all GPT-5 models.\r\n- Added support for Grok-4 via `xai/grok-4` and `openrouter/x-ai/grok-4` model names.\r\n- Added support for `gemini/gemini-2.5-flash-lite-preview-06-17` model, by Tamir Zahavi-Brunner.\r\n- `/clear` now prints “All chat history cleared.” so you know it worked, by ",
       "github": {
-        "stars": 44807,
-        "forks": 4410,
+        "stars": 44812,
+        "forks": 4411,
         "language": "Python",
         "updated": "2026-05-14",
         "topics": [
@@ -690,8 +690,8 @@
       "release_url": "https://github.com/cline/cline/releases/tag/v3.83.0",
       "release_notes": "\n### Fixed\n\n- Show a clear \"Searching...\" state in the @-mention file picker\n- Improve @-mention file search performance\n- Allow `write_to_file` to create or overwrite files with empty content.\n- Fix validation failures for MCP servers that require an object.\n- Enable OpenRouter prompt cache control",
       "github": {
-        "stars": 61764,
-        "forks": 6417,
+        "stars": 61769,
+        "forks": 6418,
         "language": "TypeScript",
         "updated": "2026-05-14",
         "topics": []
@@ -756,7 +756,7 @@
       "release_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/releases/tag/2025-11-25",
       "release_notes": "This release marks the **stable release** of the `2025-11-25` revision of the Model Context Protocol.\r\n\r\nThe specification is available on the [official Model Context Protocol website](https://modelcontextprotocol.io/specification/2025-11-25).\r\n\r\nFor a detailed overview of changes, see [2025-11-25 c",
       "github": {
-        "stars": 8106,
+        "stars": 8107,
         "forks": 1519,
         "language": "TypeScript",
         "updated": "2026-05-14",
@@ -853,8 +853,8 @@
       "release_url": "https://github.com/ollama/ollama/releases/tag/v0.23.4",
       "release_notes": "## What's Changed\r\n* `ollama launch opencode` now supports vision models with image inputs\r\n* Fixed formatting of Claude tool results when using local image paths\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.23.3...v0.23.4",
       "github": {
-        "stars": 171390,
-        "forks": 16107,
+        "stars": 171392,
+        "forks": 16109,
         "language": "Go",
         "updated": "2026-05-14",
         "topics": [
@@ -917,8 +917,8 @@
       "release_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.0",
       "release_notes": "Changes since langchain-core==0.3.86\n\nchore(infra): merge v1.4 into master (#37350)\nchore: bump urllib3 from 2.6.3 to 2.7.0 in /libs/core (#37329)\nfix(core): avoid eager `pydantic.v1` import in `@deprecated` (#37308)\nchore: bump mistune from 3.1.4 to 3.2.1 in /libs/core (#37237)\nchore: bump jupyter-",
       "github": {
-        "stars": 136722,
-        "forks": 22610,
+        "stars": 136731,
+        "forks": 22614,
         "language": "Python",
         "updated": "2026-05-14",
         "topics": [
@@ -973,8 +973,8 @@
       "release_url": "https://github.com/huggingface/transformers/releases/tag/v5.8.1",
       "release_notes": "# Patch release v5.8.1 \r\nThis release is mainly to fix the Deepseek V4 integration!!! \r\n\r\n<img width=\"714\" height=\"774\" alt=\"image\" src=\"https://github.com/user-attachments/assets/0d85e891-a0ff-436e-a9d4-b6633096f2b5\" />\r\n\r\n\r\n* [fix] Add fatal_error to ContinuousBatchingManager so the serving... by ",
       "github": {
-        "stars": 160606,
-        "forks": 33204,
+        "stars": 160609,
+        "forks": 33207,
         "language": "Python",
         "updated": "2026-05-14",
         "topics": [
@@ -1022,8 +1022,8 @@
       "release_url": "https://github.com/vllm-project/vllm/releases/tag/v0.20.2",
       "release_notes": "# vLLM v0.20.2\r\n\r\n## Highlights\r\nThis release features 6 commits from 6 contributors (0 new)!\r\n\r\nThis is a small patch release with bug fixes for DeepSeek V4, gpt-oss, and Qwen3-VL\r\n\r\n### Bug Fixes\r\n* **DeepSeek V4 sparse attention**: Re-enable the persistent topk path on Hopper and ensure the memse",
       "github": {
-        "stars": 79995,
-        "forks": 16798,
+        "stars": 80006,
+        "forks": 16803,
         "language": "Python",
         "updated": "2026-05-14",
         "topics": [
@@ -1184,7 +1184,7 @@
     {
       "name": "langchain-ai/langchain",
       "description": "The agent engineering platform.",
-      "stars": 136722,
+      "stars": 136731,
       "language": "Python",
       "url": "https://github.com/langchain-ai/langchain",
       "updated": "2026-05-14"
@@ -1200,7 +1200,7 @@
     {
       "name": "crewAIInc/crewAI",
       "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
-      "stars": 51395,
+      "stars": 51400,
       "language": "Python",
       "url": "https://github.com/crewAIInc/crewAI",
       "updated": "2026-05-14"
@@ -1208,7 +1208,7 @@
     {
       "name": "AstrBotDevs/AstrBot",
       "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
-      "stars": 32172,
+      "stars": 32187,
       "language": "Python",
       "url": "https://github.com/AstrBotDevs/AstrBot",
       "updated": "2026-05-14"
@@ -1216,7 +1216,7 @@
     {
       "name": "langchain-ai/langgraph",
       "description": "Build resilient agents.",
-      "stars": 32037,
+      "stars": 32045,
       "language": "Python",
       "url": "https://github.com/langchain-ai/langgraph",
       "updated": "2026-05-13"
