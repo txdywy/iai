@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-15 21:55:47 (UTC)",
+  "lastUpdated": "2026-05-15 22:51:35 (UTC)",
   "version": "2.0",
   "models": [
     {
@@ -20,10 +20,10 @@
         "代码工程 SOTA"
       ],
       "pricing_hint": "~$0.03/1K input tokens",
-      "latest_version": "2.36.0",
-      "version_date": "2026-05-07",
-      "release_url": "https://github.com/openai/openai-python/releases/tag/v2.36.0",
-      "release_notes": "## 2.36.0 (2026-05-07)\n\nFull Changelog: [v2.35.1...v2.36.0](https://github.com/openai/openai-python/compare/v2.35.1...v2.36.0)\n\n### Features\n\n* **api:** manual updates ([13c639c](https://github.com/openai/openai-python/commit/13c639cc7d57e4fbd4406563511e15eeb88a54b2))\n* **api:** realtime 2 ([8fe0ab8",
+      "latest_version": "2.37.0",
+      "version_date": "2026-05-15",
+      "release_url": "https://github.com/openai/openai-python/releases/tag/v2.37.0",
+      "release_notes": "## 2.37.0 (2026-05-13)\n\nFull Changelog: [v2.36.0...v2.37.0](https://github.com/openai/openai-python/compare/v2.36.0...v2.37.0)\n\n### Features\n\n* **api:** add service_tier parameter to responses compact method ([625827c](https://github.com/openai/openai-python/commit/625827c5509ece3c40e5002be37a9bd9d9",
       "github": {
         "stars": 30767,
         "forks": 4778,
@@ -36,9 +36,9 @@
       },
       "recent_updates": [
         {
-          "title": "Release 2.36.0: v2.36.0",
-          "url": "https://github.com/openai/openai-python/releases/tag/v2.36.0",
-          "date": "2026-05-07",
+          "title": "Release 2.37.0: v2.37.0",
+          "url": "https://github.com/openai/openai-python/releases/tag/v2.37.0",
+          "date": "2026-05-15",
           "source": "GitHub Release"
         }
       ]
@@ -428,13 +428,13 @@
         "Git 深度集成",
         "扩展思维模式"
       ],
-      "latest_version": "2.1.142",
-      "version_date": "2026-05-14",
-      "release_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.142",
-      "release_notes": "## What's changed\n\n- Added new `claude agents` flags: `--add-dir`, `--settings`, `--mcp-config`, `--plugin-dir`, `--permission-mode`, `--model`, `--effort`, and `--dangerously-skip-permissions` to configure dispatched background sessions\n- Fast mode now uses Opus 4.7 by default (previously Opus 4.6)",
+      "latest_version": "2.1.143",
+      "version_date": "2026-05-15",
+      "release_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
+      "release_notes": "## What's changed\n\n- Added plugin dependency enforcement: `claude plugin disable` now refuses when another enabled plugin depends on the target (with a copy-pasteable disable-chain hint), and `claude plugin enable` force-enables transitive dependencies\n- Added projected context cost (per-turn and pe",
       "github": {
-        "stars": 123892,
-        "forks": 20419,
+        "stars": 123898,
+        "forks": 20422,
         "language": "Shell",
         "updated": "2026-05-15",
         "topics": []
@@ -442,15 +442,15 @@
       "npm_downloads_weekly": 8519631,
       "recent_updates": [
         {
-          "title": "Release 2.1.142: v2.1.142",
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.142",
-          "date": "2026-05-14",
+          "title": "Release 2.1.143: v2.1.143",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
+          "date": "2026-05-15",
           "source": "GitHub Release"
         },
         {
-          "title": "npm v2.1.142 — Use Claude, Anthropic's AI assistant, right from your terminal. Claude can understand your codebase, edit files, run terminal commands, and handle entire workflows for you.",
+          "title": "npm v2.1.143 — Use Claude, Anthropic's AI assistant, right from your terminal. Claude can understand your codebase, edit files, run terminal commands, and handle entire workflows for you.",
           "url": "https://github.com/anthropics/claude-code",
-          "date": "2026-05-14",
+          "date": "2026-05-15",
           "source": "npm"
         },
         {
@@ -543,8 +543,8 @@
       "release_url": "https://github.com/openai/codex/releases/tag/rust-v0.130.0",
       "release_notes": "## New Features\n- Plugin details now show bundled hooks, and plugin sharing exposes link metadata plus discoverability controls. (#21447, #21495, #21637)\n- Added `codex remote-control` as a simpler entrypoint for starting a headless, remotely controllable app-server. (#21424)\n- App-server clients ca",
       "github": {
-        "stars": 82901,
-        "forks": 12007,
+        "stars": 82908,
+        "forks": 12008,
         "language": "Rust",
         "updated": "2026-05-15",
         "topics": []
@@ -579,7 +579,7 @@
       "release_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.42.0",
       "release_notes": "## What's Changed\n* fix(cli): prevent automatic updates from switching to less stable channels by @Adib234 in https://github.com/google-gemini/gemini-cli/pull/26132\n* chore(release): bump version to 0.42.0-nightly.20260428.g59b2dea0e by @gemini-cli-robot in https://github.com/google-gemini/gemini-cl",
       "github": {
-        "stars": 104065,
+        "stars": 104068,
         "forks": 13664,
         "language": "TypeScript",
         "updated": "2026-05-15",
@@ -641,7 +641,7 @@
       "release_notes": "- Added support for all GPT-5 models.\r\n- Added support for Grok-4 via `xai/grok-4` and `openrouter/x-ai/grok-4` model names.\r\n- Added support for `gemini/gemini-2.5-flash-lite-preview-06-17` model, by Tamir Zahavi-Brunner.\r\n- `/clear` now prints “All chat history cleared.” so you know it worked, by ",
       "github": {
         "stars": 44861,
-        "forks": 4417,
+        "forks": 4418,
         "language": "Python",
         "updated": "2026-05-15",
         "topics": [
@@ -690,8 +690,8 @@
       "release_url": "https://github.com/cline/cline/releases/tag/cli-v3.0.3",
       "release_notes": "\n- Add `--worktree` flag that auto-creates a fresh git worktree under `~/.cline/worktrees/` and runs the task there. Works with `--taskId` and `--continue` so you can resume a task in an isolated worktree to try a different approach.\n- Show session status in the CLI history view and refresh status r",
       "github": {
-        "stars": 61846,
-        "forks": 6428,
+        "stars": 61848,
+        "forks": 6429,
         "language": "TypeScript",
         "updated": "2026-05-15",
         "topics": []
@@ -853,7 +853,7 @@
       "release_url": "https://github.com/ollama/ollama/releases/tag/v0.24.0",
       "release_notes": "## Codex App\r\n\r\nOllama 0.24 includes support for the Codex App, OpenAI's desktop experience for working on Codex threads in parallel with built-in worktree support and git functionality.\r\n\r\n```bash\r\nollama launch codex-app\r\n```\r\n\r\n<img width=\"2088\" height=\"1404\" alt=\"CleanShot 2026-05-14 at 15 04 18",
       "github": {
-        "stars": 171470,
+        "stars": 171472,
         "forks": 16142,
         "language": "Go",
         "updated": "2026-05-15",
@@ -917,8 +917,8 @@
       "release_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.0",
       "release_notes": "Changes since langchain-core==0.3.86\n\nchore(infra): merge v1.4 into master (#37350)\nchore: bump urllib3 from 2.6.3 to 2.7.0 in /libs/core (#37329)\nfix(core): avoid eager `pydantic.v1` import in `@deprecated` (#37308)\nchore: bump mistune from 3.1.4 to 3.2.1 in /libs/core (#37237)\nchore: bump jupyter-",
       "github": {
-        "stars": 136827,
-        "forks": 22630,
+        "stars": 136829,
+        "forks": 22631,
         "language": "Python",
         "updated": "2026-05-15",
         "topics": [
@@ -1022,8 +1022,8 @@
       "release_url": "https://github.com/vllm-project/vllm/releases/tag/v0.21.0",
       "release_notes": "## Highlights\r\n\r\nThis release features 367 commits from 202 contributors (49 new)!\r\n\r\n* **Transformers v4 deprecated**: This release formally deprecates `transformers` v4 support (#40389). Users should migrate to `transformers` v5.\r\n* **C++20 build requirement**: vLLM now requires a C++20-compatible",
       "github": {
-        "stars": 80127,
-        "forks": 16834,
+        "stars": 80128,
+        "forks": 16835,
         "language": "Python",
         "updated": "2026-05-15",
         "topics": [
@@ -1184,7 +1184,7 @@
     {
       "name": "langchain-ai/langchain",
       "description": "The agent engineering platform.",
-      "stars": 136827,
+      "stars": 136829,
       "language": "Python",
       "url": "https://github.com/langchain-ai/langchain",
       "updated": "2026-05-15"
@@ -1200,7 +1200,7 @@
     {
       "name": "crewAIInc/crewAI",
       "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
-      "stars": 51481,
+      "stars": 51483,
       "language": "Python",
       "url": "https://github.com/crewAIInc/crewAI",
       "updated": "2026-05-15"
@@ -1216,7 +1216,7 @@
     {
       "name": "langchain-ai/langgraph",
       "description": "Build resilient agents.",
-      "stars": 32128,
+      "stars": 32129,
       "language": "Python",
       "url": "https://github.com/langchain-ai/langgraph",
       "updated": "2026-05-15"
