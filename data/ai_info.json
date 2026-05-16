@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-15 23:52:21 (UTC)",
+  "lastUpdated": "2026-05-16 02:29:37 (UTC)",
   "version": "2.0",
   "models": [
     {
@@ -25,10 +25,10 @@
       "release_url": "https://github.com/openai/openai-python/releases/tag/v2.37.0",
       "release_notes": "## 2.37.0 (2026-05-13)\n\nFull Changelog: [v2.36.0...v2.37.0](https://github.com/openai/openai-python/compare/v2.36.0...v2.37.0)\n\n### Features\n\n* **api:** add service_tier parameter to responses compact method ([625827c](https://github.com/openai/openai-python/commit/625827c5509ece3c40e5002be37a9bd9d9",
       "github": {
-        "stars": 30766,
+        "stars": 30768,
         "forks": 4778,
         "language": "Python",
-        "updated": "2026-05-15",
+        "updated": "2026-05-16",
         "topics": [
           "openai",
           "python"
@@ -108,7 +108,7 @@
         "stars": 3702,
         "forks": 862,
         "language": "Python",
-        "updated": "2026-05-15",
+        "updated": "2026-05-16",
         "topics": []
       },
       "recent_updates": [
@@ -142,10 +142,10 @@
       "release_url": "https://github.com/deepseek-ai/DeepSeek-V3/releases/tag/v1.0.0",
       "release_notes": "This release is created for archival purposes and DOI generation.",
       "github": {
-        "stars": 103537,
+        "stars": 103541,
         "forks": 16745,
         "language": "Python",
-        "updated": "2026-05-15",
+        "updated": "2026-05-16",
         "topics": []
       },
       "recent_updates": [
@@ -342,20 +342,37 @@
       }
     },
     {
-      "title": "Google: Gemma 4 26B A4B  (free)",
+      "title": "Qwen: Qwen3 Coder 480B A35B (free)",
       "badge": "免费",
-      "description": "Gemma 4 26B A4B IT is an instruction-tuned Mixture-of-Experts (MoE) model from Google DeepMind. Despite 25.2B total parameters, only 3.8B activate per token during inference — delivering near-31B qual",
+      "description": "Qwen3-Coder-480B-A35B-Instruct is a Mixture-of-Experts (MoE) code generation model developed by the Qwen team. It is optimized for agentic coding tasks such as function calling, tool use, and long-con",
       "meta": [
-        "上下文 262K",
-        "text+image+video->text",
+        "上下文 1048K",
+        "text->text",
         "免费"
       ],
-      "link": "https://openrouter.ai/models/google/gemma-4-26b-a4b-it:free",
-      "model_id": "google/gemma-4-26b-a4b-it:free",
-      "context_length": 262144,
+      "link": "https://openrouter.ai/models/qwen/qwen3-coder:free",
+      "model_id": "qwen/qwen3-coder:free",
+      "context_length": 1048576,
       "pricing": {
         "prompt": "0",
         "completion": "0"
+      }
+    },
+    {
+      "title": "Meta: Llama 4 Scout",
+      "badge": "超低价",
+      "description": "Llama 4 Scout 17B Instruct (16E) is a mixture-of-experts (MoE) language model developed by Meta, activating 17 billion parameters out of a total of 109B. It supports native multimodal input...",
+      "meta": [
+        "上下文 10000K",
+        "text+image->text",
+        "$0.00/M tok"
+      ],
+      "link": "https://openrouter.ai/models/meta-llama/llama-4-scout",
+      "model_id": "meta-llama/llama-4-scout",
+      "context_length": 10000000,
+      "pricing": {
+        "prompt": "0.00000008",
+        "completion": "0.0000003"
       }
     },
     {
@@ -391,23 +408,6 @@
         "prompt": "0.000002",
         "completion": "0.000006"
       }
-    },
-    {
-      "title": "xAI: Grok 4.20",
-      "badge": "超低价",
-      "description": "Grok 4.20 is a reasoning model from xAI with industry-leading speed and agentic tool calling capabilities. It combines the lowest hallucination rate on the market with strict prompt adherance, deliver",
-      "meta": [
-        "上下文 2000K",
-        "text+image+file->text",
-        "$0.00/M tok"
-      ],
-      "link": "https://openrouter.ai/models/x-ai/grok-4.20",
-      "model_id": "x-ai/grok-4.20",
-      "context_length": 2000000,
-      "pricing": {
-        "prompt": "0.00000125",
-        "completion": "0.0000025"
-      }
     }
   ],
   "tools": [
@@ -433,10 +433,10 @@
       "release_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
       "release_notes": "## What's changed\n\n- Added plugin dependency enforcement: `claude plugin disable` now refuses when another enabled plugin depends on the target (with a copy-pasteable disable-chain hint), and `claude plugin enable` force-enables transitive dependencies\n- Added projected context cost (per-turn and pe",
       "github": {
-        "stars": 123902,
-        "forks": 20420,
+        "stars": 123929,
+        "forks": 20423,
         "language": "Shell",
-        "updated": "2026-05-15",
+        "updated": "2026-05-16",
         "topics": []
       },
       "npm_downloads_weekly": 8519631,
@@ -543,10 +543,10 @@
       "release_url": "https://github.com/openai/codex/releases/tag/rust-v0.130.0",
       "release_notes": "## New Features\n- Plugin details now show bundled hooks, and plugin sharing exposes link metadata plus discoverability controls. (#21447, #21495, #21637)\n- Added `codex remote-control` as a simpler entrypoint for starting a headless, remotely controllable app-server. (#21424)\n- App-server clients ca",
       "github": {
-        "stars": 82909,
-        "forks": 12007,
+        "stars": 82923,
+        "forks": 12011,
         "language": "Rust",
-        "updated": "2026-05-15",
+        "updated": "2026-05-16",
         "topics": []
       },
       "recent_updates": [
@@ -579,10 +579,10 @@
       "release_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.42.0",
       "release_notes": "## What's Changed\n* fix(cli): prevent automatic updates from switching to less stable channels by @Adib234 in https://github.com/google-gemini/gemini-cli/pull/26132\n* chore(release): bump version to 0.42.0-nightly.20260428.g59b2dea0e by @gemini-cli-robot in https://github.com/google-gemini/gemini-cl",
       "github": {
-        "stars": 104069,
-        "forks": 13664,
+        "stars": 104072,
+        "forks": 13663,
         "language": "TypeScript",
-        "updated": "2026-05-15",
+        "updated": "2026-05-16",
         "topics": [
           "ai",
           "ai-agents",
@@ -640,10 +640,10 @@
       "release_url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.0",
       "release_notes": "- Added support for all GPT-5 models.\r\n- Added support for Grok-4 via `xai/grok-4` and `openrouter/x-ai/grok-4` model names.\r\n- Added support for `gemini/gemini-2.5-flash-lite-preview-06-17` model, by Tamir Zahavi-Brunner.\r\n- `/clear` now prints “All chat history cleared.” so you know it worked, by ",
       "github": {
-        "stars": 44863,
+        "stars": 44868,
         "forks": 4418,
         "language": "Python",
-        "updated": "2026-05-15",
+        "updated": "2026-05-16",
         "topics": [
           "anthropic",
           "chatgpt",
@@ -690,10 +690,10 @@
       "release_url": "https://github.com/cline/cline/releases/tag/cli-v3.0.3",
       "release_notes": "\n- Add `--worktree` flag that auto-creates a fresh git worktree under `~/.cline/worktrees/` and runs the task there. Works with `--taskId` and `--continue` so you can resume a task in an isolated worktree to try a different approach.\n- Show session status in the CLI history view and refresh status r",
       "github": {
-        "stars": 61850,
-        "forks": 6429,
+        "stars": 61853,
+        "forks": 6431,
         "language": "TypeScript",
-        "updated": "2026-05-15",
+        "updated": "2026-05-16",
         "topics": []
       },
       "npm_downloads_weekly": 42,
@@ -853,10 +853,10 @@
       "release_url": "https://github.com/ollama/ollama/releases/tag/v0.24.0",
       "release_notes": "## Codex App\r\n\r\nOllama 0.24 includes support for the Codex App, OpenAI's desktop experience for working on Codex threads in parallel with built-in worktree support and git functionality.\r\n\r\n```bash\r\nollama launch codex-app\r\n```\r\n\r\n<img width=\"2088\" height=\"1404\" alt=\"CleanShot 2026-05-14 at 15 04 18",
       "github": {
-        "stars": 171475,
-        "forks": 16142,
+        "stars": 171476,
+        "forks": 16145,
         "language": "Go",
-        "updated": "2026-05-15",
+        "updated": "2026-05-16",
         "topics": [
           "deepseek",
           "gemma",
@@ -917,10 +917,10 @@
       "release_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.0",
       "release_notes": "Changes since langchain-core==0.3.86\n\nchore(infra): merge v1.4 into master (#37350)\nchore: bump urllib3 from 2.6.3 to 2.7.0 in /libs/core (#37329)\nfix(core): avoid eager `pydantic.v1` import in `@deprecated` (#37308)\nchore: bump mistune from 3.1.4 to 3.2.1 in /libs/core (#37237)\nchore: bump jupyter-",
       "github": {
-        "stars": 136828,
-        "forks": 22630,
+        "stars": 136830,
+        "forks": 22629,
         "language": "Python",
-        "updated": "2026-05-15",
+        "updated": "2026-05-16",
         "topics": [
           "agents",
           "ai",
@@ -974,9 +974,9 @@
       "release_notes": "# Patch release v5.8.1 \r\nThis release is mainly to fix the Deepseek V4 integration!!! \r\n\r\n<img width=\"714\" height=\"774\" alt=\"image\" src=\"https://github.com/user-attachments/assets/0d85e891-a0ff-436e-a9d4-b6633096f2b5\" />\r\n\r\n\r\n* [fix] Add fatal_error to ContinuousBatchingManager so the serving... by ",
       "github": {
         "stars": 160647,
-        "forks": 33222,
+        "forks": 33223,
         "language": "Python",
-        "updated": "2026-05-15",
+        "updated": "2026-05-16",
         "topics": [
           "audio",
           "deep-learning",
@@ -1022,10 +1022,10 @@
       "release_url": "https://github.com/vllm-project/vllm/releases/tag/v0.21.0",
       "release_notes": "## Highlights\r\n\r\nThis release features 367 commits from 202 contributors (49 new)!\r\n\r\n* **Transformers v4 deprecated**: This release formally deprecates `transformers` v4 support (#40389). Users should migrate to `transformers` v5.\r\n* **C++20 build requirement**: vLLM now requires a C++20-compatible",
       "github": {
-        "stars": 80128,
-        "forks": 16836,
+        "stars": 80138,
+        "forks": 16839,
         "language": "Python",
-        "updated": "2026-05-15",
+        "updated": "2026-05-16",
         "topics": [
           "amd",
           "blackwell",
@@ -1184,10 +1184,10 @@
     {
       "name": "langchain-ai/langchain",
       "description": "The agent engineering platform.",
-      "stars": 136828,
+      "stars": 136830,
       "language": "Python",
       "url": "https://github.com/langchain-ai/langchain",
-      "updated": "2026-05-15"
+      "updated": "2026-05-16"
     },
     {
       "name": "microsoft/autogen",
@@ -1200,7 +1200,7 @@
     {
       "name": "crewAIInc/crewAI",
       "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
-      "stars": 51483,
+      "stars": 51485,
       "language": "Python",
       "url": "https://github.com/crewAIInc/crewAI",
       "updated": "2026-05-15"
@@ -1208,7 +1208,7 @@
     {
       "name": "AstrBotDevs/AstrBot",
       "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
-      "stars": 32301,
+      "stars": 32307,
       "language": "Python",
       "url": "https://github.com/AstrBotDevs/AstrBot",
       "updated": "2026-05-15"
@@ -1216,10 +1216,10 @@
     {
       "name": "langchain-ai/langgraph",
       "description": "Build resilient agents.",
-      "stars": 32129,
+      "stars": 32131,
       "language": "Python",
       "url": "https://github.com/langchain-ai/langgraph",
-      "updated": "2026-05-15"
+      "updated": "2026-05-16"
     }
   ]
 }
