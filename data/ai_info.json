@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-16 21:43:15 (UTC)",
+  "lastUpdated": "2026-05-16 22:40:13 (UTC)",
   "version": "2.0",
   "models": [
     {
@@ -68,7 +68,7 @@
       "release_notes": "## 0.102.0 (2026-05-13)\n\nFull Changelog: [v0.101.0...v0.102.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.101.0...v0.102.0)\n\n### Features\n\n* **api:** Add BetaManagedAgentsSearchResultBlock types ([3681f10](https://github.com/anthropics/anthropic-sdk-python/commit/3681f1042608b6be4",
       "github": {
         "stars": 3462,
-        "forks": 679,
+        "forks": 680,
         "language": "Python",
         "updated": "2026-05-16",
         "topics": []
@@ -105,8 +105,8 @@
       "release_url": "https://github.com/googleapis/python-genai/releases/tag/v2.3.0",
       "release_notes": "## [2.3.0](https://github.com/googleapis/python-genai/compare/v2.2.0...v2.3.0) (2026-05-15)\n\n\n### Features\n\n* Add content union to UserInputStep ([a5059a8](https://github.com/googleapis/python-genai/commit/a5059a82dc596f9555dd3221aa6e7414d50df24a))\n* Interaction.{output_text,output_image,output_audi",
       "github": {
-        "stars": 3704,
-        "forks": 865,
+        "stars": 3705,
+        "forks": 866,
         "language": "Python",
         "updated": "2026-05-16",
         "topics": []
@@ -142,7 +142,7 @@
       "release_url": "https://github.com/deepseek-ai/DeepSeek-V3/releases/tag/v1.0.0",
       "release_notes": "This release is created for archival purposes and DOI generation.",
       "github": {
-        "stars": 103544,
+        "stars": 103545,
         "forks": 16746,
         "language": "Python",
         "updated": "2026-05-16",
@@ -433,8 +433,8 @@
       "release_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
       "release_notes": "## What's changed\n\n- Added plugin dependency enforcement: `claude plugin disable` now refuses when another enabled plugin depends on the target (with a copy-pasteable disable-chain hint), and `claude plugin enable` force-enables transitive dependencies\n- Added projected context cost (per-turn and pe",
       "github": {
-        "stars": 124140,
-        "forks": 20450,
+        "stars": 124147,
+        "forks": 20451,
         "language": "Shell",
         "updated": "2026-05-16",
         "topics": []
@@ -543,7 +543,7 @@
       "release_url": "https://github.com/openai/codex/releases/tag/rust-v0.130.0",
       "release_notes": "## New Features\n- Plugin details now show bundled hooks, and plugin sharing exposes link metadata plus discoverability controls. (#21447, #21495, #21637)\n- Added `codex remote-control` as a simpler entrypoint for starting a headless, remotely controllable app-server. (#21424)\n- App-server clients ca",
       "github": {
-        "stars": 83084,
+        "stars": 83087,
         "forks": 12044,
         "language": "Rust",
         "updated": "2026-05-16",
@@ -579,7 +579,7 @@
       "release_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.42.0",
       "release_notes": "## What's Changed\n* fix(cli): prevent automatic updates from switching to less stable channels by @Adib234 in https://github.com/google-gemini/gemini-cli/pull/26132\n* chore(release): bump version to 0.42.0-nightly.20260428.g59b2dea0e by @gemini-cli-robot in https://github.com/google-gemini/gemini-cl",
       "github": {
-        "stars": 104134,
+        "stars": 104132,
         "forks": 13678,
         "language": "TypeScript",
         "updated": "2026-05-16",
@@ -685,12 +685,12 @@
         "自主编码",
         "多模型支持"
       ],
-      "latest_version": "cli-v3.0.4",
+      "latest_version": "cli-v3.0.5",
       "version_date": "2026-05-16",
-      "release_url": "https://github.com/cline/cline/releases/tag/cli-v3.0.4",
-      "release_notes": "\n- Improve light theme TUI colors so chat, status bar, tool output, and syntax highlighting render with better contrast on light terminals.\n- Fix plugin tools failing in the production npm build by bundling the SDK deps plugins import at runtime.\nFull Changelog: https://github.com/cline/cline/compar",
+      "release_url": "https://github.com/cline/cline/releases/tag/cli-v3.0.5",
+      "release_notes": "\n- Show plugin-provided tools and slash commands in the CLI settings dialog by hydrating them through the sandbox.\n- Preserve hydrated plugin tools and config reload options when toggling settings, so they no longer disappear after a toggle.\nFull Changelog: https://github.com/cline/cline/compare/cli",
       "github": {
-        "stars": 61889,
+        "stars": 61890,
         "forks": 6438,
         "language": "TypeScript",
         "updated": "2026-05-16",
@@ -699,8 +699,8 @@
       "npm_downloads_weekly": 42,
       "recent_updates": [
         {
-          "title": "Release cli-v3.0.4: CLI v3.0.4",
-          "url": "https://github.com/cline/cline/releases/tag/cli-v3.0.4",
+          "title": "Release cli-v3.0.5: CLI v3.0.5",
+          "url": "https://github.com/cline/cline/releases/tag/cli-v3.0.5",
           "date": "2026-05-16",
           "source": "GitHub Release"
         },
@@ -853,8 +853,8 @@
       "release_url": "https://github.com/ollama/ollama/releases/tag/v0.24.0",
       "release_notes": "## Codex App\r\n\r\nOllama 0.24 includes support for the Codex App, OpenAI's desktop experience for working on Codex threads in parallel with built-in worktree support and git functionality.\r\n\r\n```bash\r\nollama launch codex-app\r\n```\r\n\r\n<img width=\"2088\" height=\"1404\" alt=\"CleanShot 2026-05-14 at 15 04 18",
       "github": {
-        "stars": 171542,
-        "forks": 16152,
+        "stars": 171543,
+        "forks": 16151,
         "language": "Go",
         "updated": "2026-05-16",
         "topics": [
@@ -917,7 +917,7 @@
       "release_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.0",
       "release_notes": "Changes since langchain-core==0.3.86\n\nchore(infra): merge v1.4 into master (#37350)\nchore: bump urllib3 from 2.6.3 to 2.7.0 in /libs/core (#37329)\nfix(core): avoid eager `pydantic.v1` import in `@deprecated` (#37308)\nchore: bump mistune from 3.1.4 to 3.2.1 in /libs/core (#37237)\nchore: bump jupyter-",
       "github": {
-        "stars": 136898,
+        "stars": 136897,
         "forks": 22645,
         "language": "Python",
         "updated": "2026-05-16",
@@ -1022,7 +1022,7 @@
       "release_url": "https://github.com/vllm-project/vllm/releases/tag/v0.21.0",
       "release_notes": "## Highlights\r\n\r\nThis release features 367 commits from 202 contributors (49 new)!\r\n\r\n* **Transformers v4 deprecated**: This release formally deprecates `transformers` v4 support (#40389). Users should migrate to `transformers` v5.\r\n* **C++20 build requirement**: vLLM now requires a C++20-compatible",
       "github": {
-        "stars": 80201,
+        "stars": 80202,
         "forks": 16857,
         "language": "Python",
         "updated": "2026-05-16",
@@ -1184,7 +1184,7 @@
     {
       "name": "langchain-ai/langchain",
       "description": "The agent engineering platform.",
-      "stars": 136898,
+      "stars": 136897,
       "language": "Python",
       "url": "https://github.com/langchain-ai/langchain",
       "updated": "2026-05-16"
@@ -1200,7 +1200,7 @@
     {
       "name": "crewAIInc/crewAI",
       "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
-      "stars": 51533,
+      "stars": 51534,
       "language": "Python",
       "url": "https://github.com/crewAIInc/crewAI",
       "updated": "2026-05-16"
@@ -1208,7 +1208,7 @@
     {
       "name": "AstrBotDevs/AstrBot",
       "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
-      "stars": 32378,
+      "stars": 32377,
       "language": "Python",
       "url": "https://github.com/AstrBotDevs/AstrBot",
       "updated": "2026-05-16"
