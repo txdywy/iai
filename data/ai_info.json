@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-17 22:48:21 (UTC)",
+  "lastUpdated": "2026-05-17 23:54:29 (UTC)",
   "version": "2.0",
   "models": [
     {
@@ -25,7 +25,7 @@
       "release_url": "https://github.com/openai/openai-python/releases/tag/v2.37.0",
       "release_notes": "## 2.37.0 (2026-05-13)\n\nFull Changelog: [v2.36.0...v2.37.0](https://github.com/openai/openai-python/compare/v2.36.0...v2.37.0)\n\n### Features\n\n* **api:** add service_tier parameter to responses compact method ([625827c](https://github.com/openai/openai-python/commit/625827c5509ece3c40e5002be37a9bd9d9",
       "github": {
-        "stars": 30785,
+        "stars": 30786,
         "forks": 4783,
         "language": "Python",
         "updated": "2026-05-17",
@@ -68,7 +68,7 @@
       "release_notes": "## 0.102.0 (2026-05-13)\n\nFull Changelog: [v0.101.0...v0.102.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.101.0...v0.102.0)\n\n### Features\n\n* **api:** Add BetaManagedAgentsSearchResultBlock types ([3681f10](https://github.com/anthropics/anthropic-sdk-python/commit/3681f1042608b6be4",
       "github": {
         "stars": 3465,
-        "forks": 682,
+        "forks": 681,
         "language": "Python",
         "updated": "2026-05-17",
         "topics": []
@@ -195,7 +195,7 @@
       "pricing_hint": "国内定价",
       "github": {
         "stars": 7076,
-        "forks": 619,
+        "forks": 620,
         "language": "Python",
         "updated": "2026-05-17",
         "topics": [
@@ -433,8 +433,8 @@
       "release_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
       "release_notes": "## What's changed\n\n- Added plugin dependency enforcement: `claude plugin disable` now refuses when another enabled plugin depends on the target (with a copy-pasteable disable-chain hint), and `claude plugin enable` force-enables transitive dependencies\n- Added projected context cost (per-turn and pe",
       "github": {
-        "stars": 124379,
-        "forks": 20476,
+        "stars": 124384,
+        "forks": 20477,
         "language": "Shell",
         "updated": "2026-05-17",
         "topics": []
@@ -544,7 +544,7 @@
       "release_notes": "## New Features\n- Plugin details now show bundled hooks, and plugin sharing exposes link metadata plus discoverability controls. (#21447, #21495, #21637)\n- Added `codex remote-control` as a simpler entrypoint for starting a headless, remotely controllable app-server. (#21424)\n- App-server clients ca",
       "github": {
         "stars": 83293,
-        "forks": 12071,
+        "forks": 12073,
         "language": "Rust",
         "updated": "2026-05-17",
         "topics": []
@@ -580,7 +580,7 @@
       "release_notes": "## What's Changed\n* fix(cli): prevent automatic updates from switching to less stable channels by @Adib234 in https://github.com/google-gemini/gemini-cli/pull/26132\n* chore(release): bump version to 0.42.0-nightly.20260428.g59b2dea0e by @gemini-cli-robot in https://github.com/google-gemini/gemini-cl",
       "github": {
         "stars": 104193,
-        "forks": 13688,
+        "forks": 13689,
         "language": "TypeScript",
         "updated": "2026-05-17",
         "topics": [
@@ -685,12 +685,12 @@
         "自主编码",
         "多模型支持"
       ],
-      "latest_version": "cli-v3.0.5",
-      "version_date": "2026-05-16",
-      "release_url": "https://github.com/cline/cline/releases/tag/cli-v3.0.5",
-      "release_notes": "\n- Show plugin-provided tools and slash commands in the CLI settings dialog by hydrating them through the sandbox.\n- Preserve hydrated plugin tools and config reload options when toggling settings, so they no longer disappear after a toggle.\nFull Changelog: https://github.com/cline/cline/compare/cli",
+      "latest_version": "cli-v3.0.6",
+      "version_date": "2026-05-17",
+      "release_url": "https://github.com/cline/cline/releases/tag/cli-v3.0.6",
+      "release_notes": "\n- Fix ChatGPT provider model list to include the codex variants and the gpt-5.2, gpt-5.4, and gpt-5.4-mini subscription models.\nFull Changelog: https://github.com/cline/cline/compare/cli-v3.0.5...cli-v3.0.6\n",
       "github": {
-        "stars": 61938,
+        "stars": 61939,
         "forks": 6452,
         "language": "TypeScript",
         "updated": "2026-05-17",
@@ -699,9 +699,9 @@
       "npm_downloads_weekly": 46,
       "recent_updates": [
         {
-          "title": "Release cli-v3.0.5: CLI v3.0.5",
-          "url": "https://github.com/cline/cline/releases/tag/cli-v3.0.5",
-          "date": "2026-05-16",
+          "title": "Release cli-v3.0.6: CLI v3.0.6",
+          "url": "https://github.com/cline/cline/releases/tag/cli-v3.0.6",
+          "date": "2026-05-17",
           "source": "GitHub Release"
         },
         {
@@ -756,7 +756,7 @@
       "release_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/releases/tag/2025-11-25",
       "release_notes": "This release marks the **stable release** of the `2025-11-25` revision of the Model Context Protocol.\r\n\r\nThe specification is available on the [official Model Context Protocol website](https://modelcontextprotocol.io/specification/2025-11-25).\r\n\r\nFor a detailed overview of changes, see [2025-11-25 c",
       "github": {
-        "stars": 8135,
+        "stars": 8136,
         "forks": 1525,
         "language": "TypeScript",
         "updated": "2026-05-17",
@@ -853,8 +853,8 @@
       "release_url": "https://github.com/ollama/ollama/releases/tag/v0.24.0",
       "release_notes": "## Codex App\r\n\r\nOllama 0.24 includes support for the Codex App, OpenAI's desktop experience for working on Codex threads in parallel with built-in worktree support and git functionality.\r\n\r\n```bash\r\nollama launch codex-app\r\n```\r\n\r\n<img width=\"2088\" height=\"1404\" alt=\"CleanShot 2026-05-14 at 15 04 18",
       "github": {
-        "stars": 171624,
-        "forks": 16166,
+        "stars": 171625,
+        "forks": 16165,
         "language": "Go",
         "updated": "2026-05-17",
         "topics": [
@@ -973,8 +973,8 @@
       "release_url": "https://github.com/huggingface/transformers/releases/tag/v5.8.1",
       "release_notes": "# Patch release v5.8.1 \r\nThis release is mainly to fix the Deepseek V4 integration!!! \r\n\r\n<img width=\"714\" height=\"774\" alt=\"image\" src=\"https://github.com/user-attachments/assets/0d85e891-a0ff-436e-a9d4-b6633096f2b5\" />\r\n\r\n\r\n* [fix] Add fatal_error to ContinuousBatchingManager so the serving... by ",
       "github": {
-        "stars": 160694,
-        "forks": 33238,
+        "stars": 160695,
+        "forks": 33239,
         "language": "Python",
         "updated": "2026-05-17",
         "topics": [
@@ -1022,8 +1022,8 @@
       "release_url": "https://github.com/vllm-project/vllm/releases/tag/v0.21.0",
       "release_notes": "## Highlights\r\n\r\nThis release features 367 commits from 202 contributors (49 new)!\r\n\r\n* **Transformers v4 deprecated**: This release formally deprecates `transformers` v4 support (#40389). Users should migrate to `transformers` v5.\r\n* **C++20 build requirement**: vLLM now requires a C++20-compatible",
       "github": {
-        "stars": 80269,
-        "forks": 16877,
+        "stars": 80273,
+        "forks": 16879,
         "language": "Python",
         "updated": "2026-05-17",
         "topics": [
@@ -1192,7 +1192,7 @@
     {
       "name": "microsoft/autogen",
       "description": "A programming framework for agentic AI",
-      "stars": 58115,
+      "stars": 58117,
       "language": "Python",
       "url": "https://github.com/microsoft/autogen",
       "updated": "2026-04-15"
@@ -1200,7 +1200,7 @@
     {
       "name": "crewAIInc/crewAI",
       "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
-      "stars": 51591,
+      "stars": 51592,
       "language": "Python",
       "url": "https://github.com/crewAIInc/crewAI",
       "updated": "2026-05-16"
@@ -1208,7 +1208,7 @@
     {
       "name": "AstrBotDevs/AstrBot",
       "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
-      "stars": 32456,
+      "stars": 32457,
       "language": "Python",
       "url": "https://github.com/AstrBotDevs/AstrBot",
       "updated": "2026-05-17"
@@ -1216,7 +1216,7 @@
     {
       "name": "langchain-ai/langgraph",
       "description": "Build resilient agents.",
-      "stars": 32253,
+      "stars": 32254,
       "language": "Python",
       "url": "https://github.com/langchain-ai/langgraph",
       "updated": "2026-05-17"
