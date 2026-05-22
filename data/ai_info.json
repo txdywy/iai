@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-22 14:27:45 (UTC)",
+  "lastUpdated": "2026-05-22 17:05:18 (UTC)",
   "version": "2.0",
   "models": [
     {
@@ -25,7 +25,7 @@
       "release_url": "https://github.com/openai/openai-python/releases/tag/v2.38.0",
       "release_notes": "## 2.38.0 (2026-05-21)\n\nFull Changelog: [v2.37.0...v2.38.0](https://github.com/openai/openai-python/compare/v2.37.0...v2.38.0)\n\n### Features\n\n* **api:** api update ([33d1d01](https://github.com/openai/openai-python/commit/33d1d013250053886a73d178136e6bd1b09df059))\n* **api:** manual updates ([a21700a",
       "github": {
-        "stars": 30816,
+        "stars": 30818,
         "forks": 4796,
         "language": "Python",
         "updated": "2026-05-22",
@@ -62,10 +62,10 @@
         "扩展思维"
       ],
       "pricing_hint": "~$0.015/1K input tokens",
-      "latest_version": "0.104.0",
-      "version_date": "2026-05-21",
-      "release_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.104.0",
-      "release_notes": "## 0.104.0 (2026-05-21)\n\nFull Changelog: [v0.103.1...v0.104.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.103.1...v0.104.0)\n\n### Features\n\n* **api:** Add support for thinking-token-count beta for estimated tokens in thinking block deltas when streaming ([80d0fdf](https://github.co",
+      "latest_version": "0.104.1",
+      "version_date": "2026-05-22",
+      "release_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.104.1",
+      "release_notes": "## 0.104.1 (2026-05-21)\n\nFull Changelog: [v0.104.0...v0.104.1](https://github.com/anthropics/anthropic-sdk-python/compare/v0.104.0...v0.104.1)\n\n### Bug Fixes\n\n* **streaming:** carry encrypted_content through beta compaction accumulator ([#1821](https://github.com/anthropics/anthropic-sdk-python/issu",
       "github": {
         "stars": 3506,
         "forks": 681,
@@ -75,9 +75,9 @@
       },
       "recent_updates": [
         {
-          "title": "Release 0.104.0: v0.104.0",
-          "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.104.0",
-          "date": "2026-05-21",
+          "title": "Release 0.104.1: v0.104.1",
+          "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.104.1",
+          "date": "2026-05-22",
           "source": "GitHub Release"
         }
       ]
@@ -142,7 +142,7 @@
       "release_url": "https://github.com/deepseek-ai/DeepSeek-V3/releases/tag/v1.0.0",
       "release_notes": "This release is created for archival purposes and DOI generation.",
       "github": {
-        "stars": 103576,
+        "stars": 103577,
         "forks": 16741,
         "language": "Python",
         "updated": "2026-05-22",
@@ -230,7 +230,7 @@
       "release_url": "https://github.com/meta-llama/llama-models/releases/tag/v0.2.0",
       "release_notes": "Llama 4 Support ( https://www.llama.com ) \r\n\r\n",
       "github": {
-        "stars": 7609,
+        "stars": 7610,
         "forks": 1369,
         "language": "Python",
         "updated": "2026-05-22",
@@ -433,8 +433,8 @@
       "release_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.148",
       "release_notes": "## What's changed\n\n- Fixed the Bash tool returning exit code 127 on every command for some users (a regression introduced in 2.1.147)\n",
       "github": {
-        "stars": 125715,
-        "forks": 20638,
+        "stars": 125746,
+        "forks": 20641,
         "language": "Shell",
         "updated": "2026-05-22",
         "topics": []
@@ -543,8 +543,8 @@
       "release_url": "https://github.com/openai/codex/releases/tag/rust-v0.133.0",
       "release_notes": "## New Features\n- Goals are now enabled by default, backed by dedicated storage, and track progress across active turns. (#23300, #23685, #23696, #23732)\n- `codex remote-control` now runs like a foreground command, waits for readiness, reports machine status, and keeps explicit daemon-style `start`/",
       "github": {
-        "stars": 84620,
-        "forks": 12326,
+        "stars": 84656,
+        "forks": 12331,
         "language": "Rust",
         "updated": "2026-05-22",
         "topics": []
@@ -579,8 +579,8 @@
       "release_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.43.0",
       "release_notes": "## What's Changed\n* feat(core): steer model to use edit tool for surgical edits, fix a typo by @aishaneeshah in https://github.com/google-gemini/gemini-cli/pull/26480\n* docs: clarify Auto Memory proposes memory updates and skills by @SandyTao520 in https://github.com/google-gemini/gemini-cli/pull/26",
       "github": {
-        "stars": 104488,
-        "forks": 13798,
+        "stars": 104490,
+        "forks": 13802,
         "language": "TypeScript",
         "updated": "2026-05-22",
         "topics": [
@@ -640,7 +640,7 @@
       "release_url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.0",
       "release_notes": "- Added support for all GPT-5 models.\r\n- Added support for Grok-4 via `xai/grok-4` and `openrouter/x-ai/grok-4` model names.\r\n- Added support for `gemini/gemini-2.5-flash-lite-preview-06-17` model, by Tamir Zahavi-Brunner.\r\n- `/clear` now prints “All chat history cleared.” so you know it worked, by ",
       "github": {
-        "stars": 45146,
+        "stars": 45151,
         "forks": 4460,
         "language": "Python",
         "updated": "2026-05-22",
@@ -690,8 +690,8 @@
       "release_url": "https://github.com/cline/cline/releases/tag/cli-v3.0.10",
       "release_notes": "\n- Install plugins from `file://` URLs in addition to npm and git sources.\n- Show Ollama API key note in TUI settings so users know when to provide an API key.\n- Keep interactive sessions alive when idle or awaiting approval instead of treating them as ended, and stop reading message files for every",
       "github": {
-        "stars": 62178,
-        "forks": 6497,
+        "stars": 62183,
+        "forks": 6498,
         "language": "TypeScript",
         "updated": "2026-05-22",
         "topics": []
@@ -853,8 +853,8 @@
       "release_url": "https://github.com/ollama/ollama/releases/tag/v0.24.0",
       "release_notes": "## Codex App\r\n\r\nOllama 0.24 includes support for the Codex App, OpenAI's desktop experience for working on Codex threads in parallel with built-in worktree support and git functionality.\r\n\r\n```bash\r\nollama launch codex-app\r\n```\r\n\r\n<img width=\"2088\" height=\"1404\" alt=\"CleanShot 2026-05-14 at 15 04 18",
       "github": {
-        "stars": 172013,
-        "forks": 16236,
+        "stars": 172020,
+        "forks": 16239,
         "language": "Go",
         "updated": "2026-05-22",
         "topics": [
@@ -917,8 +917,8 @@
       "release_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.0",
       "release_notes": "Changes since langchain-core==0.3.86\n\nchore(infra): merge v1.4 into master (#37350)\nchore: bump urllib3 from 2.6.3 to 2.7.0 in /libs/core (#37329)\nfix(core): avoid eager `pydantic.v1` import in `@deprecated` (#37308)\nchore: bump mistune from 3.1.4 to 3.2.1 in /libs/core (#37237)\nchore: bump jupyter-",
       "github": {
-        "stars": 137391,
-        "forks": 22724,
+        "stars": 137403,
+        "forks": 22729,
         "language": "Python",
         "updated": "2026-05-22",
         "topics": [
@@ -973,8 +973,8 @@
       "release_url": "https://github.com/huggingface/transformers/releases/tag/v5.9.0",
       "release_notes": "# Release v5.9.0\r\n\r\n\r\n## New Model additions\r\n\r\n### Cohere2Moe\r\n\r\nCommand A+ is a Mixture-of-Experts (MoE) language model from Cohere that features a hybrid attention pattern combining sliding window and full attention layers. The model incorporates both shared and routed experts and supports a very",
       "github": {
-        "stars": 160873,
-        "forks": 33296,
+        "stars": 160874,
+        "forks": 33295,
         "language": "Python",
         "updated": "2026-05-22",
         "topics": [
@@ -1022,8 +1022,8 @@
       "release_url": "https://github.com/vllm-project/vllm/releases/tag/v0.21.0",
       "release_notes": "## Highlights\r\n\r\nThis release features 367 commits from 202 contributors (49 new)!\r\n\r\n* **Transformers v4 deprecated**: This release formally deprecates `transformers` v4 support (#40389). Users should migrate to `transformers` v5.\r\n* **C++20 build requirement**: vLLM now requires a C++20-compatible",
       "github": {
-        "stars": 80723,
-        "forks": 17106,
+        "stars": 80730,
+        "forks": 17111,
         "language": "Python",
         "updated": "2026-05-22",
         "topics": [
@@ -1184,7 +1184,7 @@
     {
       "name": "langchain-ai/langchain",
       "description": "The agent engineering platform.",
-      "stars": 137391,
+      "stars": 137403,
       "language": "Python",
       "url": "https://github.com/langchain-ai/langchain",
       "updated": "2026-05-22"
@@ -1192,7 +1192,7 @@
     {
       "name": "microsoft/autogen",
       "description": "A programming framework for agentic AI",
-      "stars": 58291,
+      "stars": 58298,
       "language": "Python",
       "url": "https://github.com/microsoft/autogen",
       "updated": "2026-04-15"
@@ -1200,7 +1200,7 @@
     {
       "name": "crewAIInc/crewAI",
       "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
-      "stars": 51963,
+      "stars": 51972,
       "language": "Python",
       "url": "https://github.com/crewAIInc/crewAI",
       "updated": "2026-05-22"
@@ -1208,7 +1208,7 @@
     {
       "name": "AstrBotDevs/AstrBot",
       "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
-      "stars": 32840,
+      "stars": 32854,
       "language": "Python",
       "url": "https://github.com/AstrBotDevs/AstrBot",
       "updated": "2026-05-22"
@@ -1216,10 +1216,10 @@
     {
       "name": "langchain-ai/langgraph",
       "description": "Build resilient agents.",
-      "stars": 32693,
+      "stars": 32703,
       "language": "Python",
       "url": "https://github.com/langchain-ai/langgraph",
-      "updated": "2026-05-21"
+      "updated": "2026-05-22"
     }
   ]
 }
