@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-23 21:49:50 (UTC)",
+  "lastUpdated": "2026-05-23 22:47:15 (UTC)",
   "version": "2.0",
   "models": [
     {
@@ -25,7 +25,7 @@
       "release_url": "https://github.com/openai/openai-python/releases/tag/v2.38.0",
       "release_notes": "## 2.38.0 (2026-05-21)\n\nFull Changelog: [v2.37.0...v2.38.0](https://github.com/openai/openai-python/compare/v2.37.0...v2.38.0)\n\n### Features\n\n* **api:** api update ([33d1d01](https://github.com/openai/openai-python/commit/33d1d013250053886a73d178136e6bd1b09df059))\n* **api:** manual updates ([a21700a",
       "github": {
-        "stars": 30825,
+        "stars": 30826,
         "forks": 4799,
         "language": "Python",
         "updated": "2026-05-23",
@@ -433,8 +433,8 @@
       "release_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.150",
       "release_notes": "## What's changed\n\n- Internal infrastructure improvements (no user-facing changes)\n",
       "github": {
-        "stars": 125990,
-        "forks": 20679,
+        "stars": 125995,
+        "forks": 20680,
         "language": "Shell",
         "updated": "2026-05-23",
         "topics": []
@@ -543,8 +543,8 @@
       "release_url": "https://github.com/openai/codex/releases/tag/rust-v0.133.0",
       "release_notes": "## New Features\n- Goals are now enabled by default, backed by dedicated storage, and track progress across active turns. (#23300, #23685, #23696, #23732)\n- `codex remote-control` now runs like a foreground command, waits for readiness, reports machine status, and keeps explicit daemon-style `start`/",
       "github": {
-        "stars": 84875,
-        "forks": 12365,
+        "stars": 84879,
+        "forks": 12366,
         "language": "Rust",
         "updated": "2026-05-23",
         "topics": []
@@ -579,8 +579,8 @@
       "release_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.43.0",
       "release_notes": "## What's Changed\n* feat(core): steer model to use edit tool for surgical edits, fix a typo by @aishaneeshah in https://github.com/google-gemini/gemini-cli/pull/26480\n* docs: clarify Auto Memory proposes memory updates and skills by @SandyTao520 in https://github.com/google-gemini/gemini-cli/pull/26",
       "github": {
-        "stars": 104533,
-        "forks": 13823,
+        "stars": 104534,
+        "forks": 13825,
         "language": "TypeScript",
         "updated": "2026-05-23",
         "topics": [
@@ -640,7 +640,7 @@
       "release_url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.0",
       "release_notes": "- Added support for all GPT-5 models.\r\n- Added support for Grok-4 via `xai/grok-4` and `openrouter/x-ai/grok-4` model names.\r\n- Added support for `gemini/gemini-2.5-flash-lite-preview-06-17` model, by Tamir Zahavi-Brunner.\r\n- `/clear` now prints “All chat history cleared.” so you know it worked, by ",
       "github": {
-        "stars": 45212,
+        "stars": 45213,
         "forks": 4470,
         "language": "Python",
         "updated": "2026-05-23",
@@ -690,7 +690,7 @@
       "release_url": "https://github.com/cline/cline/releases/tag/cli-v3.0.13",
       "release_notes": "\n- Show a loading dialog while resuming a session from history so the TUI no longer appears frozen during the load.\n- Speed up the `/clear` command by deferring new session creation until you send the next prompt, so clearing no longer blocks on spinning up an empty session.\n\n**Full Changelog**: htt",
       "github": {
-        "stars": 62222,
+        "stars": 62223,
         "forks": 6510,
         "language": "TypeScript",
         "updated": "2026-05-23",
@@ -853,8 +853,8 @@
       "release_url": "https://github.com/ollama/ollama/releases/tag/v0.24.0",
       "release_notes": "## Codex App\r\n\r\nOllama 0.24 includes support for the Codex App, OpenAI's desktop experience for working on Codex threads in parallel with built-in worktree support and git functionality.\r\n\r\n```bash\r\nollama launch codex-app\r\n```\r\n\r\n<img width=\"2088\" height=\"1404\" alt=\"CleanShot 2026-05-14 at 15 04 18",
       "github": {
-        "stars": 172120,
-        "forks": 16264,
+        "stars": 172124,
+        "forks": 16265,
         "language": "Go",
         "updated": "2026-05-23",
         "topics": [
@@ -974,7 +974,7 @@
       "release_notes": "# Release v5.9.0\r\n\r\n\r\n## New Model additions\r\n\r\n### Cohere2Moe\r\n\r\nCommand A+ is a Mixture-of-Experts (MoE) language model from Cohere that features a hybrid attention pattern combining sliding window and full attention layers. The model incorporates both shared and routed experts and supports a very",
       "github": {
         "stars": 160908,
-        "forks": 33300,
+        "forks": 33301,
         "language": "Python",
         "updated": "2026-05-23",
         "topics": [
@@ -1022,8 +1022,8 @@
       "release_url": "https://github.com/vllm-project/vllm/releases/tag/v0.21.0",
       "release_notes": "## Highlights\r\n\r\nThis release features 367 commits from 202 contributors (49 new)!\r\n\r\n* **Transformers v4 deprecated**: This release formally deprecates `transformers` v4 support (#40389). Users should migrate to `transformers` v5.\r\n* **C++20 build requirement**: vLLM now requires a C++20-compatible",
       "github": {
-        "stars": 80812,
-        "forks": 17140,
+        "stars": 80814,
+        "forks": 17141,
         "language": "Python",
         "updated": "2026-05-23",
         "topics": [
@@ -1192,7 +1192,7 @@
     {
       "name": "microsoft/autogen",
       "description": "A programming framework for agentic AI",
-      "stars": 58319,
+      "stars": 58320,
       "language": "Python",
       "url": "https://github.com/microsoft/autogen",
       "updated": "2026-04-15"
@@ -1200,7 +1200,7 @@
     {
       "name": "crewAIInc/crewAI",
       "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
-      "stars": 52027,
+      "stars": 52030,
       "language": "Python",
       "url": "https://github.com/crewAIInc/crewAI",
       "updated": "2026-05-23"
@@ -1208,7 +1208,7 @@
     {
       "name": "AstrBotDevs/AstrBot",
       "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
-      "stars": 32926,
+      "stars": 32927,
       "language": "Python",
       "url": "https://github.com/AstrBotDevs/AstrBot",
       "updated": "2026-05-23"
@@ -1216,7 +1216,7 @@
     {
       "name": "langchain-ai/langgraph",
       "description": "Build resilient agents.",
-      "stars": 32773,
+      "stars": 32774,
       "language": "Python",
       "url": "https://github.com/langchain-ai/langgraph",
       "updated": "2026-05-22"
