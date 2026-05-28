@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28 06:50:58 (UTC)",
+  "lastUpdated": "2026-05-28 10:51:48 (UTC)",
   "version": "2.0",
   "models": [
     {
@@ -67,8 +67,8 @@
       "release_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.104.1",
       "release_notes": "## 0.104.1 (2026-05-21)\n\nFull Changelog: [v0.104.0...v0.104.1](https://github.com/anthropics/anthropic-sdk-python/compare/v0.104.0...v0.104.1)\n\n### Bug Fixes\n\n* **streaming:** carry encrypted_content through beta compaction accumulator ([#1821](https://github.com/anthropics/anthropic-sdk-python/issu",
       "github": {
-        "stars": 3542,
-        "forks": 696,
+        "stars": 3543,
+        "forks": 695,
         "language": "Python",
         "updated": "2026-05-28",
         "topics": []
@@ -105,7 +105,7 @@
       "release_url": "https://github.com/googleapis/python-genai/releases/tag/v2.6.0",
       "release_notes": "## [2.6.0](https://github.com/googleapis/python-genai/compare/v2.5.0...v2.6.0) (2026-05-21)\n\n\n### Features\n\n* Add `enable_prompt_injection_detection` for Computer Use feature for the Gemini API. ([b1f632d](https://github.com/googleapis/python-genai/commit/b1f632d5d617a8e24fd4cb87556a4eb180b6d29b))\n*",
       "github": {
-        "stars": 3744,
+        "stars": 3745,
         "forks": 892,
         "language": "Python",
         "updated": "2026-05-28",
@@ -142,8 +142,8 @@
       "release_url": "https://github.com/deepseek-ai/DeepSeek-V3/releases/tag/v1.0.0",
       "release_notes": "This release is created for archival purposes and DOI generation.",
       "github": {
-        "stars": 103636,
-        "forks": 16743,
+        "stars": 103642,
+        "forks": 16742,
         "language": "Python",
         "updated": "2026-05-28",
         "topics": []
@@ -433,13 +433,13 @@
       "release_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.153",
       "release_notes": "## What's changed\n\n- Added `skipLfs` option to `github`/`git` plugin marketplace sources to skip Git LFS downloads during clone and update\n- Claude Code now shows a one-time notice when your npm global install can't auto-update; `/doctor` lists the fixes\n- Status line commands now receive `COLUMNS` ",
       "github": {
-        "stars": 127129,
-        "forks": 20840,
+        "stars": 127200,
+        "forks": 20847,
         "language": "Python",
         "updated": "2026-05-28",
         "topics": []
       },
-      "npm_downloads_weekly": 8198736,
+      "npm_downloads_weekly": 8447716,
       "recent_updates": [
         {
           "title": "Release 2.1.153: v2.1.153",
@@ -543,8 +543,8 @@
       "release_url": "https://github.com/openai/codex/releases/tag/rust-v0.134.0",
       "release_notes": "## New Features\n- Added search across local conversation history, including case-insensitive content matches with result previews. (#23519, #23921)\n- Made `--profile` the primary profile selector across CLI, TUI permissions, and sandbox flows, with legacy profile configs rejected through migration g",
       "github": {
-        "stars": 86443,
-        "forks": 12646,
+        "stars": 86518,
+        "forks": 12661,
         "language": "Rust",
         "updated": "2026-05-28",
         "topics": []
@@ -579,8 +579,8 @@
       "release_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.44.0",
       "release_notes": "## What's Changed\n* chore(release): bump version to 0.44.0-nightly.20260512.g022e8baef by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/26957\n* Changelog for v0.42.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/26958\n* Refactor: Eliminate `no-unsaf",
       "github": {
-        "stars": 104667,
-        "forks": 13905,
+        "stars": 104678,
+        "forks": 13911,
         "language": "TypeScript",
         "updated": "2026-05-28",
         "topics": [
@@ -640,8 +640,8 @@
       "release_url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.0",
       "release_notes": "- Added support for all GPT-5 models.\r\n- Added support for Grok-4 via `xai/grok-4` and `openrouter/x-ai/grok-4` model names.\r\n- Added support for `gemini/gemini-2.5-flash-lite-preview-06-17` model, by Tamir Zahavi-Brunner.\r\n- `/clear` now prints “All chat history cleared.” so you know it worked, by ",
       "github": {
-        "stars": 45446,
-        "forks": 4502,
+        "stars": 45451,
+        "forks": 4503,
         "language": "Python",
         "updated": "2026-05-28",
         "topics": [
@@ -690,13 +690,13 @@
       "release_url": "https://github.com/cline/cline/releases/tag/cli-v3.0.14",
       "release_notes": "\n- Fix OTEL telemetry variable bundling so telemetry is correctly enabled in compiled CLI builds: guard against environments where `process.env` is undefined and remove optional chaining so bundlers can inline the values at build time.\n\n**Full Changelog**: https://github.com/cline/cline/compare/cli-",
       "github": {
-        "stars": 62431,
-        "forks": 6551,
+        "stars": 62445,
+        "forks": 6554,
         "language": "TypeScript",
         "updated": "2026-05-28",
         "topics": []
       },
-      "npm_downloads_weekly": 64,
+      "npm_downloads_weekly": 63,
       "recent_updates": [
         {
           "title": "Release cli-v3.0.14: CLI v3.0.14",
@@ -756,7 +756,7 @@
       "release_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/releases/tag/2025-11-25",
       "release_notes": "This release marks the **stable release** of the `2025-11-25` revision of the Model Context Protocol.\r\n\r\nThe specification is available on the [official Model Context Protocol website](https://modelcontextprotocol.io/specification/2025-11-25).\r\n\r\nFor a detailed overview of changes, see [2025-11-25 c",
       "github": {
-        "stars": 8244,
+        "stars": 8247,
         "forks": 1551,
         "language": "TypeScript",
         "updated": "2026-05-28",
@@ -853,8 +853,8 @@
       "release_url": "https://github.com/ollama/ollama/releases/tag/v0.24.0",
       "release_notes": "## Codex App\r\n\r\nOllama 0.24 includes support for the Codex App, OpenAI's desktop experience for working on Codex threads in parallel with built-in worktree support and git functionality.\r\n\r\n```bash\r\nollama launch codex-app\r\n```\r\n\r\n<img width=\"2088\" height=\"1404\" alt=\"CleanShot 2026-05-14 at 15 04 18",
       "github": {
-        "stars": 172476,
-        "forks": 16312,
+        "stars": 172496,
+        "forks": 16314,
         "language": "Go",
         "updated": "2026-05-28",
         "topics": [
@@ -917,8 +917,8 @@
       "release_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.0",
       "release_notes": "Changes since langchain-core==0.3.86\n\nchore(infra): merge v1.4 into master (#37350)\nchore: bump urllib3 from 2.6.3 to 2.7.0 in /libs/core (#37329)\nfix(core): avoid eager `pydantic.v1` import in `@deprecated` (#37308)\nchore: bump mistune from 3.1.4 to 3.2.1 in /libs/core (#37237)\nchore: bump jupyter-",
       "github": {
-        "stars": 137832,
-        "forks": 22807,
+        "stars": 137858,
+        "forks": 22813,
         "language": "Python",
         "updated": "2026-05-28",
         "topics": [
@@ -930,7 +930,7 @@
           "deepagents"
         ]
       },
-      "npm_downloads_weekly": 2188063,
+      "npm_downloads_weekly": 2173333,
       "recent_updates": [
         {
           "title": "npm v1.4.2 — Typescript bindings for langchain",
@@ -973,8 +973,8 @@
       "release_url": "https://github.com/huggingface/transformers/releases/tag/v5.9.0",
       "release_notes": "# Release v5.9.0\r\n\r\n\r\n## New Model additions\r\n\r\n### Cohere2Moe\r\n\r\nCommand A+ is a Mixture-of-Experts (MoE) language model from Cohere that features a hybrid attention pattern combining sliding window and full attention layers. The model incorporates both shared and routed experts and supports a very",
       "github": {
-        "stars": 161010,
-        "forks": 33336,
+        "stars": 161015,
+        "forks": 33337,
         "language": "Python",
         "updated": "2026-05-28",
         "topics": [
@@ -1022,8 +1022,8 @@
       "release_url": "https://github.com/vllm-project/vllm/releases/tag/v0.21.0",
       "release_notes": "## Highlights\r\n\r\nThis release features 367 commits from 202 contributors (49 new)!\r\n\r\n* **Transformers v4 deprecated**: This release formally deprecates `transformers` v4 support (#40389). Users should migrate to `transformers` v5.\r\n* **C++20 build requirement**: vLLM now requires a C++20-compatible",
       "github": {
-        "stars": 81212,
-        "forks": 17335,
+        "stars": 81242,
+        "forks": 17349,
         "language": "Python",
         "updated": "2026-05-28",
         "topics": [
@@ -1184,15 +1184,15 @@
     {
       "name": "langchain-ai/langchain",
       "description": "The agent engineering platform.",
-      "stars": 137832,
+      "stars": 137858,
       "language": "Python",
       "url": "https://github.com/langchain-ai/langchain",
-      "updated": "2026-05-27"
+      "updated": "2026-05-28"
     },
     {
       "name": "microsoft/autogen",
       "description": "A programming framework for agentic AI",
-      "stars": 58475,
+      "stars": 58482,
       "language": "Python",
       "url": "https://github.com/microsoft/autogen",
       "updated": "2026-04-15"
@@ -1200,7 +1200,7 @@
     {
       "name": "crewAIInc/crewAI",
       "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
-      "stars": 52336,
+      "stars": 52355,
       "language": "Python",
       "url": "https://github.com/crewAIInc/crewAI",
       "updated": "2026-05-28"
@@ -1208,7 +1208,7 @@
     {
       "name": "AstrBotDevs/AstrBot",
       "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
-      "stars": 33273,
+      "stars": 33285,
       "language": "Python",
       "url": "https://github.com/AstrBotDevs/AstrBot",
       "updated": "2026-05-28"
@@ -1216,7 +1216,7 @@
     {
       "name": "langchain-ai/langgraph",
       "description": "Build resilient agents.",
-      "stars": 33181,
+      "stars": 33230,
       "language": "Python",
       "url": "https://github.com/langchain-ai/langgraph",
       "updated": "2026-05-28"
