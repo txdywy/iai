@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-30 22:56:09 (UTC)",
+  "lastUpdated": "2026-05-30 23:58:59 (UTC)",
   "version": "2.0",
   "models": [
     {
@@ -105,8 +105,8 @@
       "release_url": "https://github.com/googleapis/python-genai/releases/tag/v2.7.0",
       "release_notes": "## [2.7.0](https://github.com/googleapis/python-genai/compare/v2.6.0...v2.7.0) (2026-05-27)\n\n\n### Features\n\n* Additional computer_use field support for vertex. ([b4828fa](https://github.com/googleapis/python-genai/commit/b4828fa5b085d2dbb47a0adc9c10e4b35d60ad64))\n* **interaction-api:** Allow \"text/c",
       "github": {
-        "stars": 3751,
-        "forks": 895,
+        "stars": 3752,
+        "forks": 896,
         "language": "Python",
         "updated": "2026-05-30",
         "topics": []
@@ -143,7 +143,7 @@
       "release_notes": "This release is created for archival purposes and DOI generation.",
       "github": {
         "stars": 103641,
-        "forks": 16736,
+        "forks": 16735,
         "language": "Python",
         "updated": "2026-05-30",
         "topics": []
@@ -433,8 +433,8 @@
       "release_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.158",
       "release_notes": "## What's changed\n\n- Auto mode is now available on Bedrock, Vertex, and Foundry for Opus 4.7 and Opus 4.8. Opt in by setting `CLAUDE_CODE_ENABLE_AUTO_MODE=1`\n",
       "github": {
-        "stars": 128377,
-        "forks": 20951,
+        "stars": 128386,
+        "forks": 20953,
         "language": "Python",
         "updated": "2026-05-30",
         "topics": []
@@ -543,7 +543,7 @@
       "release_url": "https://github.com/openai/codex/releases/tag/rust-v0.135.0",
       "release_notes": "## New Features\r\n- `codex doctor` now reports richer environment, Git, terminal, app-server, and thread inventory diagnostics for support cases. (#24261, #24311, #24305)\r\n- `/status` shows remote connection details and server version when the TUI is connected over a remote transport. (#24420)\r\n- Vim",
       "github": {
-        "stars": 87121,
+        "stars": 87124,
         "forks": 12753,
         "language": "Rust",
         "updated": "2026-05-30",
@@ -579,8 +579,8 @@
       "release_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.44.1",
       "release_notes": "## What's Changed\n* fix(patch): cherry-pick bd53951 to release/v0.44.0-pr-27496 [CONFLICTS] by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/27534\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.44.0...v0.44.1",
       "github": {
-        "stars": 104753,
-        "forks": 13950,
+        "stars": 104757,
+        "forks": 13951,
         "language": "TypeScript",
         "updated": "2026-05-30",
         "topics": [
@@ -641,7 +641,7 @@
       "release_notes": "- Added support for all GPT-5 models.\r\n- Added support for Grok-4 via `xai/grok-4` and `openrouter/x-ai/grok-4` model names.\r\n- Added support for `gemini/gemini-2.5-flash-lite-preview-06-17` model, by Tamir Zahavi-Brunner.\r\n- `/clear` now prints “All chat history cleared.” so you know it worked, by ",
       "github": {
         "stars": 45557,
-        "forks": 4516,
+        "forks": 4515,
         "language": "Python",
         "updated": "2026-05-30",
         "topics": [
@@ -690,8 +690,8 @@
       "release_url": "https://github.com/cline/cline/releases/tag/cli-v3.0.15",
       "release_notes": "\n- Add Cline Hub, a web app for monitoring connected clients, viewing and driving sessions, streaming assistant output, and restarting the local hub, with local, LAN, and tunnel usage gated by a room secret.\n- Support global AGENTS rules so agent rules can be applied across all sessions, not just pe",
       "github": {
-        "stars": 62552,
-        "forks": 6570,
+        "stars": 62555,
+        "forks": 6569,
         "language": "TypeScript",
         "updated": "2026-05-30",
         "topics": []
@@ -756,7 +756,7 @@
       "release_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/releases/tag/2025-11-25",
       "release_notes": "This release marks the **stable release** of the `2025-11-25` revision of the Model Context Protocol.\r\n\r\nThe specification is available on the [official Model Context Protocol website](https://modelcontextprotocol.io/specification/2025-11-25).\r\n\r\nFor a detailed overview of changes, see [2025-11-25 c",
       "github": {
-        "stars": 8276,
+        "stars": 8278,
         "forks": 1557,
         "language": "TypeScript",
         "updated": "2026-05-30",
@@ -853,7 +853,7 @@
       "release_url": "https://github.com/ollama/ollama/releases/tag/v0.24.0",
       "release_notes": "## Codex App\r\n\r\nOllama 0.24 includes support for the Codex App, OpenAI's desktop experience for working on Codex threads in parallel with built-in worktree support and git functionality.\r\n\r\n```bash\r\nollama launch codex-app\r\n```\r\n\r\n<img width=\"2088\" height=\"1404\" alt=\"CleanShot 2026-05-14 at 15 04 18",
       "github": {
-        "stars": 172679,
+        "stars": 172680,
         "forks": 16346,
         "language": "Go",
         "updated": "2026-05-30",
@@ -917,8 +917,8 @@
       "release_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.0",
       "release_notes": "Changes since langchain-core==0.3.86\n\nchore(infra): merge v1.4 into master (#37350)\nchore: bump urllib3 from 2.6.3 to 2.7.0 in /libs/core (#37329)\nfix(core): avoid eager `pydantic.v1` import in `@deprecated` (#37308)\nchore: bump mistune from 3.1.4 to 3.2.1 in /libs/core (#37237)\nchore: bump jupyter-",
       "github": {
-        "stars": 138054,
-        "forks": 22872,
+        "stars": 138055,
+        "forks": 22874,
         "language": "Python",
         "updated": "2026-05-30",
         "topics": [
@@ -1022,8 +1022,8 @@
       "release_url": "https://github.com/vllm-project/vllm/releases/tag/v0.22.0",
       "release_notes": "## Highlights\r\n\r\nThis release features 459 commits from 230 contributors (63 new)!\r\n\r\n* **DeepSeek V4 maturity**: DeepSeek V4 received a major hardening pass this cycle — the model was reorganized into a dedicated `vllm/models/deepseek_v4/` package (#43004, #43039, #43073, #43077, #43149), gained NV",
       "github": {
-        "stars": 81446,
-        "forks": 17442,
+        "stars": 81448,
+        "forks": 17445,
         "language": "Python",
         "updated": "2026-05-30",
         "topics": [
@@ -1184,7 +1184,7 @@
     {
       "name": "langchain-ai/langchain",
       "description": "The agent engineering platform.",
-      "stars": 138054,
+      "stars": 138055,
       "language": "Python",
       "url": "https://github.com/langchain-ai/langchain",
       "updated": "2026-05-30"
@@ -1192,7 +1192,7 @@
     {
       "name": "microsoft/autogen",
       "description": "A programming framework for agentic AI",
-      "stars": 58546,
+      "stars": 58548,
       "language": "Python",
       "url": "https://github.com/microsoft/autogen",
       "updated": "2026-04-15"
@@ -1208,7 +1208,7 @@
     {
       "name": "AstrBotDevs/AstrBot",
       "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
-      "stars": 33476,
+      "stars": 33478,
       "language": "Python",
       "url": "https://github.com/AstrBotDevs/AstrBot",
       "updated": "2026-05-30"
@@ -1216,7 +1216,7 @@
     {
       "name": "langchain-ai/langgraph",
       "description": "Build resilient agents.",
-      "stars": 33400,
+      "stars": 33403,
       "language": "Python",
       "url": "https://github.com/langchain-ai/langgraph",
       "updated": "2026-05-29"
