@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-04 03:29:34 (UTC)",
+  "lastUpdated": "2026-06-04 08:15:23 (UTC)",
   "version": "2.0",
   "models": [
     {
@@ -25,8 +25,8 @@
       "release_url": "https://github.com/openai/openai-python/releases/tag/v2.41.0",
       "release_notes": "## 2.41.0 (2026-06-03)\n\nFull Changelog: [v2.40.0...v2.41.0](https://github.com/openai/openai-python/compare/v2.40.0...v2.41.0)\n\n### Features\n\n* **api:** responses.moderation and chat_completions.moderation ([87e46c2](https://github.com/openai/openai-python/commit/87e46c25ac9ca8cff407b52ad9fb33e326c0",
       "github": {
-        "stars": 30868,
-        "forks": 4823,
+        "stars": 30873,
+        "forks": 4824,
         "language": "Python",
         "updated": "2026-06-04",
         "topics": [
@@ -67,10 +67,10 @@
       "release_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.105.2",
       "release_notes": "## 0.105.2 (2026-05-29)\n\nFull Changelog: [v0.105.1...v0.105.2](https://github.com/anthropics/anthropic-sdk-python/compare/v0.105.1...v0.105.2)",
       "github": {
-        "stars": 3574,
-        "forks": 713,
+        "stars": 3575,
+        "forks": 714,
         "language": "Python",
-        "updated": "2026-06-03",
+        "updated": "2026-06-04",
         "topics": []
       },
       "recent_updates": [
@@ -142,8 +142,8 @@
       "release_url": "https://github.com/deepseek-ai/DeepSeek-V3/releases/tag/v1.0.0",
       "release_notes": "This release is created for archival purposes and DOI generation.",
       "github": {
-        "stars": 103676,
-        "forks": 16727,
+        "stars": 103671,
+        "forks": 16728,
         "language": "Python",
         "updated": "2026-06-04",
         "topics": []
@@ -194,10 +194,10 @@
       ],
       "pricing_hint": "国内定价",
       "github": {
-        "stars": 7067,
+        "stars": 7066,
         "forks": 616,
         "language": "Python",
-        "updated": "2026-06-03",
+        "updated": "2026-06-04",
         "topics": [
           "chatglm",
           "chatglm-6b",
@@ -230,10 +230,10 @@
       "release_url": "https://github.com/meta-llama/llama-models/releases/tag/v0.2.0",
       "release_notes": "Llama 4 Support ( https://www.llama.com ) \r\n\r\n",
       "github": {
-        "stars": 7616,
+        "stars": 7615,
         "forks": 1376,
         "language": "Python",
-        "updated": "2026-06-01",
+        "updated": "2026-06-04",
         "topics": []
       },
       "recent_updates": [
@@ -263,7 +263,7 @@
       ],
       "pricing_hint": "免费开源",
       "github": {
-        "stars": 27284,
+        "stars": 27280,
         "forks": 1988,
         "language": "Python",
         "updated": "2026-06-04",
@@ -433,8 +433,8 @@
       "release_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.162",
       "release_notes": "## What's changed\n\n- `claude agents --json` now includes `waitingFor` showing what a waiting session is blocked on (e.g. permission prompt)\n- `--tools`: explicitly listing Grep/Glob now provides the dedicated search tools on native builds with embedded search (previously these names were silently ig",
       "github": {
-        "stars": 129917,
-        "forks": 21118,
+        "stars": 129987,
+        "forks": 21129,
         "language": "Python",
         "updated": "2026-06-04",
         "topics": []
@@ -543,8 +543,8 @@
       "release_url": "https://github.com/openai/codex/releases/tag/rust-v0.137.0",
       "release_notes": "## New Features\n- TUI controls now support F13-F24 keybindings, paste in searchable menus, and a compact reasoning-only status/title item (#25329, #25400, #25504).\n- Enterprise/admin flows now show monthly credit limits and can apply cloud-managed config bundles, including EDU workspaces (#24812, #2",
       "github": {
-        "stars": 88392,
-        "forks": 12978,
+        "stars": 88472,
+        "forks": 12989,
         "language": "Rust",
         "updated": "2026-06-04",
         "topics": []
@@ -579,8 +579,8 @@
       "release_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.45.0",
       "release_notes": "## What's Changed\n* chore(release): bump version to 0.45.0-nightly.20260521.g854f811be by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/27362\n* fix(cli): prevent Termux relaunch and resize remount loops by @saymanq in https://github.com/google-gemini/gemini-cli/pull/27110\n* F",
       "github": {
-        "stars": 104907,
-        "forks": 13987,
+        "stars": 104913,
+        "forks": 13986,
         "language": "TypeScript",
         "updated": "2026-06-04",
         "topics": [
@@ -640,8 +640,8 @@
       "release_url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.0",
       "release_notes": "- Added support for all GPT-5 models.\r\n- Added support for Grok-4 via `xai/grok-4` and `openrouter/x-ai/grok-4` model names.\r\n- Added support for `gemini/gemini-2.5-flash-lite-preview-06-17` model, by Tamir Zahavi-Brunner.\r\n- `/clear` now prints “All chat history cleared.” so you know it worked, by ",
       "github": {
-        "stars": 45739,
-        "forks": 4537,
+        "stars": 45749,
+        "forks": 4539,
         "language": "Python",
         "updated": "2026-06-04",
         "topics": [
@@ -685,13 +685,13 @@
         "自主编码",
         "多模型支持"
       ],
-      "latest_version": "3.87.0",
-      "version_date": "2026-06-03",
-      "release_url": "https://github.com/cline/cline/releases/tag/v3.87.0",
-      "release_notes": "\n### Added\n\n- Add MiniMax M3 model support.\n\n### Fixed\n\n- Update VS Code extension dependencies to resolve security issues in `@xmldom/xmldom`, `basic-ftp`, `axios`, `undici`, and other direct/transitive packages.\n\n**Full Changelog**: https://github.com/cline/cline/compare/v3.86.2...v3.87.0\n",
+      "latest_version": "cli-v3.0.17",
+      "version_date": "2026-06-04",
+      "release_url": "https://github.com/cline/cline/releases/tag/cli-v3.0.17",
+      "release_notes": "\n- Fix a regression introduced in 3.0.15 where the interactive CLI could get stuck after stopping and restarting Cline Hub and then pressing Escape to cancel a request. The CLI now detects stale or missing sessions, recovers any pending messages, and starts a fresh session instead of failing with \"s",
       "github": {
-        "stars": 62722,
-        "forks": 6598,
+        "stars": 62730,
+        "forks": 6599,
         "language": "TypeScript",
         "updated": "2026-06-04",
         "topics": []
@@ -699,9 +699,9 @@
       "npm_downloads_weekly": 77,
       "recent_updates": [
         {
-          "title": "Release 3.87.0: v3.87.0",
-          "url": "https://github.com/cline/cline/releases/tag/v3.87.0",
-          "date": "2026-06-03",
+          "title": "Release cli-v3.0.17: CLI v3.0.17",
+          "url": "https://github.com/cline/cline/releases/tag/cli-v3.0.17",
+          "date": "2026-06-04",
           "source": "GitHub Release"
         },
         {
@@ -756,10 +756,10 @@
       "release_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/releases/tag/2025-11-25",
       "release_notes": "This release marks the **stable release** of the `2025-11-25` revision of the Model Context Protocol.\r\n\r\nThe specification is available on the [official Model Context Protocol website](https://modelcontextprotocol.io/specification/2025-11-25).\r\n\r\nFor a detailed overview of changes, see [2025-11-25 c",
       "github": {
-        "stars": 8312,
+        "stars": 8314,
         "forks": 1571,
         "language": "TypeScript",
-        "updated": "2026-06-03",
+        "updated": "2026-06-04",
         "topics": []
       },
       "recent_updates": [
@@ -810,13 +810,6 @@
       ],
       "recent_updates": [
         {
-          "title": "Show HN: Aura, an LLM coding harness that dogfooded itself",
-          "url": "https://github.com/CarpseDeam/Aura-IDE",
-          "date": "2026-06-03",
-          "source": "Hacker News",
-          "engagement": "2 pts, 0 comments"
-        },
-        {
           "title": "Show HN: EZClaw – Deploy OpenClaw agents in – 1 minute – no tech skills needed",
           "url": "https://ezclaw.app",
           "date": "2026-02-10",
@@ -829,6 +822,13 @@
           "date": "2025-10-27",
           "source": "Hacker News",
           "engagement": "56 pts, 36 comments"
+        },
+        {
+          "title": "Show HN: Plandex v2 – open source AI coding agent for large projects and tasks",
+          "url": "https://github.com/plandex-ai/plandex",
+          "date": "2025-04-16",
+          "source": "Hacker News",
+          "engagement": "257 pts, 81 comments"
         }
       ]
     },
@@ -853,8 +853,8 @@
       "release_url": "https://github.com/ollama/ollama/releases/tag/v0.30.4",
       "release_notes": "## What's Changed\r\n* llama.cpp version update by @dhiltgen in https://github.com/ollama/ollama/pull/16463\r\n* Kill llama-server during Windows cleanup by @dhiltgen in https://github.com/ollama/ollama/pull/16458\r\n\r\n\r\n## Known Issues\r\n* gemma4:12b crash with floating point exception\r\n\r\n**Full Changelog",
       "github": {
-        "stars": 173090,
-        "forks": 16420,
+        "stars": 173122,
+        "forks": 16424,
         "language": "Go",
         "updated": "2026-06-04",
         "topics": [
@@ -917,8 +917,8 @@
       "release_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.0",
       "release_notes": "Changes since langchain-core==0.3.86\n\nchore(infra): merge v1.4 into master (#37350)\nchore: bump urllib3 from 2.6.3 to 2.7.0 in /libs/core (#37329)\nfix(core): avoid eager `pydantic.v1` import in `@deprecated` (#37308)\nchore: bump mistune from 3.1.4 to 3.2.1 in /libs/core (#37237)\nchore: bump jupyter-",
       "github": {
-        "stars": 138450,
-        "forks": 22938,
+        "stars": 138468,
+        "forks": 22940,
         "language": "Python",
         "updated": "2026-06-04",
         "topics": [
@@ -973,8 +973,8 @@
       "release_url": "https://github.com/huggingface/transformers/releases/tag/v5.10.1",
       "release_notes": "# Release v5.10.1\r\nv5.10.0 was yanked as we publish on a corrupted branch. Sorry everyone, this happens when we rush a release!!! \r\n\r\n## New Model additions\r\n\r\n### Gemma4 unified+ Gemma4 MTP\r\n<img width=\"2000\" height=\"400\" alt=\"image\" src=\"https://github.com/user-attachments/assets/5e3ee940-f78d-434",
       "github": {
-        "stars": 161260,
-        "forks": 33400,
+        "stars": 161261,
+        "forks": 33405,
         "language": "Python",
         "updated": "2026-06-04",
         "topics": [
@@ -1022,8 +1022,8 @@
       "release_url": "https://github.com/vllm-project/vllm/releases/tag/v0.22.0",
       "release_notes": "## Highlights\r\n\r\nThis release features 459 commits from 230 contributors (63 new)!\r\n\r\n* **DeepSeek V4 maturity**: DeepSeek V4 received a major hardening pass this cycle — the model was reorganized into a dedicated `vllm/models/deepseek_v4/` package (#43004, #43039, #43073, #43077, #43149), gained NV",
       "github": {
-        "stars": 81883,
-        "forks": 17617,
+        "stars": 81904,
+        "forks": 17633,
         "language": "Python",
         "updated": "2026-06-04",
         "topics": [
@@ -1184,7 +1184,7 @@
     {
       "name": "langchain-ai/langchain",
       "description": "The agent engineering platform.",
-      "stars": 138450,
+      "stars": 138468,
       "language": "Python",
       "url": "https://github.com/langchain-ai/langchain",
       "updated": "2026-06-04"
@@ -1192,7 +1192,7 @@
     {
       "name": "microsoft/autogen",
       "description": "A programming framework for agentic AI",
-      "stars": 58674,
+      "stars": 58682,
       "language": "Python",
       "url": "https://github.com/microsoft/autogen",
       "updated": "2026-04-15"
@@ -1200,7 +1200,7 @@
     {
       "name": "crewAIInc/crewAI",
       "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
-      "stars": 52787,
+      "stars": 52806,
       "language": "Python",
       "url": "https://github.com/crewAIInc/crewAI",
       "updated": "2026-06-04"
@@ -1208,7 +1208,7 @@
     {
       "name": "langchain-ai/langgraph",
       "description": "Build resilient agents.",
-      "stars": 33790,
+      "stars": 33826,
       "language": "Python",
       "url": "https://github.com/langchain-ai/langgraph",
       "updated": "2026-06-04"
@@ -1216,7 +1216,7 @@
     {
       "name": "AstrBotDevs/AstrBot",
       "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
-      "stars": 33756,
+      "stars": 33778,
       "language": "Python",
       "url": "https://github.com/AstrBotDevs/AstrBot",
       "updated": "2026-06-04"
