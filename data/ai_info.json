@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-05 19:47:14 (UTC)",
+  "lastUpdated": "2026-06-05 21:20:51 (UTC)",
   "version": "2.0",
   "models": [
     {
@@ -62,12 +62,12 @@
         "扩展思维"
       ],
       "pricing_hint": "~$0.015/1K input tokens",
-      "latest_version": "0.105.2",
-      "version_date": "2026-05-29",
-      "release_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.105.2",
-      "release_notes": "## 0.105.2 (2026-05-29)\n\nFull Changelog: [v0.105.1...v0.105.2](https://github.com/anthropics/anthropic-sdk-python/compare/v0.105.1...v0.105.2)",
+      "latest_version": "0.106.0",
+      "version_date": "2026-06-05",
+      "release_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.106.0",
+      "release_notes": "## 0.106.0 (2026-06-05)\n\nFull Changelog: [v0.105.2...v0.106.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.105.2...v0.106.0)\n\n### Features\n\n* **api:** mark Claude Opus 4.1 as deprecated ([85068cc](https://github.com/anthropics/anthropic-sdk-python/commit/85068cc4cb42feecb80a378942c",
       "github": {
-        "stars": 3579,
+        "stars": 3580,
         "forks": 715,
         "language": "Python",
         "updated": "2026-06-05",
@@ -75,9 +75,9 @@
       },
       "recent_updates": [
         {
-          "title": "Release 0.105.2: v0.105.2",
-          "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.105.2",
-          "date": "2026-05-29",
+          "title": "Release 0.106.0: v0.106.0",
+          "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.106.0",
+          "date": "2026-06-05",
           "source": "GitHub Release"
         }
       ]
@@ -105,7 +105,7 @@
       "release_url": "https://github.com/googleapis/python-genai/releases/tag/v2.8.0",
       "release_notes": "## [2.8.0](https://github.com/googleapis/python-genai/compare/v2.7.0...v2.8.0) (2026-06-03)\n\n\n### Features\n\n* Add Agent Platform MCP support to async generate_content ([e3be9af](https://github.com/googleapis/python-genai/commit/e3be9af3c21c9f8f625aecd890a5ee1f9993fb3d))\n* Add transcription language ",
       "github": {
-        "stars": 3765,
+        "stars": 3766,
         "forks": 899,
         "language": "Python",
         "updated": "2026-06-05",
@@ -433,7 +433,7 @@
       "release_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.165",
       "release_notes": "## What's changed\n\n- Bug fixes and reliability improvements\n",
       "github": {
-        "stars": 130398,
+        "stars": 130412,
         "forks": 21169,
         "language": "Python",
         "updated": "2026-06-05",
@@ -543,8 +543,8 @@
       "release_url": "https://github.com/openai/codex/releases/tag/rust-v0.137.0",
       "release_notes": "## New Features\n- TUI controls now support F13-F24 keybindings, paste in searchable menus, and a compact reasoning-only status/title item (#25329, #25400, #25504).\n- Enterprise/admin flows now show monthly credit limits and can apply cloud-managed config bundles, including EDU workspaces (#24812, #2",
       "github": {
-        "stars": 88952,
-        "forks": 13072,
+        "stars": 88961,
+        "forks": 13073,
         "language": "Rust",
         "updated": "2026-06-05",
         "topics": []
@@ -574,12 +574,12 @@
         "代码生成",
         "免费额度"
       ],
-      "latest_version": "0.45.1",
-      "version_date": "2026-06-04",
-      "release_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.45.1",
-      "release_notes": "## What's Changed\n* fix(patch): cherry-pick 665228e to release/v0.45.0-pr-27570 to patch version v0.45.0 and create version 0.45.1 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/27667\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.45.0...v0.45.",
+      "latest_version": "0.45.2",
+      "version_date": "2026-06-05",
+      "release_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.45.2",
+      "release_notes": "## What's Changed\n* fix(patch): cherry-pick f40498d to release/v0.45.1-pr-27676 to patch version v0.45.1 and create version 0.45.2 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/27700\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.45.1...v0.45.",
       "github": {
-        "stars": 104975,
+        "stars": 104978,
         "forks": 13990,
         "language": "TypeScript",
         "updated": "2026-06-05",
@@ -594,9 +594,9 @@
       },
       "recent_updates": [
         {
-          "title": "Release 0.45.1: Release v0.45.1",
-          "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.45.1",
-          "date": "2026-06-04",
+          "title": "Release 0.45.2: Release v0.45.2",
+          "url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.45.2",
+          "date": "2026-06-05",
           "source": "GitHub Release"
         }
       ]
@@ -641,7 +641,7 @@
       "release_notes": "- Added support for all GPT-5 models.\r\n- Added support for Grok-4 via `xai/grok-4` and `openrouter/x-ai/grok-4` model names.\r\n- Added support for `gemini/gemini-2.5-flash-lite-preview-06-17` model, by Tamir Zahavi-Brunner.\r\n- `/clear` now prints “All chat history cleared.” so you know it worked, by ",
       "github": {
         "stars": 45812,
-        "forks": 4550,
+        "forks": 4551,
         "language": "Python",
         "updated": "2026-06-05",
         "topics": [
@@ -690,7 +690,7 @@
       "release_url": "https://github.com/cline/cline/releases/tag/v3.88.0",
       "release_notes": "\n### Added\n\n- Add the latest Fireworks AI serverless models and update the default Fireworks model to Kimi K2.6.\n\n### Fixed\n\n- Fix MCP server delete/add flows so settings writes do not cause the MCP server list to be emptied by the file watcher.\n- Remove stale Fireworks AI models and correct Firewor",
       "github": {
-        "stars": 62803,
+        "stars": 62809,
         "forks": 6614,
         "language": "TypeScript",
         "updated": "2026-06-05",
@@ -853,8 +853,8 @@
       "release_url": "https://github.com/ollama/ollama/releases/tag/v0.30.5",
       "release_notes": "## What's Changed\r\n* Fix gemma4:12b floating point exception crash\r\n* integrations: hermes windows install by @BruceMacD in https://github.com/ollama/ollama/pull/16487\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.4...v0.30.5",
       "github": {
-        "stars": 173266,
-        "forks": 16457,
+        "stars": 173270,
+        "forks": 16458,
         "language": "Go",
         "updated": "2026-06-05",
         "topics": [
@@ -917,8 +917,8 @@
       "release_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.1",
       "release_notes": "Changes since langchain-core==1.4.0\n\nrelease(core): 1.4.1 (#37922)\nfix(core): remove Bedrock prevalidation from `load` (#37909)\ndocs(core): expand and link `ModelProfile` docstrings (#37904)\nrelease(anthropic): 1.4.4 (#37757)\nchore(core): bump `uuid-utils` to 0.16.0 (#37699)\nchore(infra): bump `lang",
       "github": {
-        "stars": 138604,
-        "forks": 22963,
+        "stars": 138607,
+        "forks": 22964,
         "language": "Python",
         "updated": "2026-06-05",
         "topics": [
@@ -973,7 +973,7 @@
       "release_url": "https://github.com/huggingface/transformers/releases/tag/v5.10.2",
       "release_notes": "# Patch release v5.10.2\r\nThere was a big bug in the model conversion of models related to clip, this affected models like sam3 and others. Please make sure to update :pray: \r\n\r\n* Fix conversion for clip models by @zucchini-nlp (#46406)\r\n\r\n\r\n**Full Changelog**: https://github.com/huggingface/transfor",
       "github": {
-        "stars": 161324,
+        "stars": 161328,
         "forks": 33426,
         "language": "Python",
         "updated": "2026-06-05",
@@ -1022,7 +1022,7 @@
       "release_url": "https://github.com/vllm-project/vllm/releases/tag/v0.22.1",
       "release_notes": "## Highlights\r\n\r\nThis release features 8 commits from 6 contributors (1 new)!\r\n\r\nv0.22.1 is a patch release on top of v0.22.0 with targeted bug fixes plus a couple of additions: new model support for JetBrains' Mellum v2, zentorch-accelerated quantized linear inference on AMD Zen CPUs, and fixes for",
       "github": {
-        "stars": 82012,
+        "stars": 82017,
         "forks": 17697,
         "language": "Python",
         "updated": "2026-06-05",
@@ -1184,7 +1184,7 @@
     {
       "name": "langchain-ai/langchain",
       "description": "The agent engineering platform.",
-      "stars": 138604,
+      "stars": 138607,
       "language": "Python",
       "url": "https://github.com/langchain-ai/langchain",
       "updated": "2026-06-05"
@@ -1192,7 +1192,7 @@
     {
       "name": "microsoft/autogen",
       "description": "A programming framework for agentic AI",
-      "stars": 58718,
+      "stars": 58720,
       "language": "Python",
       "url": "https://github.com/microsoft/autogen",
       "updated": "2026-04-15"
@@ -1200,7 +1200,7 @@
     {
       "name": "crewAIInc/crewAI",
       "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
-      "stars": 52898,
+      "stars": 52900,
       "language": "Python",
       "url": "https://github.com/crewAIInc/crewAI",
       "updated": "2026-06-05"
@@ -1208,7 +1208,7 @@
     {
       "name": "langchain-ai/langgraph",
       "description": "Build resilient agents.",
-      "stars": 33983,
+      "stars": 33984,
       "language": "Python",
       "url": "https://github.com/langchain-ai/langgraph",
       "updated": "2026-06-05"
@@ -1216,7 +1216,7 @@
     {
       "name": "AstrBotDevs/AstrBot",
       "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
-      "stars": 33876,
+      "stars": 33878,
       "language": "Python",
       "url": "https://github.com/AstrBotDevs/AstrBot",
       "updated": "2026-06-05"
