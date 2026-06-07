@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07 17:09:38 (UTC)",
+  "lastUpdated": "2026-06-07 19:13:48 (UTC)",
   "version": "2.0",
   "models": [
     {
@@ -25,8 +25,8 @@
       "release_url": "https://github.com/openai/openai-python/releases/tag/v2.41.0",
       "release_notes": "## 2.41.0 (2026-06-03)\n\nFull Changelog: [v2.40.0...v2.41.0](https://github.com/openai/openai-python/compare/v2.40.0...v2.41.0)\n\n### Features\n\n* **api:** responses.moderation and chat_completions.moderation ([87e46c2](https://github.com/openai/openai-python/commit/87e46c25ac9ca8cff407b52ad9fb33e326c0",
       "github": {
-        "stars": 30932,
-        "forks": 4830,
+        "stars": 30934,
+        "forks": 4831,
         "language": "Python",
         "updated": "2026-06-07",
         "topics": [
@@ -62,12 +62,12 @@
         "扩展思维"
       ],
       "pricing_hint": "~$0.015/1K input tokens",
-      "latest_version": "0.107.0",
-      "version_date": "2026-06-06",
-      "release_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.107.0",
-      "release_notes": "## 0.107.0 (2026-06-06)\n\nFull Changelog: [v0.106.0...v0.107.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.106.0...v0.107.0)\n\n### Features\n\n* **api:** small updates to Managed Agents types ([72923f9](https://github.com/anthropics/anthropic-sdk-python/commit/72923f986f808597f86482a7",
+      "latest_version": "0.107.1",
+      "version_date": "2026-06-07",
+      "release_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.107.1",
+      "release_notes": "## 0.107.1 (2026-06-07)\n\nFull Changelog: [v0.107.0...v0.107.1](https://github.com/anthropics/anthropic-sdk-python/compare/v0.107.0...v0.107.1)\n\n### Bug Fixes\n\n* **foundry:** send x-api-key header for API-key auth ([#62](https://github.com/anthropics/anthropic-sdk-python/issues/62)) ([1338141](https:",
       "github": {
-        "stars": 3588,
+        "stars": 3589,
         "forks": 718,
         "language": "Python",
         "updated": "2026-06-07",
@@ -75,9 +75,9 @@
       },
       "recent_updates": [
         {
-          "title": "Release 0.107.0: v0.107.0",
-          "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.107.0",
-          "date": "2026-06-06",
+          "title": "Release 0.107.1: v0.107.1",
+          "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.107.1",
+          "date": "2026-06-07",
           "source": "GitHub Release"
         }
       ]
@@ -143,7 +143,7 @@
       "release_notes": "This release is created for archival purposes and DOI generation.",
       "github": {
         "stars": 103710,
-        "forks": 16733,
+        "forks": 16732,
         "language": "Python",
         "updated": "2026-06-07",
         "topics": []
@@ -433,8 +433,8 @@
       "release_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.168",
       "release_notes": "## What's changed\n\n- Bug fixes and reliability improvements\n",
       "github": {
-        "stars": 130829,
-        "forks": 21212,
+        "stars": 130842,
+        "forks": 21214,
         "language": "Python",
         "updated": "2026-06-07",
         "topics": []
@@ -543,8 +543,8 @@
       "release_url": "https://github.com/openai/codex/releases/tag/rust-v0.137.0",
       "release_notes": "## New Features\n- TUI controls now support F13-F24 keybindings, paste in searchable menus, and a compact reasoning-only status/title item (#25329, #25400, #25504).\n- Enterprise/admin flows now show monthly credit limits and can apply cloud-managed config bundles, including EDU workspaces (#24812, #2",
       "github": {
-        "stars": 89322,
-        "forks": 13147,
+        "stars": 89333,
+        "forks": 13151,
         "language": "Rust",
         "updated": "2026-06-07",
         "topics": []
@@ -640,8 +640,8 @@
       "release_url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.0",
       "release_notes": "- Added support for all GPT-5 models.\r\n- Added support for Grok-4 via `xai/grok-4` and `openrouter/x-ai/grok-4` model names.\r\n- Added support for `gemini/gemini-2.5-flash-lite-preview-06-17` model, by Tamir Zahavi-Brunner.\r\n- `/clear` now prints “All chat history cleared.” so you know it worked, by ",
       "github": {
-        "stars": 45858,
-        "forks": 4561,
+        "stars": 45861,
+        "forks": 4563,
         "language": "Python",
         "updated": "2026-06-07",
         "topics": [
@@ -690,8 +690,8 @@
       "release_url": "https://github.com/cline/cline/releases/tag/v3.88.1",
       "release_notes": "\n### Added\n\n- Add a debug section in settings for Cline testers.\n\n### Fixed\n\n- Include the walkthrough markdown files in the VS Code extension package so the first-run walkthrough steps load correctly.\n\n**Full Changelog**: https://github.com/cline/cline/compare/v3.88.0...v3.88.1\n",
       "github": {
-        "stars": 62878,
-        "forks": 6631,
+        "stars": 62881,
+        "forks": 6632,
         "language": "TypeScript",
         "updated": "2026-06-07",
         "topics": []
@@ -757,7 +757,7 @@
       "release_notes": "This release marks the **stable release** of the `2025-11-25` revision of the Model Context Protocol.\r\n\r\nThe specification is available on the [official Model Context Protocol website](https://modelcontextprotocol.io/specification/2025-11-25).\r\n\r\nFor a detailed overview of changes, see [2025-11-25 c",
       "github": {
         "stars": 8338,
-        "forks": 1579,
+        "forks": 1580,
         "language": "TypeScript",
         "updated": "2026-06-07",
         "topics": []
@@ -853,8 +853,8 @@
       "release_url": "https://github.com/ollama/ollama/releases/tag/v0.30.6",
       "release_notes": "# New models\r\n- [Gemma 4 QAT weights](https://ollama.com/library/gemma4): the Gemma 4 family is now optimized with Quantization-Aware Training (QAT) to dramatically reduce memory requirements and maximize on-device performance. Look for the tags ending in `-qat`:\r\n  - `gemma4:e2b-it-qat`\r\n  - `gemma",
       "github": {
-        "stars": 173470,
-        "forks": 16489,
+        "stars": 173483,
+        "forks": 16492,
         "language": "Go",
         "updated": "2026-06-07",
         "topics": [
@@ -917,8 +917,8 @@
       "release_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.1",
       "release_notes": "Changes since langchain-core==1.4.0\n\nrelease(core): 1.4.1 (#37922)\nfix(core): remove Bedrock prevalidation from `load` (#37909)\ndocs(core): expand and link `ModelProfile` docstrings (#37904)\nrelease(anthropic): 1.4.4 (#37757)\nchore(core): bump `uuid-utils` to 0.16.0 (#37699)\nchore(infra): bump `lang",
       "github": {
-        "stars": 138732,
-        "forks": 22987,
+        "stars": 138734,
+        "forks": 22986,
         "language": "Python",
         "updated": "2026-06-07",
         "topics": [
@@ -973,8 +973,8 @@
       "release_url": "https://github.com/huggingface/transformers/releases/tag/v5.10.2",
       "release_notes": "# Patch release v5.10.2\r\nThere was a big bug in the model conversion of models related to clip, this affected models like sam3 and others. Please make sure to update :pray: \r\n\r\n* Fix conversion for clip models by @zucchini-nlp (#46406)\r\n\r\n\r\n**Full Changelog**: https://github.com/huggingface/transfor",
       "github": {
-        "stars": 161387,
-        "forks": 33439,
+        "stars": 161389,
+        "forks": 33440,
         "language": "Python",
         "updated": "2026-06-07",
         "topics": [
@@ -1022,8 +1022,8 @@
       "release_url": "https://github.com/vllm-project/vllm/releases/tag/v0.22.1",
       "release_notes": "## Highlights\r\n\r\nThis release features 8 commits from 6 contributors (1 new)!\r\n\r\nv0.22.1 is a patch release on top of v0.22.0 with targeted bug fixes plus a couple of additions: new model support for JetBrains' Mellum v2, zentorch-accelerated quantized linear inference on AMD Zen CPUs, and fixes for",
       "github": {
-        "stars": 82150,
-        "forks": 17751,
+        "stars": 82155,
+        "forks": 17758,
         "language": "Python",
         "updated": "2026-06-07",
         "topics": [
@@ -1184,7 +1184,7 @@
     {
       "name": "langchain-ai/langchain",
       "description": "The agent engineering platform.",
-      "stars": 138732,
+      "stars": 138734,
       "language": "Python",
       "url": "https://github.com/langchain-ai/langchain",
       "updated": "2026-06-07"
@@ -1192,7 +1192,7 @@
     {
       "name": "microsoft/autogen",
       "description": "A programming framework for agentic AI",
-      "stars": 58750,
+      "stars": 58752,
       "language": "Python",
       "url": "https://github.com/microsoft/autogen",
       "updated": "2026-04-15"
@@ -1200,7 +1200,7 @@
     {
       "name": "crewAIInc/crewAI",
       "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
-      "stars": 52983,
+      "stars": 52991,
       "language": "Python",
       "url": "https://github.com/crewAIInc/crewAI",
       "updated": "2026-06-06"
@@ -1208,7 +1208,7 @@
     {
       "name": "langchain-ai/langgraph",
       "description": "Build resilient agents.",
-      "stars": 34090,
+      "stars": 34091,
       "language": "Python",
       "url": "https://github.com/langchain-ai/langgraph",
       "updated": "2026-06-07"
@@ -1216,7 +1216,7 @@
     {
       "name": "AstrBotDevs/AstrBot",
       "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
-      "stars": 34075,
+      "stars": 34080,
       "language": "Python",
       "url": "https://github.com/AstrBotDevs/AstrBot",
       "updated": "2026-06-07"
