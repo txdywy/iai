@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08 00:15:05 (UTC)",
+  "lastUpdated": "2026-06-08 05:27:02 (UTC)",
   "version": "2.0",
   "models": [
     {
@@ -25,10 +25,10 @@
       "release_url": "https://github.com/openai/openai-python/releases/tag/v2.41.0",
       "release_notes": "## 2.41.0 (2026-06-03)\n\nFull Changelog: [v2.40.0...v2.41.0](https://github.com/openai/openai-python/compare/v2.40.0...v2.41.0)\n\n### Features\n\n* **api:** responses.moderation and chat_completions.moderation ([87e46c2](https://github.com/openai/openai-python/commit/87e46c25ac9ca8cff407b52ad9fb33e326c0",
       "github": {
-        "stars": 30934,
-        "forks": 4831,
+        "stars": 30937,
+        "forks": 4834,
         "language": "Python",
-        "updated": "2026-06-07",
+        "updated": "2026-06-08",
         "topics": [
           "openai",
           "python"
@@ -105,10 +105,10 @@
       "release_url": "https://github.com/googleapis/python-genai/releases/tag/v2.8.0",
       "release_notes": "## [2.8.0](https://github.com/googleapis/python-genai/compare/v2.7.0...v2.8.0) (2026-06-03)\n\n\n### Features\n\n* Add Agent Platform MCP support to async generate_content ([e3be9af](https://github.com/googleapis/python-genai/commit/e3be9af3c21c9f8f625aecd890a5ee1f9993fb3d))\n* Add transcription language ",
       "github": {
-        "stars": 3780,
+        "stars": 3781,
         "forks": 902,
         "language": "Python",
-        "updated": "2026-06-07",
+        "updated": "2026-06-08",
         "topics": []
       },
       "recent_updates": [
@@ -142,10 +142,10 @@
       "release_url": "https://github.com/deepseek-ai/DeepSeek-V3/releases/tag/v1.0.0",
       "release_notes": "This release is created for archival purposes and DOI generation.",
       "github": {
-        "stars": 103711,
-        "forks": 16733,
+        "stars": 103717,
+        "forks": 16732,
         "language": "Python",
-        "updated": "2026-06-07",
+        "updated": "2026-06-08",
         "topics": []
       },
       "recent_updates": [
@@ -433,8 +433,8 @@
       "release_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.168",
       "release_notes": "## What's changed\n\n- Bug fixes and reliability improvements\n",
       "github": {
-        "stars": 130865,
-        "forks": 21212,
+        "stars": 130939,
+        "forks": 21219,
         "language": "Python",
         "updated": "2026-06-08",
         "topics": []
@@ -543,8 +543,8 @@
       "release_url": "https://github.com/openai/codex/releases/tag/rust-v0.137.0",
       "release_notes": "## New Features\n- TUI controls now support F13-F24 keybindings, paste in searchable menus, and a compact reasoning-only status/title item (#25329, #25400, #25504).\n- Enterprise/admin flows now show monthly credit limits and can apply cloud-managed config bundles, including EDU workspaces (#24812, #2",
       "github": {
-        "stars": 89349,
-        "forks": 13158,
+        "stars": 89442,
+        "forks": 13173,
         "language": "Rust",
         "updated": "2026-06-08",
         "topics": []
@@ -579,10 +579,10 @@
       "release_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.45.2",
       "release_notes": "## What's Changed\n* fix(patch): cherry-pick f40498d to release/v0.45.1-pr-27676 to patch version v0.45.1 and create version 0.45.2 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/27700\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.45.1...v0.45.",
       "github": {
-        "stars": 105045,
-        "forks": 14011,
+        "stars": 105048,
+        "forks": 14015,
         "language": "TypeScript",
-        "updated": "2026-06-07",
+        "updated": "2026-06-08",
         "topics": [
           "ai",
           "ai-agents",
@@ -640,10 +640,10 @@
       "release_url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.0",
       "release_notes": "- Added support for all GPT-5 models.\r\n- Added support for Grok-4 via `xai/grok-4` and `openrouter/x-ai/grok-4` model names.\r\n- Added support for `gemini/gemini-2.5-flash-lite-preview-06-17` model, by Tamir Zahavi-Brunner.\r\n- `/clear` now prints “All chat history cleared.” so you know it worked, by ",
       "github": {
-        "stars": 45869,
-        "forks": 4564,
+        "stars": 45879,
+        "forks": 4566,
         "language": "Python",
-        "updated": "2026-06-07",
+        "updated": "2026-06-08",
         "topics": [
           "anthropic",
           "chatgpt",
@@ -690,10 +690,10 @@
       "release_url": "https://github.com/cline/cline/releases/tag/v3.88.1",
       "release_notes": "\n### Added\n\n- Add a debug section in settings for Cline testers.\n\n### Fixed\n\n- Include the walkthrough markdown files in the VS Code extension package so the first-run walkthrough steps load correctly.\n\n**Full Changelog**: https://github.com/cline/cline/compare/v3.88.0...v3.88.1\n",
       "github": {
-        "stars": 62885,
-        "forks": 6631,
+        "stars": 62895,
+        "forks": 6635,
         "language": "TypeScript",
-        "updated": "2026-06-07",
+        "updated": "2026-06-08",
         "topics": []
       },
       "npm_downloads_weekly": 77,
@@ -756,10 +756,10 @@
       "release_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/releases/tag/2025-11-25",
       "release_notes": "This release marks the **stable release** of the `2025-11-25` revision of the Model Context Protocol.\r\n\r\nThe specification is available on the [official Model Context Protocol website](https://modelcontextprotocol.io/specification/2025-11-25).\r\n\r\nFor a detailed overview of changes, see [2025-11-25 c",
       "github": {
-        "stars": 8339,
+        "stars": 8343,
         "forks": 1580,
         "language": "TypeScript",
-        "updated": "2026-06-07",
+        "updated": "2026-06-08",
         "topics": []
       },
       "recent_updates": [
@@ -853,8 +853,8 @@
       "release_url": "https://github.com/ollama/ollama/releases/tag/v0.30.6",
       "release_notes": "# New models\r\n- [Gemma 4 QAT weights](https://ollama.com/library/gemma4): the Gemma 4 family is now optimized with Quantization-Aware Training (QAT) to dramatically reduce memory requirements and maximize on-device performance. Look for the tags ending in `-qat`:\r\n  - `gemma4:e2b-it-qat`\r\n  - `gemma",
       "github": {
-        "stars": 173495,
-        "forks": 16495,
+        "stars": 173521,
+        "forks": 16500,
         "language": "Go",
         "updated": "2026-06-08",
         "topics": [
@@ -917,8 +917,8 @@
       "release_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.1",
       "release_notes": "Changes since langchain-core==1.4.0\n\nrelease(core): 1.4.1 (#37922)\nfix(core): remove Bedrock prevalidation from `load` (#37909)\ndocs(core): expand and link `ModelProfile` docstrings (#37904)\nrelease(anthropic): 1.4.4 (#37757)\nchore(core): bump `uuid-utils` to 0.16.0 (#37699)\nchore(infra): bump `lang",
       "github": {
-        "stars": 138750,
-        "forks": 22987,
+        "stars": 138776,
+        "forks": 22991,
         "language": "Python",
         "updated": "2026-06-08",
         "topics": [
@@ -973,8 +973,8 @@
       "release_url": "https://github.com/huggingface/transformers/releases/tag/v5.10.2",
       "release_notes": "# Patch release v5.10.2\r\nThere was a big bug in the model conversion of models related to clip, this affected models like sam3 and others. Please make sure to update :pray: \r\n\r\n* Fix conversion for clip models by @zucchini-nlp (#46406)\r\n\r\n\r\n**Full Changelog**: https://github.com/huggingface/transfor",
       "github": {
-        "stars": 161396,
-        "forks": 33442,
+        "stars": 161405,
+        "forks": 33441,
         "language": "Python",
         "updated": "2026-06-08",
         "topics": [
@@ -1022,8 +1022,8 @@
       "release_url": "https://github.com/vllm-project/vllm/releases/tag/v0.22.1",
       "release_notes": "## Highlights\r\n\r\nThis release features 8 commits from 6 contributors (1 new)!\r\n\r\nv0.22.1 is a patch release on top of v0.22.0 with targeted bug fixes plus a couple of additions: new model support for JetBrains' Mellum v2, zentorch-accelerated quantized linear inference on AMD Zen CPUs, and fixes for",
       "github": {
-        "stars": 82164,
-        "forks": 17766,
+        "stars": 82180,
+        "forks": 17771,
         "language": "Python",
         "updated": "2026-06-08",
         "topics": [
@@ -1184,7 +1184,7 @@
     {
       "name": "langchain-ai/langchain",
       "description": "The agent engineering platform.",
-      "stars": 138750,
+      "stars": 138776,
       "language": "Python",
       "url": "https://github.com/langchain-ai/langchain",
       "updated": "2026-06-07"
@@ -1192,7 +1192,7 @@
     {
       "name": "microsoft/autogen",
       "description": "A programming framework for agentic AI",
-      "stars": 58752,
+      "stars": 58756,
       "language": "Python",
       "url": "https://github.com/microsoft/autogen",
       "updated": "2026-04-15"
@@ -1200,7 +1200,7 @@
     {
       "name": "crewAIInc/crewAI",
       "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
-      "stars": 52999,
+      "stars": 53013,
       "language": "Python",
       "url": "https://github.com/crewAIInc/crewAI",
       "updated": "2026-06-07"
@@ -1208,7 +1208,7 @@
     {
       "name": "langchain-ai/langgraph",
       "description": "Build resilient agents.",
-      "stars": 34095,
+      "stars": 34119,
       "language": "Python",
       "url": "https://github.com/langchain-ai/langgraph",
       "updated": "2026-06-07"
@@ -1216,10 +1216,10 @@
     {
       "name": "AstrBotDevs/AstrBot",
       "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
-      "stars": 34090,
+      "stars": 34114,
       "language": "Python",
       "url": "https://github.com/AstrBotDevs/AstrBot",
-      "updated": "2026-06-07"
+      "updated": "2026-06-08"
     }
   ]
 }
