@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09 22:20:01 (UTC)",
+  "lastUpdated": "2026-06-10 00:07:48 (UTC)",
   "version": "2.0",
   "models": [
     {
@@ -62,12 +62,12 @@
         "扩展思维"
       ],
       "pricing_hint": "~$0.015/1K input tokens",
-      "latest_version": "0.109.0",
+      "latest_version": "0.109.1",
       "version_date": "2026-06-09",
-      "release_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.109.0",
-      "release_notes": "## 0.109.0 (2026-06-09)\n\nFull Changelog: [v0.108.0...v0.109.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.108.0...v0.109.0)\n\n### Features\n\n* **api:** add support for Managed Agents deployments and environment variable credentials ([47633bf](https://github.com/anthropics/anthropic-",
+      "release_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.109.1",
+      "release_notes": "## 0.109.1 (2026-06-09)\n\nFull Changelog: [v0.109.0...v0.109.1](https://github.com/anthropics/anthropic-sdk-python/compare/v0.109.0...v0.109.1)\n\n### Bug Fixes\n\n* **api:** add `frontier_llm` refusal category ([d3a806b](https://github.com/anthropics/anthropic-sdk-python/commit/d3a806b454d8aaf5806db11c6",
       "github": {
-        "stars": 3603,
+        "stars": 3604,
         "forks": 720,
         "language": "Python",
         "updated": "2026-06-09",
@@ -75,8 +75,8 @@
       },
       "recent_updates": [
         {
-          "title": "Release 0.109.0: v0.109.0",
-          "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.109.0",
+          "title": "Release 0.109.1: v0.109.1",
+          "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.109.1",
           "date": "2026-06-09",
           "source": "GitHub Release"
         }
@@ -105,7 +105,7 @@
       "release_url": "https://github.com/googleapis/python-genai/releases/tag/v2.8.0",
       "release_notes": "## [2.8.0](https://github.com/googleapis/python-genai/compare/v2.7.0...v2.8.0) (2026-06-03)\n\n\n### Features\n\n* Add Agent Platform MCP support to async generate_content ([e3be9af](https://github.com/googleapis/python-genai/commit/e3be9af3c21c9f8f625aecd890a5ee1f9993fb3d))\n* Add transcription language ",
       "github": {
-        "stars": 3785,
+        "stars": 3786,
         "forks": 904,
         "language": "Python",
         "updated": "2026-06-09",
@@ -433,8 +433,8 @@
       "release_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.170",
       "release_notes": "## What's changed\n\n- Introducing Claude Fable 5: a Mythos-class model that we’ve made safe for general use. Fable’s capabilities exceed those of any model we’ve ever made generally available. Update to version 2.1.170 for access. https://www.anthropic.com/news/claude-fable-5-mythos-5\n- Fixed session",
       "github": {
-        "stars": 131325,
-        "forks": 21281,
+        "stars": 131333,
+        "forks": 21286,
         "language": "Python",
         "updated": "2026-06-09",
         "topics": []
@@ -543,10 +543,10 @@
       "release_url": "https://github.com/openai/codex/releases/tag/rust-v0.139.0",
       "release_notes": "## New Features\n- Code mode can now call standalone web search directly, including from nested JavaScript tool calls, and receive plaintext search results. (#26719)\n- Tool and connector input schemas now preserve `oneOf` and `allOf`, and large schemas keep more shallow structure when compacted, impr",
       "github": {
-        "stars": 89928,
-        "forks": 13256,
+        "stars": 89932,
+        "forks": 13258,
         "language": "Rust",
-        "updated": "2026-06-09",
+        "updated": "2026-06-10",
         "topics": []
       },
       "recent_updates": [
@@ -579,7 +579,7 @@
       "release_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.45.3",
       "release_notes": "## What's Changed\n* fix(patch): cherry-pick f08b4af to release/v0.45.2-pr-27749 to patch version v0.45.2 and create version 0.45.3 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/27769\n\n\n**Full Changelog**: https://github.com/google-gemini/gemini-cli/compare/v0.45.2...v0.45.",
       "github": {
-        "stars": 105097,
+        "stars": 105099,
         "forks": 14021,
         "language": "TypeScript",
         "updated": "2026-06-09",
@@ -640,7 +640,7 @@
       "release_url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.0",
       "release_notes": "- Added support for all GPT-5 models.\r\n- Added support for Grok-4 via `xai/grok-4` and `openrouter/x-ai/grok-4` model names.\r\n- Added support for `gemini/gemini-2.5-flash-lite-preview-06-17` model, by Tamir Zahavi-Brunner.\r\n- `/clear` now prints “All chat history cleared.” so you know it worked, by ",
       "github": {
-        "stars": 45938,
+        "stars": 45939,
         "forks": 4557,
         "language": "Python",
         "updated": "2026-06-09",
@@ -690,10 +690,10 @@
       "release_url": "https://github.com/cline/cline/releases/tag/v3.89.0",
       "release_notes": "\n### Added\n\n- Add Claude Fable 5 model support.\n\n### Fixed\n\n- Fix MiniMax M3 thinking controls across gateways.\n\n### Changed\n\n- Clean up the Codex model list.\n\n**Full Changelog**: https://github.com/cline/cline/compare/cli-v3.0.21...v3.89.0\n",
       "github": {
-        "stars": 62989,
-        "forks": 6644,
+        "stars": 62993,
+        "forks": 6645,
         "language": "TypeScript",
-        "updated": "2026-06-09",
+        "updated": "2026-06-10",
         "topics": []
       },
       "npm_downloads_weekly": 77,
@@ -756,8 +756,8 @@
       "release_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/releases/tag/2025-11-25",
       "release_notes": "This release marks the **stable release** of the `2025-11-25` revision of the Model Context Protocol.\r\n\r\nThe specification is available on the [official Model Context Protocol website](https://modelcontextprotocol.io/specification/2025-11-25).\r\n\r\nFor a detailed overview of changes, see [2025-11-25 c",
       "github": {
-        "stars": 8357,
-        "forks": 1584,
+        "stars": 8356,
+        "forks": 1585,
         "language": "TypeScript",
         "updated": "2026-06-09",
         "topics": []
@@ -853,8 +853,8 @@
       "release_url": "https://github.com/ollama/ollama/releases/tag/v0.30.7",
       "release_notes": "Ollama Launch now supports Hermes Desktop, a native desktop interface for the Hermes agent. Run it alongside your Hermes agent to get a visual interface for managing conversations, integrations, and messaging apps.\r\n\r\n```\r\nollama launch hermes-desktop\r\n```\r\n<img width=\"2556\" height=\"1716\" alt=\"image",
       "github": {
-        "stars": 173710,
-        "forks": 16525,
+        "stars": 173713,
+        "forks": 16524,
         "language": "Go",
         "updated": "2026-06-09",
         "topics": [
@@ -917,10 +917,10 @@
       "release_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.3",
       "release_notes": "Changes since langchain-core==1.4.2\n\nrelease(core): 1.4.3 (#37991)\nfeat(openai): support `apply_patch` built-in tool (#37157)",
       "github": {
-        "stars": 138898,
-        "forks": 23001,
+        "stars": 138900,
+        "forks": 23000,
         "language": "Python",
-        "updated": "2026-06-09",
+        "updated": "2026-06-10",
         "topics": [
           "agents",
           "ai",
@@ -973,8 +973,8 @@
       "release_url": "https://github.com/huggingface/transformers/releases/tag/v5.10.2",
       "release_notes": "# Patch release v5.10.2\r\nThere was a big bug in the model conversion of models related to clip, this affected models like sam3 and others. Please make sure to update :pray: \r\n\r\n* Fix conversion for clip models by @zucchini-nlp (#46406)\r\n\r\n\r\n**Full Changelog**: https://github.com/huggingface/transfor",
       "github": {
-        "stars": 161457,
-        "forks": 33445,
+        "stars": 161459,
+        "forks": 33446,
         "language": "Python",
         "updated": "2026-06-09",
         "topics": [
@@ -1022,10 +1022,10 @@
       "release_url": "https://github.com/vllm-project/vllm/releases/tag/v0.22.1",
       "release_notes": "## Highlights\r\n\r\nThis release features 8 commits from 6 contributors (1 new)!\r\n\r\nv0.22.1 is a patch release on top of v0.22.0 with targeted bug fixes plus a couple of additions: new model support for JetBrains' Mellum v2, zentorch-accelerated quantized linear inference on AMD Zen CPUs, and fixes for",
       "github": {
-        "stars": 82358,
-        "forks": 17849,
+        "stars": 82361,
+        "forks": 17850,
         "language": "Python",
-        "updated": "2026-06-09",
+        "updated": "2026-06-10",
         "topics": [
           "amd",
           "blackwell",
@@ -1184,15 +1184,15 @@
     {
       "name": "langchain-ai/langchain",
       "description": "The agent engineering platform.",
-      "stars": 138898,
+      "stars": 138900,
       "language": "Python",
       "url": "https://github.com/langchain-ai/langchain",
-      "updated": "2026-06-09"
+      "updated": "2026-06-10"
     },
     {
       "name": "microsoft/autogen",
       "description": "A programming framework for agentic AI",
-      "stars": 58816,
+      "stars": 58817,
       "language": "Python",
       "url": "https://github.com/microsoft/autogen",
       "updated": "2026-04-15"
@@ -1200,25 +1200,25 @@
     {
       "name": "crewAIInc/crewAI",
       "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
-      "stars": 53151,
+      "stars": 53156,
       "language": "Python",
       "url": "https://github.com/crewAIInc/crewAI",
       "updated": "2026-06-09"
     },
     {
-      "name": "langchain-ai/langgraph",
-      "description": "Build resilient agents.",
-      "stars": 34296,
+      "name": "AstrBotDevs/AstrBot",
+      "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
+      "stars": 34301,
       "language": "Python",
-      "url": "https://github.com/langchain-ai/langgraph",
+      "url": "https://github.com/AstrBotDevs/AstrBot",
       "updated": "2026-06-09"
     },
     {
-      "name": "AstrBotDevs/AstrBot",
-      "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
-      "stars": 34296,
+      "name": "langchain-ai/langgraph",
+      "description": "Build resilient agents.",
+      "stars": 34300,
       "language": "Python",
-      "url": "https://github.com/AstrBotDevs/AstrBot",
+      "url": "https://github.com/langchain-ai/langgraph",
       "updated": "2026-06-09"
     }
   ]
