@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18 02:59:07 (UTC)",
+  "lastUpdated": "2026-06-18 08:11:28 (UTC)",
   "version": "2.0",
   "models": [
     {
@@ -25,7 +25,7 @@
       "release_url": "https://github.com/openai/openai-python/releases/tag/v2.43.0",
       "release_notes": "## 2.43.0 (2026-06-17)\n\nFull Changelog: [v2.42.0...v2.43.0](https://github.com/openai/openai-python/compare/v2.42.0...v2.43.0)\n\n### Features\n\n* **api:** update OpenAPI spec or Stainless config ([2254235](https://github.com/openai/openai-python/commit/22542358490ef8f31f0d373e17f7b791b3d983ca))",
       "github": {
-        "stars": 31030,
+        "stars": 31029,
         "forks": 4840,
         "language": "Python",
         "updated": "2026-06-18",
@@ -67,10 +67,10 @@
       "release_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.109.2",
       "release_notes": "## 0.109.2 (2026-06-15)\n\nFull Changelog: [v0.109.1...v0.109.2](https://github.com/anthropics/anthropic-sdk-python/compare/v0.109.1...v0.109.2)\n\n### Chores\n\n* **api:** remove retired models from API and SDKs ([d4bcfcc](https://github.com/anthropics/anthropic-sdk-python/commit/d4bcfcc257bd0c97d5e75060",
       "github": {
-        "stars": 3644,
+        "stars": 3647,
         "forks": 735,
         "language": "Python",
-        "updated": "2026-06-17",
+        "updated": "2026-06-18",
         "topics": []
       },
       "recent_updates": [
@@ -142,8 +142,8 @@
       "release_url": "https://github.com/deepseek-ai/DeepSeek-V3/releases/tag/v1.0.0",
       "release_notes": "This release is created for archival purposes and DOI generation.",
       "github": {
-        "stars": 103757,
-        "forks": 16734,
+        "stars": 103761,
+        "forks": 16733,
         "language": "Python",
         "updated": "2026-06-18",
         "topics": []
@@ -231,7 +231,7 @@
       "release_notes": "Llama 4 Support ( https://www.llama.com ) \r\n\r\n",
       "github": {
         "stars": 7635,
-        "forks": 1386,
+        "forks": 1385,
         "language": "Python",
         "updated": "2026-06-17",
         "topics": []
@@ -264,9 +264,9 @@
       "pricing_hint": "免费开源",
       "github": {
         "stars": 27310,
-        "forks": 1991,
+        "forks": 1990,
         "language": "Python",
-        "updated": "2026-06-17",
+        "updated": "2026-06-18",
         "topics": []
       },
       "recent_updates": []
@@ -433,8 +433,8 @@
       "release_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.181",
       "release_notes": "## What's changed\n\n- Added `/config key=value` syntax to set any setting from the prompt (e.g. `/config thinking=false`) — works in interactive, `-p`, and Remote Control\n- Added `sandbox.allowAppleEvents` opt-in setting that lets sandboxed commands send Apple Events on macOS\n- Added `CLAUDE_CLIENT_P",
       "github": {
-        "stars": 133068,
-        "forks": 21520,
+        "stars": 133132,
+        "forks": 21525,
         "language": "Python",
         "updated": "2026-06-18",
         "topics": []
@@ -538,22 +538,22 @@
         "自主代码生成",
         "多语言支持"
       ],
-      "latest_version": "rust-v0.140.0",
-      "version_date": "2026-06-15",
-      "release_url": "https://github.com/openai/codex/releases/tag/rust-v0.140.0",
-      "release_notes": "## New Features\n\n- Added `/usage` views for daily, weekly, and cumulative account token activity. (#27925)\n- `/goal` now preserves oversized text, large pasted blocks, and image attachments, including in remote app-server sessions. (#27508, #27509, #27510)\n- Added permanent session deletion through ",
+      "latest_version": "rust-v0.141.0",
+      "version_date": "2026-06-18",
+      "release_url": "https://github.com/openai/codex/releases/tag/rust-v0.141.0",
+      "release_notes": "## New Features\n\n- Remote executors now use authenticated, end-to-end encrypted Noise relay channels. (#26242, #26245)\n- Cross-platform remote execution now preserves executor-native working directories and shells, including filesystem permission paths across app-server and exec-server boundaries. (",
       "github": {
-        "stars": 91800,
-        "forks": 13563,
+        "stars": 91880,
+        "forks": 13578,
         "language": "Rust",
         "updated": "2026-06-18",
         "topics": []
       },
       "recent_updates": [
         {
-          "title": "Release rust-v0.140.0: 0.140.0",
-          "url": "https://github.com/openai/codex/releases/tag/rust-v0.140.0",
-          "date": "2026-06-15",
+          "title": "Release rust-v0.141.0: 0.141.0",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.141.0",
+          "date": "2026-06-18",
           "source": "GitHub Release"
         }
       ]
@@ -579,8 +579,8 @@
       "release_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.47.0",
       "release_notes": "## What's Changed\n* chore(release): bump version to 0.47.0-nightly.20260602.gcfcecebe8 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/27644\n* Changelog for v0.46.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/27641\n* Respect backend def",
       "github": {
-        "stars": 105372,
-        "forks": 14097,
+        "stars": 105379,
+        "forks": 14096,
         "language": "TypeScript",
         "updated": "2026-06-18",
         "topics": [
@@ -640,8 +640,8 @@
       "release_url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.0",
       "release_notes": "- Added support for all GPT-5 models.\r\n- Added support for Grok-4 via `xai/grok-4` and `openrouter/x-ai/grok-4` model names.\r\n- Added support for `gemini/gemini-2.5-flash-lite-preview-06-17` model, by Tamir Zahavi-Brunner.\r\n- `/clear` now prints “All chat history cleared.” so you know it worked, by ",
       "github": {
-        "stars": 46394,
-        "forks": 4615,
+        "stars": 46409,
+        "forks": 4618,
         "language": "Python",
         "updated": "2026-06-18",
         "topics": [
@@ -690,8 +690,8 @@
       "release_url": "https://github.com/cline/cline/releases/tag/cli-v3.0.27",
       "release_notes": "\n- Added a `cline skill` command to install and manage skills, matching `cline plugin install` and `cline mcp` (installs default to the Cline agent directory)\n- Added a prefilled MCP install wizard command for quicker MCP server setup\n- Improved error handling and messaging when plugin MCP OAuth aut",
       "github": {
-        "stars": 63459,
-        "forks": 6712,
+        "stars": 63470,
+        "forks": 6714,
         "language": "TypeScript",
         "updated": "2026-06-18",
         "topics": []
@@ -756,8 +756,8 @@
       "release_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/releases/tag/2025-11-25",
       "release_notes": "This release marks the **stable release** of the `2025-11-25` revision of the Model Context Protocol.\r\n\r\nThe specification is available on the [official Model Context Protocol website](https://modelcontextprotocol.io/specification/2025-11-25).\r\n\r\nFor a detailed overview of changes, see [2025-11-25 c",
       "github": {
-        "stars": 8419,
-        "forks": 1593,
+        "stars": 8421,
+        "forks": 1594,
         "language": "TypeScript",
         "updated": "2026-06-18",
         "topics": []
@@ -851,10 +851,10 @@
       "latest_version": "0.30.10",
       "version_date": "2026-06-17",
       "release_url": "https://github.com/ollama/ollama/releases/tag/v0.30.10",
-      "release_notes": "## What's Changed\r\n* models: add Cohere2MoE model  by @jmorganca in https://github.com/ollama/ollama/pull/16670\r\n* llama: update llama.cpp to b9672 by @pdevine in https://github.com/ollama/ollama/pull/16775\r\n\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.9...v0.30.10-rc0",
+      "release_notes": "## What's Changed\r\n\r\n* Command A and North family models now run on Apple Silicon with the MLX engine\r\n* Updated the underlying llama.cpp engine to build 9672\r\n* Fixed build artifacts for MLX\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.9...v0.30.10\r\n",
       "github": {
-        "stars": 174415,
-        "forks": 16666,
+        "stars": 174433,
+        "forks": 16668,
         "language": "Go",
         "updated": "2026-06-18",
         "topics": [
@@ -917,8 +917,8 @@
       "release_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.7",
       "release_notes": "Changes since langchain-core==1.4.6\n\nchore: bump tornado from 6.5.5 to 6.5.6 in /libs/core (#38115)\nrelease(core): 1.4.7 (#38111)\nfix(core,partners): rename package version trace metadata (#38110)\nfix(core): fix Pydantic v1 support in tools/runnable (#33698)\nstyle(core,langchain,langchain-classic,pa",
       "github": {
-        "stars": 139588,
-        "forks": 23132,
+        "stars": 139612,
+        "forks": 23135,
         "language": "Python",
         "updated": "2026-06-18",
         "topics": [
@@ -973,8 +973,8 @@
       "release_url": "https://github.com/huggingface/transformers/releases/tag/v5.12.1",
       "release_notes": "# Patch release v5.12.1\r\nUpdated the lower bound for PEFT and a fix for auto tokenizer to properly resolve the mistral tokenizer (when `mistral-common` is installed). This is similar to v.5.10.3 minus the fixes that were already included in the main release - vLLM will first target 5.10.3 :hugs: \r\n\r",
       "github": {
-        "stars": 161681,
-        "forks": 33537,
+        "stars": 161687,
+        "forks": 33535,
         "language": "Python",
         "updated": "2026-06-18",
         "topics": [
@@ -1022,8 +1022,8 @@
       "release_url": "https://github.com/vllm-project/vllm/releases/tag/v0.23.0",
       "release_notes": "# vLLM v0.23.0 Release Notes\r\n\r\nPlease note that Minimax M3 is not yet supported in this version. Please follow [vLLM recipe](https://recipes.vllm.ai/MiniMaxAI/MiniMax-M3) for usage guides for M3.\r\n\r\n## Highlights\r\n\r\nThis release features 408 commits from 200 contributors (63 new)!\r\n\r\n* **DeepSeek-V",
       "github": {
-        "stars": 83202,
-        "forks": 18164,
+        "stars": 83228,
+        "forks": 18179,
         "language": "Python",
         "updated": "2026-06-18",
         "topics": [
@@ -1184,15 +1184,15 @@
     {
       "name": "langchain-ai/langchain",
       "description": "The agent engineering platform.",
-      "stars": 139588,
+      "stars": 139612,
       "language": "Python",
       "url": "https://github.com/langchain-ai/langchain",
-      "updated": "2026-06-17"
+      "updated": "2026-06-18"
     },
     {
       "name": "microsoft/autogen",
       "description": "A programming framework for agentic AI",
-      "stars": 59046,
+      "stars": 59051,
       "language": "Python",
       "url": "https://github.com/microsoft/autogen",
       "updated": "2026-04-15"
@@ -1200,7 +1200,7 @@
     {
       "name": "crewAIInc/crewAI",
       "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
-      "stars": 53841,
+      "stars": 53863,
       "language": "Python",
       "url": "https://github.com/crewAIInc/crewAI",
       "updated": "2026-06-18"
@@ -1208,7 +1208,7 @@
     {
       "name": "langchain-ai/langgraph",
       "description": "Build resilient agents.",
-      "stars": 35076,
+      "stars": 35098,
       "language": "Python",
       "url": "https://github.com/langchain-ai/langgraph",
       "updated": "2026-06-17"
@@ -1216,10 +1216,10 @@
     {
       "name": "AstrBotDevs/AstrBot",
       "description": "AI Agent Assistant & development framework that integrates lots of IM platforms, LLMs, plugins and AI feature, and can be your openclaw alternative. ✨",
-      "stars": 34858,
+      "stars": 34873,
       "language": "Python",
       "url": "https://github.com/AstrBotDevs/AstrBot",
-      "updated": "2026-06-17"
+      "updated": "2026-06-18"
     }
   ]
 }
