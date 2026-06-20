@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20 19:16:49 (UTC)",
+  "lastUpdated": "2026-06-20 21:10:46 (UTC)",
   "version": "2.0",
   "models": [
     {
@@ -67,8 +67,8 @@
       "release_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.111.0",
       "release_notes": "## 0.111.0 (2026-06-18)\n\nFull Changelog: [v0.110.0...v0.111.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.110.0...v0.111.0)\n\n### Features\n\n* **helpers:** tag refusal-fallback middleware requests with fallback-refusal-middleware ([#96](https://github.com/anthropics/anthropic-sdk-py",
       "github": {
-        "stars": 3661,
-        "forks": 737,
+        "stars": 3662,
+        "forks": 738,
         "language": "Python",
         "updated": "2026-06-20",
         "topics": []
@@ -142,7 +142,7 @@
       "release_url": "https://github.com/deepseek-ai/DeepSeek-V3/releases/tag/v1.0.0",
       "release_notes": "This release is created for archival purposes and DOI generation.",
       "github": {
-        "stars": 103788,
+        "stars": 103787,
         "forks": 16739,
         "language": "Python",
         "updated": "2026-06-20",
@@ -428,13 +428,13 @@
         "Git 深度集成",
         "扩展思维模式"
       ],
-      "latest_version": "2.1.183",
-      "version_date": "2026-06-19",
-      "release_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.183",
-      "release_notes": "## What's changed\n\n- Improved auto mode safety: destructive git commands (`git reset --hard`, `git checkout -- .`, `git clean -fd`, `git stash drop`) are now blocked when you didn't ask to discard local work, `git commit --amend` is blocked when the commit wasn't made by the agent this session, and ",
+      "latest_version": "2.1.185",
+      "version_date": "2026-06-20",
+      "release_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.185",
+      "release_notes": "## What's changed\n\n- The stream-stall hint now reads \"Waiting for API response · will retry in …\" instead of \"No response from API · Retrying in …\", and triggers after 20s of silence instead of 10s\n",
       "github": {
-        "stars": 133462,
-        "forks": 21576,
+        "stars": 133476,
+        "forks": 21577,
         "language": "Python",
         "updated": "2026-06-20",
         "topics": []
@@ -442,15 +442,15 @@
       "npm_downloads_weekly": 10114893,
       "recent_updates": [
         {
-          "title": "Release 2.1.183: v2.1.183",
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.183",
-          "date": "2026-06-19",
+          "title": "Release 2.1.185: v2.1.185",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.185",
+          "date": "2026-06-20",
           "source": "GitHub Release"
         },
         {
-          "title": "npm v2.1.183 — Use Claude, Anthropic's AI assistant, right from your terminal. Claude can understand your codebase, edit files, run terminal commands, and handle entire workflows for you.",
+          "title": "npm v2.1.185 — Use Claude, Anthropic's AI assistant, right from your terminal. Claude can understand your codebase, edit files, run terminal commands, and handle entire workflows for you.",
           "url": "https://github.com/anthropics/claude-code",
-          "date": "2026-06-19",
+          "date": "2026-06-20",
           "source": "npm"
         },
         {
@@ -543,8 +543,8 @@
       "release_url": "https://github.com/openai/codex/releases/tag/rust-v0.141.0",
       "release_notes": "## New Features\n\n- Remote executors now use authenticated, end-to-end encrypted Noise relay channels. (#26242, #26245)\n- Cross-platform remote execution now preserves executor-native working directories and shells, including filesystem permission paths across app-server and exec-server boundaries. (",
       "github": {
-        "stars": 92314,
-        "forks": 13641,
+        "stars": 92316,
+        "forks": 13646,
         "language": "Rust",
         "updated": "2026-06-20",
         "topics": []
@@ -579,8 +579,8 @@
       "release_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.47.0",
       "release_notes": "## What's Changed\n* chore(release): bump version to 0.47.0-nightly.20260602.gcfcecebe8 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/27644\n* Changelog for v0.46.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/27641\n* Respect backend def",
       "github": {
-        "stars": 105445,
-        "forks": 14134,
+        "stars": 105447,
+        "forks": 14136,
         "language": "TypeScript",
         "updated": "2026-06-20",
         "topics": [
@@ -690,7 +690,7 @@
       "release_url": "https://github.com/cline/cline/releases/tag/cli-v3.0.29",
       "release_notes": "\n- Costs are now hidden for Cline free models\n- Fixed Z.ai model metadata resolution for Z.ai models accessed through the Cline provider\n- Reverted the model-name-only display change from v3.0.28; the model picker, selector, and status bar return to their previous display behavior\n\n**Full Changelog*",
       "github": {
-        "stars": 63572,
+        "stars": 63574,
         "forks": 6735,
         "language": "TypeScript",
         "updated": "2026-06-20",
@@ -756,8 +756,8 @@
       "release_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/releases/tag/2025-11-25",
       "release_notes": "This release marks the **stable release** of the `2025-11-25` revision of the Model Context Protocol.\r\n\r\nThe specification is available on the [official Model Context Protocol website](https://modelcontextprotocol.io/specification/2025-11-25).\r\n\r\nFor a detailed overview of changes, see [2025-11-25 c",
       "github": {
-        "stars": 8443,
-        "forks": 1602,
+        "stars": 8444,
+        "forks": 1603,
         "language": "TypeScript",
         "updated": "2026-06-20",
         "topics": []
@@ -853,8 +853,8 @@
       "release_url": "https://github.com/ollama/ollama/releases/tag/v0.30.10",
       "release_notes": "## What's Changed\r\n\r\n* Command A and North family models now run on Apple Silicon with the MLX engine\r\n* Updated the underlying llama.cpp engine to build 9672\r\n* Fixed build artifacts for MLX\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.9...v0.30.10\r\n",
       "github": {
-        "stars": 174605,
-        "forks": 16695,
+        "stars": 174614,
+        "forks": 16697,
         "language": "Go",
         "updated": "2026-06-20",
         "topics": [
@@ -917,8 +917,8 @@
       "release_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.8",
       "release_notes": "Changes since langchain-core==1.4.7\n\nchore: bump jupyter-server from 2.18.0 to 2.20.0 in /libs/core (#38252)\nchore: bump tornado from 6.5.6 to 6.5.7 in /libs/core (#38184)\nchore: bump bleach from 6.3.0 to 6.4.0 in /libs/core (#38198)\nrelease(core): 1.4.8 (#38254)\nrefactor(langchain-classic): remove ",
       "github": {
-        "stars": 139766,
-        "forks": 23176,
+        "stars": 139768,
+        "forks": 23178,
         "language": "Python",
         "updated": "2026-06-20",
         "topics": [
@@ -973,8 +973,8 @@
       "release_url": "https://github.com/huggingface/transformers/releases/tag/v5.12.1",
       "release_notes": "# Patch release v5.12.1\r\nUpdated the lower bound for PEFT and a fix for auto tokenizer to properly resolve the mistral tokenizer (when `mistral-common` is installed). This is similar to v.5.10.3 minus the fixes that were already included in the main release - vLLM will first target 5.10.3 :hugs: \r\n\r",
       "github": {
-        "stars": 161754,
-        "forks": 33562,
+        "stars": 161756,
+        "forks": 33563,
         "language": "Python",
         "updated": "2026-06-20",
         "topics": [
@@ -1022,8 +1022,8 @@
       "release_url": "https://github.com/vllm-project/vllm/releases/tag/v0.23.0",
       "release_notes": "# vLLM v0.23.0 Release Notes\r\n\r\nPlease note that Minimax M3 is not yet supported in this version. Please follow [vLLM recipe](https://recipes.vllm.ai/MiniMaxAI/MiniMax-M3) for usage guides for M3.\r\n\r\n## Highlights\r\n\r\nThis release features 408 commits from 200 contributors (63 new)!\r\n\r\n* **DeepSeek-V",
       "github": {
-        "stars": 83421,
-        "forks": 18265,
+        "stars": 83425,
+        "forks": 18267,
         "language": "Python",
         "updated": "2026-06-20",
         "topics": [
@@ -1184,7 +1184,7 @@
     {
       "name": "obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
-      "stars": 234098,
+      "stars": 234141,
       "language": "Shell",
       "url": "https://github.com/obra/superpowers",
       "updated": "2026-06-18"
@@ -1192,7 +1192,7 @@
     {
       "name": "langchain-ai/langchain",
       "description": "The agent engineering platform.",
-      "stars": 139766,
+      "stars": 139768,
       "language": "Python",
       "url": "https://github.com/langchain-ai/langchain",
       "updated": "2026-06-20"
@@ -1200,7 +1200,7 @@
     {
       "name": "microsoft/autogen",
       "description": "A programming framework for agentic AI",
-      "stars": 59093,
+      "stars": 59096,
       "language": "Python",
       "url": "https://github.com/microsoft/autogen",
       "updated": "2026-04-15"
@@ -1208,7 +1208,7 @@
     {
       "name": "crewAIInc/crewAI",
       "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
-      "stars": 54036,
+      "stars": 54038,
       "language": "Python",
       "url": "https://github.com/crewAIInc/crewAI",
       "updated": "2026-06-20"
@@ -1216,7 +1216,7 @@
     {
       "name": "langchain-ai/langgraph",
       "description": "Build resilient agents.",
-      "stars": 35288,
+      "stars": 35294,
       "language": "Python",
       "url": "https://github.com/langchain-ai/langgraph",
       "updated": "2026-06-19"
