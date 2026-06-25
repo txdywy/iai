@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25 11:36:34 (UTC)",
+  "lastUpdated": "2026-06-25 14:14:20 (UTC)",
   "version": "2.0",
   "models": [
     {
@@ -142,8 +142,8 @@
       "release_url": "https://github.com/deepseek-ai/DeepSeek-V3/releases/tag/v1.0.0",
       "release_notes": "This release is created for archival purposes and DOI generation.",
       "github": {
-        "stars": 103800,
-        "forks": 16731,
+        "stars": 103806,
+        "forks": 16732,
         "language": "Python",
         "updated": "2026-06-25",
         "topics": []
@@ -263,7 +263,7 @@
       ],
       "pricing_hint": "免费开源",
       "github": {
-        "stars": 27332,
+        "stars": 27333,
         "forks": 1991,
         "language": "Python",
         "updated": "2026-06-25",
@@ -291,6 +291,57 @@
       }
     },
     {
+      "title": "Z.ai: GLM 5.2",
+      "badge": "免费",
+      "description": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering",
+      "meta": [
+        "上下文 1048K",
+        "text->text",
+        "免费"
+      ],
+      "link": "https://openrouter.ai/models/z-ai/glm-5.2",
+      "model_id": "z-ai/glm-5.2",
+      "context_length": 1048576,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      }
+    },
+    {
+      "title": "DeepSeek: DeepSeek V4 Pro",
+      "badge": "免费",
+      "description": "DeepSeek V4 Pro is a large-scale Mixture-of-Experts model from DeepSeek with 1.6T total parameters and 49B activated parameters, supporting a 1M-token context window. It is designed for advanced reaso",
+      "meta": [
+        "上下文 1048K",
+        "text->text",
+        "免费"
+      ],
+      "link": "https://openrouter.ai/models/deepseek/deepseek-v4-pro",
+      "model_id": "deepseek/deepseek-v4-pro",
+      "context_length": 1048576,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      }
+    },
+    {
+      "title": "DeepSeek: DeepSeek V4 Flash",
+      "badge": "免费",
+      "description": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window. It is designed for fa",
+      "meta": [
+        "上下文 1048K",
+        "text->text",
+        "免费"
+      ],
+      "link": "https://openrouter.ai/models/deepseek/deepseek-v4-flash",
+      "model_id": "deepseek/deepseek-v4-flash",
+      "context_length": 1048576,
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      }
+    },
+    {
       "title": "Google: Lyria 3 Pro Preview",
       "badge": "免费",
       "description": "Full-length songs are priced at $0.08 per song. Lyria 3 is Google's family of music generation models, available through the Gemini API. With Lyria 3, you can generate high-quality, 48kHz...",
@@ -302,57 +353,6 @@
       "link": "https://openrouter.ai/models/google/lyria-3-pro-preview",
       "model_id": "google/lyria-3-pro-preview",
       "context_length": 1048576,
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      }
-    },
-    {
-      "title": "Google: Lyria 3 Clip Preview",
-      "badge": "免费",
-      "description": "30 second duration clips are priced at $0.04 per clip. Lyria 3 is Google's family of music generation models, available through the Gemini API. With Lyria 3, you can generate...",
-      "meta": [
-        "上下文 1048K",
-        "text+image->text+audio",
-        "免费"
-      ],
-      "link": "https://openrouter.ai/models/google/lyria-3-clip-preview",
-      "model_id": "google/lyria-3-clip-preview",
-      "context_length": 1048576,
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      }
-    },
-    {
-      "title": "Qwen: Qwen3 Coder 480B A35B (free)",
-      "badge": "免费",
-      "description": "Qwen3-Coder-480B-A35B-Instruct is a Mixture-of-Experts (MoE) code generation model developed by the Qwen team. It is optimized for agentic coding tasks such as function calling, tool use, and long-con",
-      "meta": [
-        "上下文 1048K",
-        "text->text",
-        "免费"
-      ],
-      "link": "https://openrouter.ai/models/qwen/qwen3-coder:free",
-      "model_id": "qwen/qwen3-coder:free",
-      "context_length": 1048576,
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      }
-    },
-    {
-      "title": "NVIDIA: Nemotron 3 Ultra (free)",
-      "badge": "免费",
-      "description": "NVIDIA Nemotron 3 Ultra is an open frontier-reasoning and orchestration model from NVIDIA, with 55B active parameters out of 550B total (MoE). Built on a hybrid Transformer-Mamba mixture-of-experts ar",
-      "meta": [
-        "上下文 1000K",
-        "text->text",
-        "免费"
-      ],
-      "link": "https://openrouter.ai/models/nvidia/nemotron-3-ultra-550b-a55b:free",
-      "model_id": "nvidia/nemotron-3-ultra-550b-a55b:free",
-      "context_length": 1000000,
       "pricing": {
         "prompt": "0",
         "completion": "0"
@@ -433,7 +433,7 @@
       "release_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.191",
       "release_notes": "## What's changed\n\n- Added `/rewind` support for resuming a conversation from before `/clear` was run\n- Fixed scroll position jumping to the bottom while reading earlier output during a streaming response\n- Fixed background agents resurrecting after being stopped — stopping an agent from the tasks p",
       "github": {
-        "stars": 134316,
+        "stars": 134349,
         "forks": 21702,
         "language": "Python",
         "updated": "2026-06-25",
@@ -543,8 +543,8 @@
       "release_url": "https://github.com/openai/codex/releases/tag/rust-v0.142.2",
       "release_notes": "## New Features\n\n- MCP tools now use tool search by default when supported, improving tool discovery while preserving compatibility with older models and providers. (#29486)\n- macOS authentication clients can honor system proxy, PAC, and WPAD settings when `respect_system_proxy` is enabled. (#26709)",
       "github": {
-        "stars": 93572,
-        "forks": 13841,
+        "stars": 93625,
+        "forks": 13845,
         "language": "Rust",
         "updated": "2026-06-25",
         "topics": []
@@ -579,8 +579,8 @@
       "release_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.47.0",
       "release_notes": "## What's Changed\n* chore(release): bump version to 0.47.0-nightly.20260602.gcfcecebe8 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/27644\n* Changelog for v0.46.0-preview.0 by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/27641\n* Respect backend def",
       "github": {
-        "stars": 105545,
-        "forks": 14163,
+        "stars": 105547,
+        "forks": 14162,
         "language": "TypeScript",
         "updated": "2026-06-25",
         "topics": [
@@ -640,8 +640,8 @@
       "release_url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.0",
       "release_notes": "- Added support for all GPT-5 models.\r\n- Added support for Grok-4 via `xai/grok-4` and `openrouter/x-ai/grok-4` model names.\r\n- Added support for `gemini/gemini-2.5-flash-lite-preview-06-17` model, by Tamir Zahavi-Brunner.\r\n- `/clear` now prints “All chat history cleared.” so you know it worked, by ",
       "github": {
-        "stars": 46679,
-        "forks": 4645,
+        "stars": 46683,
+        "forks": 4646,
         "language": "Python",
         "updated": "2026-06-25",
         "topics": [
@@ -690,7 +690,7 @@
       "release_url": "https://github.com/cline/cline/releases/tag/cli-v3.0.29",
       "release_notes": "\n- Costs are now hidden for Cline free models\n- Fixed Z.ai model metadata resolution for Z.ai models accessed through the Cline provider\n- Reverted the model-name-only display change from v3.0.28; the model picker, selector, and status bar return to their previous display behavior\n\n**Full Changelog*",
       "github": {
-        "stars": 63881,
+        "stars": 63889,
         "forks": 6776,
         "language": "TypeScript",
         "updated": "2026-06-25",
@@ -757,7 +757,7 @@
       "release_notes": "This release marks the **stable release** of the `2025-11-25` revision of the Model Context Protocol.\r\n\r\nThe specification is available on the [official Model Context Protocol website](https://modelcontextprotocol.io/specification/2025-11-25).\r\n\r\nFor a detailed overview of changes, see [2025-11-25 c",
       "github": {
         "stars": 8465,
-        "forks": 1619,
+        "forks": 1620,
         "language": "TypeScript",
         "updated": "2026-06-25",
         "topics": []
@@ -853,8 +853,8 @@
       "release_url": "https://github.com/ollama/ollama/releases/tag/v0.30.10",
       "release_notes": "## What's Changed\r\n\r\n* Command A and North family models now run on Apple Silicon with the MLX engine\r\n* Updated the underlying llama.cpp engine to build 9672\r\n* Fixed build artifacts for MLX\r\n\r\n**Full Changelog**: https://github.com/ollama/ollama/compare/v0.30.9...v0.30.10\r\n",
       "github": {
-        "stars": 174891,
-        "forks": 16718,
+        "stars": 174894,
+        "forks": 16720,
         "language": "Go",
         "updated": "2026-06-25",
         "topics": [
@@ -917,8 +917,8 @@
       "release_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.8",
       "release_notes": "Changes since langchain-core==1.4.7\n\nchore: bump jupyter-server from 2.18.0 to 2.20.0 in /libs/core (#38252)\nchore: bump tornado from 6.5.6 to 6.5.7 in /libs/core (#38184)\nchore: bump bleach from 6.3.0 to 6.4.0 in /libs/core (#38198)\nrelease(core): 1.4.8 (#38254)\nrefactor(langchain-classic): remove ",
       "github": {
-        "stars": 140165,
-        "forks": 23250,
+        "stars": 140177,
+        "forks": 23253,
         "language": "Python",
         "updated": "2026-06-25",
         "topics": [
@@ -973,8 +973,8 @@
       "release_url": "https://github.com/huggingface/transformers/releases/tag/v5.12.1",
       "release_notes": "# Patch release v5.12.1\r\nUpdated the lower bound for PEFT and a fix for auto tokenizer to properly resolve the mistral tokenizer (when `mistral-common` is installed). This is similar to v.5.10.3 minus the fixes that were already included in the main release - vLLM will first target 5.10.3 :hugs: \r\n\r",
       "github": {
-        "stars": 161901,
-        "forks": 33592,
+        "stars": 161908,
+        "forks": 33596,
         "language": "Python",
         "updated": "2026-06-25",
         "topics": [
@@ -1022,8 +1022,8 @@
       "release_url": "https://github.com/vllm-project/vllm/releases/tag/v0.23.0",
       "release_notes": "# vLLM v0.23.0 Release Notes\r\n\r\nPlease note that Minimax M3 is not yet supported in this version. Please follow [vLLM recipe](https://recipes.vllm.ai/MiniMaxAI/MiniMax-M3) for usage guides for M3.\r\n\r\n## Highlights\r\n\r\nThis release features 408 commits from 200 contributors (63 new)!\r\n\r\n* **DeepSeek-V",
       "github": {
-        "stars": 84205,
-        "forks": 18482,
+        "stars": 84247,
+        "forks": 18492,
         "language": "Python",
         "updated": "2026-06-25",
         "topics": [
@@ -1184,7 +1184,7 @@
     {
       "name": "obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
-      "stars": 238329,
+      "stars": 238418,
       "language": "Shell",
       "url": "https://github.com/obra/superpowers",
       "updated": "2026-06-25"
@@ -1192,7 +1192,7 @@
     {
       "name": "langchain-ai/langchain",
       "description": "The agent engineering platform.",
-      "stars": 140165,
+      "stars": 140177,
       "language": "Python",
       "url": "https://github.com/langchain-ai/langchain",
       "updated": "2026-06-24"
@@ -1200,7 +1200,7 @@
     {
       "name": "microsoft/autogen",
       "description": "A programming framework for agentic AI",
-      "stars": 59240,
+      "stars": 59246,
       "language": "Python",
       "url": "https://github.com/microsoft/autogen",
       "updated": "2026-04-15"
@@ -1208,7 +1208,7 @@
     {
       "name": "crewAIInc/crewAI",
       "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
-      "stars": 54348,
+      "stars": 54357,
       "language": "Python",
       "url": "https://github.com/crewAIInc/crewAI",
       "updated": "2026-06-25"
@@ -1216,7 +1216,7 @@
     {
       "name": "langchain-ai/langgraph",
       "description": "Build resilient agents.",
-      "stars": 35711,
+      "stars": 35726,
       "language": "Python",
       "url": "https://github.com/langchain-ai/langgraph",
       "updated": "2026-06-25"
