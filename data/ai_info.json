@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27 23:08:56 (UTC)",
+  "lastUpdated": "2026-06-28 02:53:55 (UTC)",
   "version": "2.0",
   "models": [
     {
@@ -25,10 +25,10 @@
       "release_url": "https://github.com/openai/openai-python/releases/tag/v2.44.0",
       "release_notes": "## 2.44.0 (2026-06-24)\n\nFull Changelog: [v2.43.0...v2.44.0](https://github.com/openai/openai-python/compare/v2.43.0...v2.44.0)\n\n### Bug Fixes\n\n* **auth:** prioritize first auth header ([797e336](https://github.com/openai/openai-python/commit/797e3362e222ae14e587a4543b76a54d8992d66c))",
       "github": {
-        "stars": 31098,
+        "stars": 31099,
         "forks": 4858,
         "language": "Python",
-        "updated": "2026-06-27",
+        "updated": "2026-06-28",
         "topics": [
           "openai",
           "python"
@@ -68,7 +68,7 @@
       "release_notes": "## 0.112.0 (2026-06-24)\n\nFull Changelog: [v0.111.0...v0.112.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.111.0...v0.112.0)\n\n### Features\n\n* **client:** add support for system.message streaming events ([2450d59](https://github.com/anthropics/anthropic-sdk-python/commit/2450d595731",
       "github": {
         "stars": 3687,
-        "forks": 750,
+        "forks": 752,
         "language": "Python",
         "updated": "2026-06-27",
         "topics": []
@@ -142,10 +142,10 @@
       "release_url": "https://github.com/deepseek-ai/DeepSeek-V3/releases/tag/v1.0.0",
       "release_notes": "This release is created for archival purposes and DOI generation.",
       "github": {
-        "stars": 103820,
-        "forks": 16740,
+        "stars": 103821,
+        "forks": 16739,
         "language": "Python",
-        "updated": "2026-06-27",
+        "updated": "2026-06-28",
         "topics": []
       },
       "recent_updates": [
@@ -231,7 +231,7 @@
       "release_notes": "Llama 4 Support ( https://www.llama.com ) \r\n\r\n",
       "github": {
         "stars": 7645,
-        "forks": 1393,
+        "forks": 1392,
         "language": "Python",
         "updated": "2026-06-27",
         "topics": []
@@ -263,10 +263,10 @@
       ],
       "pricing_hint": "免费开源",
       "github": {
-        "stars": 27334,
-        "forks": 1993,
+        "stars": 27336,
+        "forks": 1994,
         "language": "Python",
-        "updated": "2026-06-27",
+        "updated": "2026-06-28",
         "topics": []
       },
       "recent_updates": []
@@ -433,10 +433,10 @@
       "release_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.195",
       "release_notes": "## What's changed\n\n- Added `CLAUDE_CODE_DISABLE_MOUSE_CLICKS` to disable mouse click/drag/hover in fullscreen mode while keeping wheel scroll\n- Fixed hook matchers with hyphenated identifiers (e.g. `code-reviewer`, `mcp__brave-search`) accidentally substring-matching — they now exact-match. Use `mcp",
       "github": {
-        "stars": 134715,
-        "forks": 21749,
+        "stars": 134728,
+        "forks": 21752,
         "language": "Python",
-        "updated": "2026-06-27",
+        "updated": "2026-06-28",
         "topics": []
       },
       "npm_downloads_weekly": 11439907,
@@ -543,10 +543,10 @@
       "release_url": "https://github.com/openai/codex/releases/tag/rust-v0.142.3",
       "release_notes": "## Chores\n\n- Maintenance-only patch release with no user-facing changes since 0.142.2.\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.142.2...rust-v0.142.3\n\n\n\n",
       "github": {
-        "stars": 94069,
-        "forks": 13937,
+        "stars": 94088,
+        "forks": 13942,
         "language": "Rust",
-        "updated": "2026-06-27",
+        "updated": "2026-06-28",
         "topics": []
       },
       "recent_updates": [
@@ -579,10 +579,10 @@
       "release_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.49.0",
       "release_notes": "## What's Changed\n* chore(release): bump version to 0.48.0-nightly.20260609.g3a13b8eeb by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/27779\n* ci(dependabot): enable cooldown period for npm packages by @ruomengz in https://github.com/google-gemini/gemini-cli/pull/27743\n* ref",
       "github": {
-        "stars": 105600,
-        "forks": 14173,
+        "stars": 105603,
+        "forks": 14172,
         "language": "TypeScript",
-        "updated": "2026-06-27",
+        "updated": "2026-06-28",
         "topics": [
           "ai",
           "ai-agents",
@@ -640,10 +640,10 @@
       "release_url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.0",
       "release_notes": "- Added support for all GPT-5 models.\r\n- Added support for Grok-4 via `xai/grok-4` and `openrouter/x-ai/grok-4` model names.\r\n- Added support for `gemini/gemini-2.5-flash-lite-preview-06-17` model, by Tamir Zahavi-Brunner.\r\n- `/clear` now prints “All chat history cleared.” so you know it worked, by ",
       "github": {
-        "stars": 46768,
-        "forks": 4658,
+        "stars": 46773,
+        "forks": 4659,
         "language": "Python",
-        "updated": "2026-06-27",
+        "updated": "2026-06-28",
         "topics": [
           "anthropic",
           "chatgpt",
@@ -685,23 +685,23 @@
         "自主编码",
         "多模型支持"
       ],
-      "latest_version": "cli-v3.0.31",
-      "version_date": "2026-06-27",
-      "release_url": "https://github.com/cline/cline/releases/tag/cli-v3.0.31",
-      "release_notes": "\n- Show when request cost is covered by your Cline subscription\n- Prompt to switch to ClinePass when you run out of credits, and list ClinePass features in the not-subscribed message\n- Added an option to open the subscription page from the ClinePass options\n- Added marketplace uninstall support and ",
+      "latest_version": "4.0.1",
+      "version_date": "2026-06-28",
+      "release_url": "https://github.com/cline/cline/releases/tag/v4.0.1",
+      "release_notes": "\n### Changed\n\n- Roll the stable VS Code extension back to the pre-SDK-migration codebase to resolve regressions reported in 4.0.0. This release ships the 3.89.2 extension code under a higher version number so existing 4.0.0 users receive the update. SDK-migration work continues separately on `main`.",
       "github": {
-        "stars": 63953,
-        "forks": 6784,
+        "stars": 63960,
+        "forks": 6788,
         "language": "TypeScript",
-        "updated": "2026-06-27",
+        "updated": "2026-06-28",
         "topics": []
       },
       "npm_downloads_weekly": 26,
       "recent_updates": [
         {
-          "title": "Release cli-v3.0.31: CLI v3.0.31",
-          "url": "https://github.com/cline/cline/releases/tag/cli-v3.0.31",
-          "date": "2026-06-27",
+          "title": "Release 4.0.1: v4.0.1",
+          "url": "https://github.com/cline/cline/releases/tag/v4.0.1",
+          "date": "2026-06-28",
           "source": "GitHub Release"
         },
         {
@@ -756,10 +756,10 @@
       "release_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/releases/tag/2025-11-25",
       "release_notes": "This release marks the **stable release** of the `2025-11-25` revision of the Model Context Protocol.\r\n\r\nThe specification is available on the [official Model Context Protocol website](https://modelcontextprotocol.io/specification/2025-11-25).\r\n\r\nFor a detailed overview of changes, see [2025-11-25 c",
       "github": {
-        "stars": 8479,
+        "stars": 8480,
         "forks": 1624,
         "language": "TypeScript",
-        "updated": "2026-06-27",
+        "updated": "2026-06-28",
         "topics": []
       },
       "recent_updates": [
@@ -853,10 +853,10 @@
       "release_url": "https://github.com/ollama/ollama/releases/tag/v0.30.11",
       "release_notes": "## What's Changed\r\n* launch: add thinking capability detection to opencode by @hoyyeva in https://github.com/ollama/ollama/pull/15434\r\n* launch: auto-install Claude Code by @hoyyeva in https://github.com/ollama/ollama/pull/16802\r\n* launch: auto-install opencode when missing by @hoyyeva in https://gi",
       "github": {
-        "stars": 174996,
-        "forks": 16748,
+        "stars": 175005,
+        "forks": 16750,
         "language": "Go",
-        "updated": "2026-06-27",
+        "updated": "2026-06-28",
         "topics": [
           "deepseek",
           "gemma",
@@ -917,10 +917,10 @@
       "release_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.8",
       "release_notes": "Changes since langchain-core==1.4.7\n\nchore: bump jupyter-server from 2.18.0 to 2.20.0 in /libs/core (#38252)\nchore: bump tornado from 6.5.6 to 6.5.7 in /libs/core (#38184)\nchore: bump bleach from 6.3.0 to 6.4.0 in /libs/core (#38198)\nrelease(core): 1.4.8 (#38254)\nrefactor(langchain-classic): remove ",
       "github": {
-        "stars": 140343,
+        "stars": 140349,
         "forks": 23297,
         "language": "Python",
-        "updated": "2026-06-27",
+        "updated": "2026-06-28",
         "topics": [
           "agents",
           "ai",
@@ -973,10 +973,10 @@
       "release_url": "https://github.com/huggingface/transformers/releases/tag/v5.12.1",
       "release_notes": "# Patch release v5.12.1\r\nUpdated the lower bound for PEFT and a fix for auto tokenizer to properly resolve the mistral tokenizer (when `mistral-common` is installed). This is similar to v.5.10.3 minus the fixes that were already included in the main release - vLLM will first target 5.10.3 :hugs: \r\n\r",
       "github": {
-        "stars": 161974,
-        "forks": 33619,
+        "stars": 161976,
+        "forks": 33620,
         "language": "Python",
-        "updated": "2026-06-27",
+        "updated": "2026-06-28",
         "topics": [
           "audio",
           "deep-learning",
@@ -1022,10 +1022,10 @@
       "release_url": "https://github.com/vllm-project/vllm/releases/tag/v0.23.0",
       "release_notes": "# vLLM v0.23.0 Release Notes\r\n\r\nPlease note that Minimax M3 is not yet supported in this version. Please follow [vLLM recipe](https://recipes.vllm.ai/MiniMaxAI/MiniMax-M3) for usage guides for M3.\r\n\r\n## Highlights\r\n\r\nThis release features 408 commits from 200 contributors (63 new)!\r\n\r\n* **DeepSeek-V",
       "github": {
-        "stars": 84576,
-        "forks": 18584,
+        "stars": 84593,
+        "forks": 18590,
         "language": "Python",
-        "updated": "2026-06-27",
+        "updated": "2026-06-28",
         "topics": [
           "amd",
           "blackwell",
@@ -1184,7 +1184,7 @@
     {
       "name": "obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
-      "stars": 240030,
+      "stars": 240106,
       "language": "Shell",
       "url": "https://github.com/obra/superpowers",
       "updated": "2026-06-25"
@@ -1192,7 +1192,7 @@
     {
       "name": "langchain-ai/langchain",
       "description": "The agent engineering platform.",
-      "stars": 140343,
+      "stars": 140349,
       "language": "Python",
       "url": "https://github.com/langchain-ai/langchain",
       "updated": "2026-06-26"
@@ -1200,7 +1200,7 @@
     {
       "name": "microsoft/autogen",
       "description": "A programming framework for agentic AI",
-      "stars": 59298,
+      "stars": 59299,
       "language": "Python",
       "url": "https://github.com/microsoft/autogen",
       "updated": "2026-04-15"
@@ -1208,7 +1208,7 @@
     {
       "name": "crewAIInc/crewAI",
       "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
-      "stars": 54465,
+      "stars": 54466,
       "language": "Python",
       "url": "https://github.com/crewAIInc/crewAI",
       "updated": "2026-06-27"
@@ -1216,10 +1216,10 @@
     {
       "name": "langchain-ai/langgraph",
       "description": "Build resilient agents.",
-      "stars": 35898,
+      "stars": 35904,
       "language": "Python",
       "url": "https://github.com/langchain-ai/langgraph",
-      "updated": "2026-06-25"
+      "updated": "2026-06-28"
     }
   ]
 }
