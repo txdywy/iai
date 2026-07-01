@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01 12:30:36 (UTC)",
+  "lastUpdated": "2026-07-01 15:38:07 (UTC)",
   "version": "2.0",
   "models": [
     {
@@ -25,7 +25,7 @@
       "release_url": "https://github.com/openai/openai-python/releases/tag/v2.44.0",
       "release_notes": "## 2.44.0 (2026-06-24)\n\nFull Changelog: [v2.43.0...v2.44.0](https://github.com/openai/openai-python/compare/v2.43.0...v2.44.0)\n\n### Bug Fixes\n\n* **auth:** prioritize first auth header ([797e336](https://github.com/openai/openai-python/commit/797e3362e222ae14e587a4543b76a54d8992d66c))",
       "github": {
-        "stars": 31039,
+        "stars": 31040,
         "forks": 4861,
         "language": "Python",
         "updated": "2026-07-01",
@@ -67,7 +67,7 @@
       "release_url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.115.0",
       "release_notes": "## 0.115.0 (2026-06-30)\n\nFull Changelog: [v0.114.0...v0.115.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.114.0...v0.115.0)\n\n### Features\n\n* **api:** add support for Managed Agents event delta streaming, agent overrides, reverse pagination, vault credential injection scoping, and ",
       "github": {
-        "stars": 3693,
+        "stars": 3694,
         "forks": 757,
         "language": "Python",
         "updated": "2026-07-01",
@@ -142,8 +142,8 @@
       "release_url": "https://github.com/deepseek-ai/DeepSeek-V3/releases/tag/v1.0.0",
       "release_notes": "This release is created for archival purposes and DOI generation.",
       "github": {
-        "stars": 103844,
-        "forks": 16739,
+        "stars": 103843,
+        "forks": 16737,
         "language": "Python",
         "updated": "2026-07-01",
         "topics": []
@@ -263,7 +263,7 @@
       ],
       "pricing_hint": "免费开源",
       "github": {
-        "stars": 27346,
+        "stars": 27348,
         "forks": 2000,
         "language": "Python",
         "updated": "2026-07-01",
@@ -433,8 +433,8 @@
       "release_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.197",
       "release_notes": "## What's changed\n\n- Introducing Claude Sonnet 5: now the default model in Claude Code, with a native 1M-token context window and promotional pricing of $2/$10 per Mtok through August 31. Update to version 2.1.197 for access. https://www.anthropic.com/news/claude-sonnet-5\n",
       "github": {
-        "stars": 135264,
-        "forks": 21810,
+        "stars": 135282,
+        "forks": 21813,
         "language": "Python",
         "updated": "2026-07-01",
         "topics": []
@@ -543,8 +543,8 @@
       "release_url": "https://github.com/openai/codex/releases/tag/rust-v0.142.5",
       "release_notes": "## Bug Fixes\n\n- Prevented full Responses WebSocket request payloads from being written to trace logs. (#30771)\n\n## Changelog\n\nFull Changelog: https://github.com/openai/codex/compare/rust-v0.142.4...rust-v0.142.5\n\n- #30771 [codex] Backport websocket trace fix to release/0.142 @dylan-hurd-oai\n\n\n",
       "github": {
-        "stars": 94824,
-        "forks": 14059,
+        "stars": 94856,
+        "forks": 14062,
         "language": "Rust",
         "updated": "2026-07-01",
         "topics": []
@@ -579,8 +579,8 @@
       "release_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.49.0",
       "release_notes": "## What's Changed\n* chore(release): bump version to 0.48.0-nightly.20260609.g3a13b8eeb by @gemini-cli-robot in https://github.com/google-gemini/gemini-cli/pull/27779\n* ci(dependabot): enable cooldown period for npm packages by @ruomengz in https://github.com/google-gemini/gemini-cli/pull/27743\n* ref",
       "github": {
-        "stars": 105692,
-        "forks": 14201,
+        "stars": 105698,
+        "forks": 14196,
         "language": "TypeScript",
         "updated": "2026-07-01",
         "topics": [
@@ -640,8 +640,8 @@
       "release_url": "https://github.com/Aider-AI/aider/releases/tag/v0.86.0",
       "release_notes": "- Added support for all GPT-5 models.\r\n- Added support for Grok-4 via `xai/grok-4` and `openrouter/x-ai/grok-4` model names.\r\n- Added support for `gemini/gemini-2.5-flash-lite-preview-06-17` model, by Tamir Zahavi-Brunner.\r\n- `/clear` now prints “All chat history cleared.” so you know it worked, by ",
       "github": {
-        "stars": 46900,
-        "forks": 4677,
+        "stars": 46903,
+        "forks": 4678,
         "language": "Python",
         "updated": "2026-07-01",
         "topics": [
@@ -690,7 +690,7 @@
       "release_url": "https://github.com/cline/cline/releases/tag/v4.0.5",
       "release_notes": "\n### Added\n\n- Add support for Claude Sonnet 5 across the Anthropic, Bedrock, Vertex, Claude Code, SAP AI Core, OpenRouter, and Vercel AI Gateway providers, including model picker and recommended-model updates.\n\n**Full Changelog**: https://github.com/cline/cline/compare/v4.0.4...v4.0.5\n",
       "github": {
-        "stars": 64160,
+        "stars": 64169,
         "forks": 6809,
         "language": "TypeScript",
         "updated": "2026-07-01",
@@ -756,7 +756,7 @@
       "release_url": "https://github.com/modelcontextprotocol/modelcontextprotocol/releases/tag/2025-11-25",
       "release_notes": "This release marks the **stable release** of the `2025-11-25` revision of the Model Context Protocol.\r\n\r\nThe specification is available on the [official Model Context Protocol website](https://modelcontextprotocol.io/specification/2025-11-25).\r\n\r\nFor a detailed overview of changes, see [2025-11-25 c",
       "github": {
-        "stars": 8510,
+        "stars": 8511,
         "forks": 1629,
         "language": "TypeScript",
         "updated": "2026-07-01",
@@ -853,8 +853,8 @@
       "release_url": "https://github.com/ollama/ollama/releases/tag/v0.31.1",
       "release_notes": "## Faster Gemma 4 on Apple Silicon\r\n\r\n<img width=\"1037\" height=\"485\" alt=\"Screenshot 2026-06-30 at 5 25 29 PM\" src=\"https://github.com/user-attachments/assets/547d5076-090f-43c4-a661-938e11abc955\" />\r\n\r\nGemma 4 is now significantly faster in Ollama on Apple Silicon, generating tokens nearly 90% fast",
       "github": {
-        "stars": 175221,
-        "forks": 16789,
+        "stars": 175233,
+        "forks": 16790,
         "language": "Go",
         "updated": "2026-07-01",
         "topics": [
@@ -917,8 +917,8 @@
       "release_url": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.4.8",
       "release_notes": "Changes since langchain-core==1.4.7\n\nchore: bump jupyter-server from 2.18.0 to 2.20.0 in /libs/core (#38252)\nchore: bump tornado from 6.5.6 to 6.5.7 in /libs/core (#38184)\nchore: bump bleach from 6.3.0 to 6.4.0 in /libs/core (#38198)\nrelease(core): 1.4.8 (#38254)\nrefactor(langchain-classic): remove ",
       "github": {
-        "stars": 140645,
-        "forks": 23357,
+        "stars": 140656,
+        "forks": 23361,
         "language": "Python",
         "updated": "2026-07-01",
         "topics": [
@@ -973,8 +973,8 @@
       "release_url": "https://github.com/huggingface/transformers/releases/tag/v5.12.1",
       "release_notes": "# Patch release v5.12.1\r\nUpdated the lower bound for PEFT and a fix for auto tokenizer to properly resolve the mistral tokenizer (when `mistral-common` is installed). This is similar to v.5.10.3 minus the fixes that were already included in the main release - vLLM will first target 5.10.3 :hugs: \r\n\r",
       "github": {
-        "stars": 162074,
-        "forks": 33692,
+        "stars": 162078,
+        "forks": 33699,
         "language": "Python",
         "updated": "2026-07-01",
         "topics": [
@@ -1022,8 +1022,8 @@
       "release_url": "https://github.com/vllm-project/vllm/releases/tag/v0.24.0",
       "release_notes": "# vLLM v0.24.0 Release Notes\r\n\r\n## Highlights\r\n\r\nThis release features 571 commits from 256 contributors (77 new)!\r\n\r\n* **MiniMax-M3**: Added support for the new **MiniMax-M3** model (#45381), with a fast follow-on of BF16/FP8 indexer via MSA (#45892), MXFP4 support (#45896), FP8 sparse GQA (#45744)",
       "github": {
-        "stars": 84997,
-        "forks": 18760,
+        "stars": 85009,
+        "forks": 18767,
         "language": "Python",
         "updated": "2026-07-01",
         "topics": [
@@ -1184,7 +1184,7 @@
     {
       "name": "obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
-      "stars": 243145,
+      "stars": 243273,
       "language": "Shell",
       "url": "https://github.com/obra/superpowers",
       "updated": "2026-07-01"
@@ -1192,7 +1192,7 @@
     {
       "name": "langchain-ai/langchain",
       "description": "The agent engineering platform.",
-      "stars": 140645,
+      "stars": 140656,
       "language": "Python",
       "url": "https://github.com/langchain-ai/langchain",
       "updated": "2026-07-01"
@@ -1200,7 +1200,7 @@
     {
       "name": "microsoft/autogen",
       "description": "A programming framework for agentic AI",
-      "stars": 59398,
+      "stars": 59404,
       "language": "Python",
       "url": "https://github.com/microsoft/autogen",
       "updated": "2026-04-15"
@@ -1208,7 +1208,7 @@
     {
       "name": "crewAIInc/crewAI",
       "description": "Framework for orchestrating role-playing, autonomous AI agents. By fostering collaborative intelligence, CrewAI empowers agents to work together seamlessly, tackling complex tasks.",
-      "stars": 54686,
+      "stars": 54699,
       "language": "Python",
       "url": "https://github.com/crewAIInc/crewAI",
       "updated": "2026-07-01"
@@ -1216,7 +1216,7 @@
     {
       "name": "langchain-ai/langgraph",
       "description": "Build resilient agents.",
-      "stars": 36211,
+      "stars": 36223,
       "language": "Python",
       "url": "https://github.com/langchain-ai/langgraph",
       "updated": "2026-07-01"
